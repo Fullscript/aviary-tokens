@@ -4,7 +4,7 @@
   "description": "Testing 123",
   "main": "index.js",
   "files": [
-    "index.js"
+    "tokens/*"
   ],
   "scripts": {
     "build": "style-dictionary build"

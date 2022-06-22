@@ -7,6 +7,23 @@ StyleDictionary.registerFilter({
   },
 });
 
+const transformDimension = (value) => {
+  if (value.endsWith("px")) {
+    return value;
+  }
+  return `${value}px`;
+};
+
+StyleDictionary.registerTransform({
+  name: "size/px",
+  type: "value",
+  transitive: true,
+  matcher: ({ attributes }) => {
+    return attributes.category === "fontSizes";
+  },
+  transformer: (token) => transformDimension(token.value),
+});
+
 StyleDictionary.extend({
   platforms: {
     Owlery: {

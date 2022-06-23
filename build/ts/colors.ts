@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 16 Jun 2022 19:25:52 GMT
+ * Generated on Thu, 23 Jun 2022 14:56:37 GMT
  */
 
 export const GlobalColorsGreen100 = "#FAFFFC";
@@ -11,7 +11,6 @@ export const GlobalColorsGreen500 = "#86B09B";
 export const GlobalColorsGreen600 = "#307553";
 export const GlobalColorsGreen700 = "#275E43";
 export const GlobalColorsGreen800 = "#244C38";
-export const GlobalColorsGreen900 = "#FFF";
 export const GlobalColorsBlue100 = "#F5FAFF";
 export const GlobalColorsBlue200 = "#E6F1FC";
 export const GlobalColorsBlue300 = "#C0D8F0";

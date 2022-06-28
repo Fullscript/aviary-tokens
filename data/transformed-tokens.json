@@ -226,7 +226,7 @@
         "type": "fontSize"
       },
       "h4": {
-        "value": 20,
+        "value": 2000,
         "type": "fontSize"
       },
       "body": {
@@ -410,7 +410,7 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 20,
+        "value": 2000,
         "type": "fontSize"
       },
       "letterSpacing": {

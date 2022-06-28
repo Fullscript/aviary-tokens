@@ -222,7 +222,7 @@
         "type": "fontSize"
       },
       "h3": {
-        "value": 24,
+        "value": 100,
         "type": "fontSize"
       },
       "h4": {
@@ -376,7 +376,7 @@
         "type": "lineHeight"
       },
       "fontSize": {
-        "value": 24,
+        "value": 100,
         "type": "fontSize"
       },
       "letterSpacing": {

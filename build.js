@@ -59,13 +59,25 @@ StyleDictionary.extend({
       buildPath: "build/ts/",
       files: [
         {
-          format: "javascript/es6",
-          destination: "typography.ts",
+          format: "javascript/module",
+          destination: "typography.js",
           filter: "filter-typography",
         },
         {
-          format: "javascript/es6",
-          destination: "colors.ts",
+          format: "typescript/module-declarations",
+          destination: "typography.d.ts",
+          filter: "filter-typography",
+        },
+        {
+          format: "javascript/module",
+          destination: "colors.js",
+          filter: {
+            type: "color",
+          },
+        },
+        {
+          format: "typescript/module-declarations",
+          destination: "colors.d.ts",
           filter: {
             type: "color",
           },

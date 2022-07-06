@@ -64,7 +64,7 @@ StyleDictionary.extend({
           filter: "filter-typography",
         },
         {
-          format: "typescript/module-declarations",
+          format: "typescript/es6-declarations",
           destination: "typography.d.ts",
           filter: "filter-typography",
         },
@@ -76,7 +76,7 @@ StyleDictionary.extend({
           },
         },
         {
-          format: "typescript/module-declarations",
+          format: "typescript/es6-declarations",
           destination: "colors.d.ts",
           filter: {
             type: "color",

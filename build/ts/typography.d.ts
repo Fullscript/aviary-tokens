@@ -1,185 +1,117 @@
 /**
  * Do not edit directly
- * Generated on Wed, 06 Jul 2022 15:39:26 GMT
+ * Generated on Wed, 06 Jul 2022 15:42:49 GMT
  */
 
-export default tokens;
-
-declare interface DesignToken {
-  value: any;
-  name?: string;
-  comment?: string;
-  themeable?: boolean;
-  attributes?: {
-    category?: string;
-    type?: string;
-    item?: string;
-    subitem?: string;
-    state?: string;
-    [key: string]: any;
-  };
-  [key: string]: any;
-}
-
-declare const tokens: {
-  "typography": {
-    "letterSpacing": {
-      "base": DesignToken
-    },
-    "paragraphSpacing": {
-      "base": DesignToken
-    },
-    "textDecoration": {
-      "base": DesignToken
-    },
-    "textCase": {
-      "base": DesignToken
-    },
-    "size": {
-      "desktop": {
-        "h1": DesignToken,
-        "h2": DesignToken,
-        "h3": DesignToken,
-        "h4": DesignToken,
-        "body": DesignToken,
-        "footnote": DesignToken,
-        "caption": DesignToken
-      },
-      "mobile": {
-        "h1": DesignToken,
-        "h2": DesignToken,
-        "h3": DesignToken
-      }
-    },
-    "lineHeight": {
-      "xlarge": DesignToken,
-      "large": DesignToken,
-      "normal": DesignToken,
-      "small": DesignToken
-    },
-    "fontFamily": {
-      "sansSerif": DesignToken
-    },
-    "weight": {
-      "heading": DesignToken,
-      "base": DesignToken,
-      "light": DesignToken,
-      "strong": DesignToken,
-      "bold": DesignToken
-    },
-    "desktop": {
-      "h1": {
-        "fontFamily": DesignToken,
-        "fontWeight": DesignToken,
-        "lineHeight": DesignToken,
-        "fontSize": DesignToken,
-        "letterSpacing": DesignToken,
-        "paragraphSpacing": DesignToken,
-        "textDecoration": DesignToken,
-        "textCase": DesignToken
-      },
-      "h2": {
-        "fontFamily": DesignToken,
-        "fontWeight": DesignToken,
-        "lineHeight": DesignToken,
-        "fontSize": DesignToken,
-        "letterSpacing": DesignToken,
-        "paragraphSpacing": DesignToken,
-        "textDecoration": DesignToken,
-        "textCase": DesignToken
-      },
-      "h3": {
-        "fontFamily": DesignToken,
-        "fontWeight": DesignToken,
-        "lineHeight": DesignToken,
-        "fontSize": DesignToken,
-        "letterSpacing": DesignToken,
-        "paragraphSpacing": DesignToken,
-        "textDecoration": DesignToken,
-        "textCase": DesignToken
-      },
-      "h4": {
-        "fontFamily": DesignToken,
-        "fontWeight": DesignToken,
-        "lineHeight": DesignToken,
-        "fontSize": DesignToken,
-        "letterSpacing": DesignToken,
-        "paragraphSpacing": DesignToken,
-        "textDecoration": DesignToken,
-        "textCase": DesignToken
-      },
-      "h5": {
-        "fontFamily": DesignToken,
-        "fontWeight": DesignToken,
-        "lineHeight": DesignToken,
-        "fontSize": DesignToken,
-        "letterSpacing": DesignToken,
-        "paragraphSpacing": DesignToken,
-        "textDecoration": DesignToken,
-        "textCase": DesignToken
-      },
-      "body": {
-        "fontFamily": DesignToken,
-        "fontWeight": DesignToken,
-        "lineHeight": DesignToken,
-        "fontSize": DesignToken,
-        "letterSpacing": DesignToken,
-        "paragraphSpacing": DesignToken,
-        "textDecoration": DesignToken,
-        "textCase": DesignToken
-      },
-      "footnote": {
-        "fontFamily": DesignToken,
-        "fontWeight": DesignToken,
-        "lineHeight": DesignToken,
-        "fontSize": DesignToken,
-        "letterSpacing": DesignToken,
-        "paragraphSpacing": DesignToken,
-        "textDecoration": DesignToken,
-        "textCase": DesignToken
-      },
-      "caption": {
-        "fontFamily": DesignToken,
-        "fontWeight": DesignToken,
-        "lineHeight": DesignToken,
-        "fontSize": DesignToken,
-        "letterSpacing": DesignToken,
-        "paragraphSpacing": DesignToken,
-        "textDecoration": DesignToken,
-        "textCase": DesignToken
-      }
-    },
-    "mobile": {
-      "h1": {
-        "fontFamily": DesignToken,
-        "fontWeight": DesignToken,
-        "lineHeight": DesignToken,
-        "fontSize": DesignToken,
-        "letterSpacing": DesignToken,
-        "paragraphSpacing": DesignToken,
-        "textDecoration": DesignToken,
-        "textCase": DesignToken
-      },
-      "h2": {
-        "fontFamily": DesignToken,
-        "fontWeight": DesignToken,
-        "lineHeight": DesignToken,
-        "fontSize": DesignToken,
-        "letterSpacing": DesignToken,
-        "paragraphSpacing": DesignToken,
-        "textDecoration": DesignToken,
-        "textCase": DesignToken
-      },
-      "h3": {
-        "fontFamily": DesignToken,
-        "fontWeight": DesignToken,
-        "lineHeight": DesignToken,
-        "fontSize": DesignToken,
-        "letterSpacing": DesignToken,
-        "paragraphSpacing": DesignToken,
-        "textDecoration": DesignToken,
-        "textCase": DesignToken
-      }
-    }
-  }
-}
+export const letterSpacingBase : number;
+export const paragraphSpacingBase : number;
+export const textDecorationBase : string;
+export const textCaseBase : string;
+export const sizeH1 : string;
+export const sizeH2 : string;
+export const sizeH3 : string;
+export const sizeH4 : string;
+export const sizeBody : string;
+export const sizeFootnote : string;
+export const sizeCaption : string;
+export const sizeMobileH1 : string;
+export const sizeMobileH2 : string;
+export const sizeMobileH3 : string;
+export const lineHeightXlarge : string;
+export const lineHeightLarge : string;
+export const lineHeightNormal : string;
+export const lineHeightSmall : string;
+export const fontFamilySansSerif : string;
+export const weightHeading : number;
+export const weightBase : number;
+export const weightLight : number;
+export const weightStrong : number;
+export const weightBold : number;
+export const h1FontFamily : string;
+export const h1FontWeight : number;
+export const h1LineHeight : string;
+export const h1FontSize : string;
+export const h1LetterSpacing : number;
+export const h1ParagraphSpacing : number;
+export const h1TextDecoration : string;
+export const h1TextCase : string;
+export const h2FontFamily : string;
+export const h2FontWeight : number;
+export const h2LineHeight : string;
+export const h2FontSize : string;
+export const h2LetterSpacing : number;
+export const h2ParagraphSpacing : number;
+export const h2TextDecoration : string;
+export const h2TextCase : string;
+export const h3FontFamily : string;
+export const h3FontWeight : number;
+export const h3LineHeight : string;
+export const h3FontSize : string;
+export const h3LetterSpacing : number;
+export const h3ParagraphSpacing : number;
+export const h3TextDecoration : string;
+export const h3TextCase : string;
+export const h4FontFamily : string;
+export const h4FontWeight : number;
+export const h4LineHeight : string;
+export const h4FontSize : string;
+export const h4LetterSpacing : number;
+export const h4ParagraphSpacing : number;
+export const h4TextDecoration : string;
+export const h4TextCase : string;
+export const h5FontFamily : string;
+export const h5FontWeight : number;
+export const h5LineHeight : string;
+export const h5FontSize : string;
+export const h5LetterSpacing : number;
+export const h5ParagraphSpacing : number;
+export const h5TextDecoration : string;
+export const h5TextCase : string;
+export const bodyFontFamily : string;
+export const bodyFontWeight : number;
+export const bodyLineHeight : string;
+export const bodyFontSize : string;
+export const bodyLetterSpacing : number;
+export const bodyParagraphSpacing : number;
+export const bodyTextDecoration : string;
+export const bodyTextCase : string;
+export const footnoteFontFamily : string;
+export const footnoteFontWeight : number;
+export const footnoteLineHeight : string;
+export const footnoteFontSize : string;
+export const footnoteLetterSpacing : number;
+export const footnoteParagraphSpacing : number;
+export const footnoteTextDecoration : string;
+export const footnoteTextCase : string;
+export const captionFontFamily : string;
+export const captionFontWeight : number;
+export const captionLineHeight : string;
+export const captionFontSize : string;
+export const captionLetterSpacing : number;
+export const captionParagraphSpacing : number;
+export const captionTextDecoration : string;
+export const captionTextCase : string;
+export const mobileH1FontFamily : string;
+export const mobileH1FontWeight : number;
+export const mobileH1LineHeight : string;
+export const mobileH1FontSize : string;
+export const mobileH1LetterSpacing : number;
+export const mobileH1ParagraphSpacing : number;
+export const mobileH1TextDecoration : string;
+export const mobileH1TextCase : string;
+export const mobileH2FontFamily : string;
+export const mobileH2FontWeight : number;
+export const mobileH2LineHeight : string;
+export const mobileH2FontSize : string;
+export const mobileH2LetterSpacing : number;
+export const mobileH2ParagraphSpacing : number;
+export const mobileH2TextDecoration : string;
+export const mobileH2TextCase : string;
+export const mobileH3FontFamily : string;
+export const mobileH3FontWeight : number;
+export const mobileH3LineHeight : string;
+export const mobileH3FontSize : string;
+export const mobileH3LetterSpacing : number;
+export const mobileH3ParagraphSpacing : number;
+export const mobileH3TextDecoration : string;
+export const mobileH3TextCase : string;

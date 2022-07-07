@@ -301,7 +301,7 @@
       }
     },
     "weight": {
-      "heading": {
+      "semiBold": {
         "value": 700,
         "type": "fontWeights"
       },

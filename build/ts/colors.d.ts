@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 06 Jul 2022 15:42:49 GMT
+ * Generated on Thu, 07 Jul 2022 13:19:06 GMT
  */
 
 export const green100 : string;

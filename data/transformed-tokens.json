@@ -232,45 +232,45 @@
     },
     "size": {
       "desktop": {
-        "3xlarge": {
+        "h1": {
           "value": "40px",
           "type": "fontSizes"
         },
-        "2xlarge": {
+        "h2": {
           "value": "32px",
           "type": "fontSizes"
         },
-        "xlarge": {
+        "h3": {
           "value": "24px",
           "type": "fontSizes"
         },
-        "large": {
+        "h4": {
           "value": "20px",
           "type": "fontSizes"
         },
-        "normal": {
+        "body": {
           "value": "16px",
           "type": "fontSizes"
         },
-        "small": {
+        "footnote": {
           "value": "14px",
           "type": "fontSizes"
         },
-        "xsmall": {
+        "caption": {
           "value": "12px",
           "type": "fontSizes"
         }
       },
       "mobile": {
-        "3xlarge": {
+        "h1": {
           "value": "32px",
           "type": "fontSizes"
         },
-        "2xlarge": {
+        "h2": {
           "value": "28px",
           "type": "fontSizes"
         },
-        "xlarge": {
+        "h3": {
           "value": "22px",
           "type": "fontSizes"
         }
@@ -699,6 +699,62 @@
           "type": "textCase"
         }
       }
+    }
+  },
+  "breakpoints": {
+    "phone": {
+      "miniMax": {
+        "value": 319,
+        "type": "sizing"
+      },
+      "small": {
+        "value": 320,
+        "type": "sizing"
+      },
+      "smallMax": {
+        "value": 374,
+        "type": "sizing"
+      },
+      "base": {
+        "value": 375,
+        "type": "sizing"
+      },
+      "baseMax": {
+        "value": 599,
+        "type": "sizing"
+      },
+      "large": {
+        "value": 600,
+        "type": "sizing"
+      },
+      "largeMax": {
+        "value": 767,
+        "type": "sizing"
+      }
+    },
+    "tablet": {
+      "value": 768,
+      "type": "sizing"
+    },
+    "tabletMax": {
+      "value": 1023,
+      "type": "sizing"
+    },
+    "desktop": {
+      "value": 1024,
+      "type": "sizing"
+    },
+    "desktopMax": {
+      "value": 1215,
+      "type": "sizing"
+    },
+    "widescreen": {
+      "value": 1216,
+      "type": "sizing"
+    },
+    "widescreenMax": {
+      "value": 1279,
+      "type": "sizing"
     }
   }
 }

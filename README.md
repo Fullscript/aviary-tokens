@@ -50,28 +50,27 @@ We currently support two platforms:
 For React projects:
 
 ```js
-import { Typography } from "aviary-tokens/ts";
+import { typography } from "aviary-tokens";
 ```
 
 For SCSS projects:
 
-TODO: Verify this part lol
+You can import from the base `scss` folder to include all of the variables for use in your project
 
 ```scss
-@import "aviary-tokens/scss";
+@import "aviary-tokens/build/scss";
 ```
 
 3.  Use the tokens!
 
-TODO: Fill our/fix up once we're using
-
 ### React:
 
 ```js
-import { typography } from "aviary-tokens/ts";
+import { typography } from "aviary-tokens";
 
 export const myStyles = css`
-  font-size: ${typography.h1.fontSize};
+  font-size: ${typography.h1FontSize};
+  font-weight: ${typography.weightBold};
 `;
 ```
 
@@ -80,7 +79,4 @@ export const myStyles = css`
 Our Design tokens in Figma: [Foundations](https://www.figma.com/file/ed7GjnB5rfEQ1CdTTh9jFP/Foundations?node-id=399%3A398)
 
 ### Contributing
-
-TODO: Fix this up and add CONTRIBUTING.md
-
 Pull requests are welcome. See the [contribution guidelines](https://github.com/Fullscript/aviary-tokens/blob/main/.github/CONTRIBUTING.md) for more information.

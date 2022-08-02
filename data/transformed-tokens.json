@@ -2,21 +2,33 @@
   "text": {
     "base": {
       "value": "#2E3A47",
-      "type": "other"
+      "type": "color"
     },
     "emphasis": {
       "value": "#2E3A47",
-      "type": "other"
+      "type": "color"
     },
     "subdued": {
       "value": "#2E3A47",
-      "type": "other"
+      "type": "color"
     }
   },
   "layers": {
     "level0": {
+      "value": "#F5FAFF",
+      "type": "color"
+    },
+    "level1": {
+      "value": "#FFF",
+      "type": "color"
+    },
+    "level2": {
       "value": "#FCFEFF",
-      "type": "other"
+      "type": "color"
+    },
+    "level3": {
+      "value": "#FFF",
+      "type": "color"
     }
   },
   "colors": {

@@ -1,4 +1,24 @@
 {
+  "text": {
+    "base": {
+      "value": "#2E3A47",
+      "type": "other"
+    },
+    "emphasis": {
+      "value": "#2E3A47",
+      "type": "other"
+    },
+    "subdued": {
+      "value": "#2E3A47",
+      "type": "other"
+    }
+  },
+  "layers": {
+    "level0": {
+      "value": "#FCFEFF",
+      "type": "other"
+    }
+  },
   "colors": {
     "green": {
       "100": {

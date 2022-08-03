@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 03 Aug 2022 13:50:24 GMT
+ * Generated on Wed, 03 Aug 2022 17:30:03 GMT
  */
 
 export const base : string;
@@ -58,3 +58,5 @@ export const grey500 : string;
 export const grey600 : string;
 export const grey700 : string;
 export const grey800 : string;
+export const basewhite : string;
+export const basetransparent : string;

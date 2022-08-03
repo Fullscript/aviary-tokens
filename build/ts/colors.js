@@ -1,16 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Wed, 03 Aug 2022 13:50:24 GMT
+ * Generated on Wed, 03 Aug 2022 19:48:45 GMT
  */
 
 module.exports = {
-  "base": "#2E3A47",
-  "emphasis": "#36485C",
-  "subdued": "#596D84",
-  "level0": "#F5F7FA",
-  "level1": "#FFF",
-  "level2": "#FCFEFF",
-  "level3": "#FFF",
   "green100": "#FAFFFC",
   "green200": "#EBF2EF",
   "green300": "#D1E0D9",

@@ -1,0 +1,34 @@
+{
+  "text": {
+    "base": {
+      "value": "{global.colors.grey.800}",
+      "type": "color"
+    },
+    "emphasis": {
+      "value": "{global.colors.grey.700}",
+      "type": "color"
+    },
+    "subdued": {
+      "value": "{global.colors.grey.500}",
+      "type": "color"
+    }
+  },
+  "layers": {
+    "level0": {
+      "value": "{global.colors.grey.200}",
+      "type": "color"
+    },
+    "level1": {
+      "value": "{global.colors.base.white}",
+      "type": "color"
+    },
+    "level2": {
+      "value": "{global.colors.grey.100}",
+      "type": "color"
+    },
+    "level3": {
+      "value": "{global.colors.base.white}",
+      "type": "color"
+    }
+  }
+}

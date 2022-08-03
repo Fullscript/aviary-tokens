@@ -235,16 +235,6 @@
         "value": "#2E3A47",
         "type": "color"
       }
-    },
-    "base": {
-      "white": {
-        "value": "#fff",
-        "type": "color"
-      },
-      "transparent": {
-        "value": "transparent",
-        "type": "color"
-      }
     }
   },
   "typography": {

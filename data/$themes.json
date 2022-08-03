@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": "350c4b3e16faced3a2817f7b85117f76f17b7d6c",
+    "name": "Light Theme",
+    "selectedTokenSets": {
+      "tokens": "enabled",
+      "transformed-tokens": "disabled",
+      "light": "source"
+    },
+    "$figmaStyleReferences": {}
+  }
+]

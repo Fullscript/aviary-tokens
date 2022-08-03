@@ -3,7 +3,7 @@ name: Style dictionary build
 on:
   push:
     paths:
-      - 'data/tokens.json'
+      - 'data/global.json'
       - 'config.json'
       - 'build.js'
     branches-ignore:

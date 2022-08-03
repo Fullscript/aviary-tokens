@@ -1,4 +1,36 @@
 {
+  "text": {
+    "base": {
+      "value": "#2E3A47",
+      "type": "color"
+    },
+    "emphasis": {
+      "value": "#36485C",
+      "type": "color"
+    },
+    "subdued": {
+      "value": "#596D84",
+      "type": "color"
+    }
+  },
+  "layers": {
+    "level0": {
+      "value": "#F5F7FA",
+      "type": "color"
+    },
+    "level1": {
+      "value": "#FFF",
+      "type": "color"
+    },
+    "level2": {
+      "value": "#FCFEFF",
+      "type": "color"
+    },
+    "level3": {
+      "value": "#FFF",
+      "type": "color"
+    }
+  },
   "colors": {
     "green": {
       "100": {
@@ -203,16 +235,6 @@
         "value": "#2E3A47",
         "type": "color"
       }
-    },
-    "base": {
-      "white": {
-        "value": "#fff",
-        "type": "color"
-      },
-      "transparent": {
-        "value": "transparent",
-        "type": "color"
-      }
     }
   },
   "typography": {
@@ -335,35 +357,35 @@
     "desktop": {
       "h1": {
         "fontFamily": {
-          "value": "{global.typography.fontFamily.sansSerif}",
+          "value": "Mulish",
           "type": "fontFamily"
         },
         "fontWeight": {
-          "value": "{global.typography.weight.semiBold}",
+          "value": 700,
           "type": "fontWeight"
         },
         "lineHeight": {
-          "value": "{global.typography.lineHeight.xlarge}",
+          "value": "40px",
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": "{global.typography.size.desktop.3xlarge}",
+          "value": "40px",
           "type": "fontSize"
         },
         "letterSpacing": {
-          "value": "{global.typography.letterSpacing.base}",
+          "value": 0,
           "type": "letterSpacing"
         },
         "paragraphSpacing": {
-          "value": "{global.typography.paragraphSpacing.base}",
+          "value": 0,
           "type": "paragraphSpacing"
         },
         "textDecoration": {
-          "value": "{global.typography.textDecoration.base}",
+          "value": "none",
           "type": "textDecoration"
         },
         "textCase": {
-          "value": "{global.typography.textCase.base}",
+          "value": "none",
           "type": "textCase"
         }
       },

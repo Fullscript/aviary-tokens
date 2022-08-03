@@ -5,17 +5,17 @@
       "type": "color"
     },
     "emphasis": {
-      "value": "#2E3A47",
+      "value": "#36485C",
       "type": "color"
     },
     "subdued": {
-      "value": "#2E3A47",
+      "value": "#596D84",
       "type": "color"
     }
   },
   "layers": {
     "level0": {
-      "value": "#F5FAFF",
+      "value": "#F5F7FA",
       "type": "color"
     },
     "level1": {

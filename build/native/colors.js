@@ -1,13 +1,13 @@
 /**
  * Do not edit directly
- * Generated on Tue, 02 Aug 2022 16:56:39 GMT
+ * Generated on Wed, 03 Aug 2022 13:50:24 GMT
  */
 
 module.exports = {
   "base": "#2E3A47",
-  "emphasis": "#2E3A47",
-  "subdued": "#2E3A47",
-  "level0": "#F5FAFF",
+  "emphasis": "#36485C",
+  "subdued": "#596D84",
+  "level0": "#F5F7FA",
   "level1": "#FFF",
   "level2": "#FCFEFF",
   "level3": "#FFF",

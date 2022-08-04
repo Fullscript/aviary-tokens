@@ -1,36 +1,4 @@
 {
-  "text": {
-    "base": {
-      "value": "#2E3A47",
-      "type": "color"
-    },
-    "emphasis": {
-      "value": "#36485C",
-      "type": "color"
-    },
-    "subdued": {
-      "value": "#596D84",
-      "type": "color"
-    }
-  },
-  "layers": {
-    "level0": {
-      "value": "#F5F7FA",
-      "type": "color"
-    },
-    "level1": {
-      "value": "#FFF",
-      "type": "color"
-    },
-    "level2": {
-      "value": "#FCFEFF",
-      "type": "color"
-    },
-    "level3": {
-      "value": "#FFF",
-      "type": "color"
-    }
-  },
   "colors": {
     "green": {
       "100": {
@@ -233,6 +201,16 @@
       },
       "800": {
         "value": "#2E3A47",
+        "type": "color"
+      }
+    },
+    "shades": {
+      "white": {
+        "value": "#FFFFFF",
+        "type": "color"
+      },
+      "black": {
+        "value": "#000000",
         "type": "color"
       }
     }

@@ -1,5 +1,5 @@
 {
-  "name": "@ccayl/aviary-tokens",
+  "name": "@fullscript/aviary-tokens",
   "version": "0.0.1",
   "description": "Testing 123",
   "main": "index.js",
@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "build": "node build.js",
-    "transform": "token-transformer data/tokens.json data/transformed-tokens.json --expandTypography=true"
+    "transform-base": "npx token-transformer data data/transformed-tokens.json tokens --expandTypography",
+    "transform": "yarn transform-base"
   },
   "devDependencies": {
     "style-dictionary": "^3.7.0",

@@ -1,15 +1,8 @@
 /**
  * Do not edit directly
- * Generated on Wed, 03 Aug 2022 13:50:24 GMT
+ * Generated on Thu, 04 Aug 2022 14:43:57 GMT
  */
 
-export const base : string;
-export const emphasis : string;
-export const subdued : string;
-export const level0 : string;
-export const level1 : string;
-export const level2 : string;
-export const level3 : string;
 export const green100 : string;
 export const green200 : string;
 export const green300 : string;
@@ -58,3 +51,5 @@ export const grey500 : string;
 export const grey600 : string;
 export const grey700 : string;
 export const grey800 : string;
+export const shadeswhite : string;
+export const shadesblack : string;

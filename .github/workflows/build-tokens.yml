@@ -3,11 +3,11 @@ name: Style dictionary build
 on:
   push:
     paths:
-      - 'data/global.json'
-      - 'config.json'
-      - 'build.js'
+      - "data/tokens.json"
+      - "config.json"
+      - "build.js"
     branches-ignore:
-      - 'main'
+      - "main"
 
 jobs:
   transform_tokens:

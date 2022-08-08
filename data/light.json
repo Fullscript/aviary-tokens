@@ -16,7 +16,7 @@
     },
     "surface": {
       "level0": {
-        "value": "{colors.grey.200}",
+        "value": "{BLUE}",
         "type": "color"
       },
       "level1": {

@@ -16,8 +16,9 @@
     },
     "surface": {
       "level0": {
-        "value": "#F5F7FA",
-        "type": "color"
+        "value": "{BLUE}",
+        "type": "color",
+        "failedToResolve": true
       },
       "level1": {
         "value": "#FFFFFF",

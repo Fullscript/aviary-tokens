@@ -53,6 +53,7 @@ jobs:
 
   prettier:
     needs: [transform_tokens, build_style_dictionary]
+    name: "Prettier format files"
     runs-on: ubuntu-latest
 
     steps:

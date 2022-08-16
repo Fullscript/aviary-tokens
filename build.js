@@ -53,7 +53,7 @@ StyleDictionary.registerTransform({
 });
 
 StyleDictionary.registerFormat({
-  name: `typescript/color-declaration`,
+  name: "typescript/color-declaration",
   formatter: ({ dictionary, file }) => {
     return (
       fileHeader({ file }) +

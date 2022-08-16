@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 15 Aug 2022 18:01:22 GMT
+ * Generated on Tue, 16 Aug 2022 13:24:19 GMT
  */
 
 export const green : { green100 : string,green200 : string,green300 : string,green400 : string,green500 : string,green600 : string,green700 : string,green800 : string};

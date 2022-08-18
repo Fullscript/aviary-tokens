@@ -1,12 +1,11 @@
 {
   "name": "@fullscript/aviary-tokens",
-  "version": "0.0.1",
+  "version": "0.9.3",
   "description": "Testing 123",
   "main": "index.js",
   "files": [
     "index.js"
   ],
-  "type": "module",
   "scripts": {
     "build": "node build.js",
     "transform-core": "yarn token-transformer data transformed/transformed-core.json core --expandTypography",

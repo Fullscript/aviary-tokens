@@ -495,6 +495,18 @@
         "error": {
           "value": "#AF2645",
           "type": "color"
+        },
+        "hover": {
+          "value": "#C8D3E0",
+          "type": "color"
+        },
+        "emphasized": {
+          "value": "#475A70",
+          "type": "color"
+        },
+        "active": {
+          "value": "#3971A8",
+          "type": "color"
         }
       }
     }

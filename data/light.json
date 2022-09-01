@@ -501,6 +501,10 @@
           "type": "color"
         },
         "emphasized": {
+          "value": "{colors.grey.500}",
+          "type": "color"
+        },
+        "emphasizedHover": {
           "value": "{colors.grey.600}",
           "type": "color"
         },

@@ -501,6 +501,10 @@
           "type": "color"
         },
         "emphasized": {
+          "value": "#596D84",
+          "type": "color"
+        },
+        "emphasizedHover": {
           "value": "#475A70",
           "type": "color"
         },

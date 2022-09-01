@@ -45,6 +45,16 @@ StyleDictionary.registerTransform({
   },
 });
 
+StyleDictionary.registerTransform({
+  name: "custom/value/font-weight-to-string",
+  type: "value",
+  matcher: (token) =>
+    token.type === "fontWeights" || token.type === "fontWeight",
+  transformer: function (token) {
+    return token.value.toString();
+  },
+});
+
 // FORMATTERS
 const customColorObjectFormatter = (dictionary, isJS) => {
   const valueOrType = (token) =>
@@ -106,6 +116,7 @@ StyleDictionary.registerTransformGroup({
     "attribute/cti",
     "custom/name/remove-desktop-prefix",
     "custom/value/rm-px",
+    "custom/value/font-weight-to-string",
     "custom/name/remove-color-prefix",
   ],
 });

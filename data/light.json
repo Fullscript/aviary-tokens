@@ -1,10 +1,6 @@
 {
   "colors": {
     "text": {
-      "header": {
-        "value": "{colors.grey.800}",
-        "type": "color"
-      },
       "emphasis": {
         "value": "{colors.grey.700}",
         "type": "color"
@@ -367,6 +363,10 @@
         "active": {
           "value": "{colors.grey.800}",
           "type": "color"
+        },
+        "labelEmphasis": {
+          "value": "{colors.grey.800}",
+          "type": "color"
         }
       },
       "background": {
@@ -417,14 +417,6 @@
       },
       "background": {
         "value": "{colors.grey.200}",
-        "type": "color"
-      },
-      "nakedContent": {
-        "value": "{colors.disabled.background}",
-        "type": "color"
-      },
-      "nakedBackground": {
-        "value": "{colors.shades.transparent}",
         "type": "color"
       },
       "border": {

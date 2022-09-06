@@ -1,10 +1,6 @@
 {
   "colors": {
     "text": {
-      "header": {
-        "value": "#2E3A47",
-        "type": "color"
-      },
       "emphasis": {
         "value": "#36485C",
         "type": "color"
@@ -367,6 +363,10 @@
         "active": {
           "value": "#2E3A47",
           "type": "color"
+        },
+        "labelEmphasis": {
+          "value": "#2E3A47",
+          "type": "color"
         }
       },
       "background": {
@@ -417,14 +417,6 @@
       },
       "background": {
         "value": "#F5F7FA",
-        "type": "color"
-      },
-      "nakedContent": {
-        "value": "#F5F7FA",
-        "type": "color"
-      },
-      "nakedBackground": {
-        "value": "transparent",
         "type": "color"
       },
       "border": {

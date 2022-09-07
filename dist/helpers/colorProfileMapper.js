@@ -1,7 +1,7 @@
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+  value: true,
 });
 exports.colorProfileMapper = void 0;
 
@@ -12,7 +12,7 @@ var colorProfileMapper = function colorProfileMapper(currentTheme) {
     warning: currentTheme.warning,
     danger: currentTheme.danger,
     highlight: currentTheme.highlight,
-    system: currentTheme.system
+    system: currentTheme.system,
   };
 };
 

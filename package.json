@@ -1,19 +1,29 @@
 {
   "name": "@fullscript/aviary-tokens",
+  "license": "MIT",
   "version": "0.9.3",
-  "description": "Testing 123",
+  "description": "Design tokens for the Fullscript Aviary design system",
   "main": "index.js",
   "files": [
     "index.js"
   ],
   "scripts": {
-    "build": "node build.js",
-    "transform-core": "yarn token-transformer data transformed/transformed-core.json core --expandTypography",
-    "transform-light": "yarn token-transformer data transformed/transformed-light.json core,light core",
+    "build": "yarn clean && yarn transform && yarn build:tokens && yarn build:types && yarn build:babel",
+    "build:tokens": "node build.js",
+    "build:typescript": "yarn build:types && yarn build:babel",
+    "build:types": "tsc --emitDeclarationOnly --declarationMap --declaration -p ./tsconfig.json",
+    "build:babel": "yarn babel src --out-dir dist --ignore 'src/**/*.spec.ts' --extensions .ts",
     "transform": "yarn transform-core && yarn transform-light",
-    "compile": "tsc -p ./tsconfig.json"
+    "transform-core": "yarn token-transformer src/data src/transformed/transformed-core.json core --expandTypography",
+    "transform-light": "yarn token-transformer src/data src/transformed/transformed-light.json core,light core",
+    "clean": "rm -rf dist/"
   },
   "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.0",
+    "@babel/preset-env": "^7.19.0",
+    "@babel/preset-typescript": "^7.18.6",
+    "core-js": "^3.25.0",
     "style-dictionary": "^3.7.0",
     "token-transformer": "0.0.23",
     "typescript": "^4.8.2"

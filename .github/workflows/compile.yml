@@ -3,7 +3,7 @@ name: Compile TSC
 on:
   push:
     paths:
-      - "helpers/**.ts"
+      - "src/**/*.ts"
     branches-ignore:
       - "main"
 
@@ -21,8 +21,8 @@ jobs:
         run: yarn install
       - name: Pull any branch changes
         run: git pull origin ${{ github.head_ref }}
-      - name: Run TSC
-        run: yarn run compile
+      - name: Run TSC and Babel
+        run: yarn run build:typescript
       - name: Commit compiled files
         uses: stefanzweifel/git-auto-commit-action@v4
         with:

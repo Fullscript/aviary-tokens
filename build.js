@@ -1,14 +1,14 @@
 const StyleDictionary = require("style-dictionary");
-require("./helpers/custom");
+require("./src/helpers/custom");
 
 const getStyleDictionaryConfig = (theme) => {
   const core = theme === "core";
   return {
-    source: [`transformed/transformed-${theme}.json`],
+    source: [`src/transformed/transformed-${theme}.json`],
     platforms: {
       Owlery: {
         transformGroup: "custom/owlery",
-        buildPath: "build/scss/",
+        buildPath: "dist/tokens/scss/",
         files: [
           {
             destination: `typography.scss`,
@@ -27,7 +27,7 @@ const getStyleDictionaryConfig = (theme) => {
 
       Aviary: {
         transformGroup: "custom/aviary",
-        buildPath: "build/ts/",
+        buildPath: "dist/tokens/ts/",
         files: [
           {
             format: "javascript/module-flat",
@@ -58,7 +58,7 @@ const getStyleDictionaryConfig = (theme) => {
 
       Native: {
         transformGroup: "custom/native",
-        buildPath: "build/native/",
+        buildPath: "dist/tokens/native/",
         files: [
           {
             format: "javascript/module-flat",

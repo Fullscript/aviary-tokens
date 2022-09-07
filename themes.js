@@ -1,1 +1,1 @@
-module.exports.light = require('./build/ts/themes/light');
+module.exports.light = require('./dist/build/ts/themes/light');

@@ -3,10 +3,10 @@ name: Style dictionary build
 on:
   push:
     paths:
-      - "data/light.json"
-      - "data/core.json"
+      - "src/data/light.json"
+      - "src/data/core.json"
       - "build.js"
-      - "helpers/custom.js"
+      - "src/helpers/custom.js"
     branches-ignore:
       - "main"
 
@@ -24,6 +24,8 @@ jobs:
         run: yarn install
       - name: Pull any branch changes
         run: git pull origin ${{ github.head_ref }}
+      - name: Clean dist folder
+        run: yarn run clean
       - name: Run token transformer
         run: yarn run transform
       - name: Commit transformed tokens
@@ -46,7 +48,7 @@ jobs:
       - name: Pull transformed tokens changes
         run: git pull origin ${{ github.head_ref }}
       - name: Run style dictionary build
-        run: yarn run build
+        run: yarn run build:tokens
       - name: Commit built tokens
         uses: stefanzweifel/git-auto-commit-action@v4
         with:

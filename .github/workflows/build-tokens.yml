@@ -54,24 +54,24 @@ jobs:
 
   compile:
     needs: [transform_tokens, build_style_dictionary]
-      name: "Compile TS to JS"
-      runs-on: ubuntu-latest
+    name: "Compile TS to JS"
+    runs-on: ubuntu-latest
 
-      steps:
-        - uses: actions/checkout@v3
-        - uses: actions/setup-node@v2
-          with:
-            node-version: "14"
-        - name: Install Node Dependencies
-          run: yarn install
-        - name: Pull any branch changes
-          run: git pull origin ${{ github.head_ref }}
-        - name: Run TSC and Babel
-          run: yarn run build:typescript
-        - name: Commit compiled files
-          uses: stefanzweifel/git-auto-commit-action@v4
-          with:
-            commit_message: Files compiled!
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+      - name: Install Node Dependencies
+        run: yarn install
+      - name: Pull any branch changes
+        run: git pull origin ${{ github.head_ref }}
+      - name: Run TSC and Babel
+        run: yarn run build:typescript
+      - name: Commit compiled files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Files compiled!
 
   prettier:
     needs: [transform_tokens, compile, build_style_dictionary]

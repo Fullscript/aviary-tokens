@@ -24,7 +24,6 @@ const getStyleDictionaryConfig = (theme) => {
           },
         ],
       },
-
       Aviary: {
         transformGroup: "custom/aviary",
         buildPath: "dist/tokens/ts/",
@@ -55,7 +54,6 @@ const getStyleDictionaryConfig = (theme) => {
           },
         ],
       },
-
       Native: {
         transformGroup: "custom/native",
         buildPath: "dist/tokens/native/",

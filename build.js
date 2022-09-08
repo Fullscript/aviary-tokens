@@ -6,8 +6,8 @@ const getStyleDictionaryConfig = (theme) => {
   return {
     source: [`src/transformed/transformed-${theme}.json`],
     platforms: {
-      Owlery: {
-        transformGroup: "custom/owlery",
+      Sass: {
+        transformGroup: "custom/sass",
         buildPath: "dist/tokens/scss/",
         files: [
           {

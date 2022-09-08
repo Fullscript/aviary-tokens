@@ -3,11 +3,8 @@
   "license": "MIT",
   "version": "0.9.3",
   "description": "Design tokens for the Fullscript Aviary design system",
-  "types": "index.d.ts",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "yarn clean && yarn transform && yarn build:tokens && yarn build:types && yarn build:babel",
     "build:tokens": "node build.js",

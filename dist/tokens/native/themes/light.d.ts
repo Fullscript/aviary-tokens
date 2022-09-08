@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 08 Sep 2022 15:48:54 GMT
+ * Generated on Thu, 08 Sep 2022 17:00:09 GMT
  */
 
 export const text : {header : string,emphasis : string,body : string,subdued : string,onBackground : string};

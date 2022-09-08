@@ -7,7 +7,7 @@ require("core-js/modules/web.dom-collections.for-each.js");
 require("core-js/modules/es.object.keys.js");
 
 Object.defineProperty(exports, "__esModule", {
-  value: true,
+  value: true
 });
 
 var _interfaces = require("./interfaces");
@@ -19,7 +19,7 @@ Object.keys(_interfaces).forEach(function (key) {
     enumerable: true,
     get: function get() {
       return _interfaces[key];
-    },
+    }
   });
 });
 
@@ -32,6 +32,6 @@ Object.keys(_profiles).forEach(function (key) {
     enumerable: true,
     get: function get() {
       return _profiles[key];
-    },
+    }
   });
 });

@@ -58,7 +58,7 @@ For SCSS projects:
 You can import from the base `scss` folder to include all of the variables for use in your project
 
 ```scss
-@import "aviary-tokens/build/scss";
+@import "aviary-tokens/dist/tokens/scss";
 ```
 
 3.  Use the tokens!

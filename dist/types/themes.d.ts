@@ -1,4 +1,4 @@
-import * as light from "../../dist/tokens/ts/themes/light.d";
+import * as light from "../../dist/tokens/ts/themes/light";
 declare type AviaryTheme = typeof light;
 export { light };
 export type { AviaryTheme };

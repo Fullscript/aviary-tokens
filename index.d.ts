@@ -1,3 +1,3 @@
-import * as typography from "./build/ts/typography";
+import * as typography from "./dist/tokens/ts/typography";
 
 export { typography };

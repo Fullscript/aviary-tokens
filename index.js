@@ -1,1 +1,1 @@
-module.exports.typography = require('./build/ts/typography');
+module.exports.typography = require('./dist/tokens/ts/typography');

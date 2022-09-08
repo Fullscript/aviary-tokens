@@ -1,3 +1,4 @@
+// Used for mapping over selected `isColor` properties
 import type { AviaryTheme } from "../types/themes";
 
 export const colorProfileMapper = (currentTheme: AviaryTheme) => {

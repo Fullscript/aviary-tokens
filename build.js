@@ -7,7 +7,7 @@ const getStyleDictionaryConfig = (theme) => {
     source: [`src/transformed/transformed-${theme}.json`],
     platforms: {
       Sass: {
-        transformGroup: "custom/sass",
+        transformGroup: "custom/scss",
         buildPath: "dist/tokens/scss/",
         files: [
           {

@@ -122,6 +122,6 @@ StyleDictionary.registerTransformGroup({
 });
 
 StyleDictionary.registerTransformGroup({
-  name: "custom/sass",
+  name: "custom/scss",
   transforms: ["attribute/cti", "custom/name/remove-desktop-prefix"],
 });

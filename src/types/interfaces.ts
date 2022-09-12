@@ -18,7 +18,6 @@ type ExtendedAviaryColors = keyof typeof EXTENDED_AVIARY_COLORS;
 interface AviaryColorProps {
   isColor?: AviaryColors;
 }
-
 interface AviaryExtendedColorProps {
   isColor?: ExtendedAviaryColors;
 }

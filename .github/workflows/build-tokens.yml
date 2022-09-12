@@ -3,7 +3,7 @@ name: Style dictionary build
 on:
   push:
     paths:
-      - "src/"
+      - "src/**"
       - "build.js"
     branches-ignore:
       - "main"

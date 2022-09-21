@@ -52,6 +52,20 @@
           "value": "#E6EDF5",
           "type": "color"
         }
+      },
+      "overlay": {
+        "invertable": {
+          "value": "#2E3A47",
+          "type": "color"
+        },
+        "whiteInvertable": {
+          "value": "#FFFFFF",
+          "type": "color"
+        },
+        "static": {
+          "value": "#36485C",
+          "type": "color"
+        }
       }
     },
     "primary": {

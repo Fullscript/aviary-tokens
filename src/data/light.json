@@ -52,6 +52,20 @@
           "value": "{colors.grey.300}",
           "type": "color"
         }
+      },
+      "overlay": {
+        "invertable": {
+          "value": "{colors.grey.800}",
+          "type": "color"
+        },
+        "whiteInvertable": {
+          "value": "{colors.shades.white}",
+          "type": "color"
+        },
+        "static": {
+          "value": "{colors.grey.700}",
+          "type": "color"
+        }
       }
     },
     "primary": {

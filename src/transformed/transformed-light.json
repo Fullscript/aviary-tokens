@@ -527,6 +527,12 @@
           "type": "color"
         }
       }
+    },
+    "separator": {
+      "base": {
+        "value": "#E6EDF5",
+        "type": "color"
+      }
     }
   }
 }

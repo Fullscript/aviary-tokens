@@ -381,6 +381,10 @@
         "active": {
           "value": "#2E3A47",
           "type": "color"
+        },
+        "labelEmphasis": {
+          "value": "#2E3A47",
+          "type": "color"
         }
       },
       "background": {

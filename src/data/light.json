@@ -381,6 +381,10 @@
         "active": {
           "value": "{colors.grey.800}",
           "type": "color"
+        },
+        "labelEmphasis": {
+          "value": "{colors.grey.800}",
+          "type": "color"
         }
       },
       "background": {

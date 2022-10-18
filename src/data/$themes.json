@@ -1,5 +1,15 @@
 [
   {
+    "id": "d1f2643afe71be2bd8c590a78cf21ba6d7f37be0",
+    "name": "dark",
+    "selectedTokenSets": {
+      "core-light": "disabled",
+      "themed": "enabled",
+      "core-dark": "source"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
     "id": "08290fc9fe0d0bcc11a05c66d56483795c00e0f8",
     "name": "light",
     "selectedTokenSets": {

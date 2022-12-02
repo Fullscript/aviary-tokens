@@ -98,11 +98,6 @@
         "type": "color",
         "description": "Used for elements that are contained within Boxes or other wrappers that are surface level 1."
       },
-      "level3": {
-        "value": "{colors.shades.white}",
-        "type": "color",
-        "description": "Used for modals and drawer elements, or can be used sparingly within level 2 elements"
-      },
       "interactive": {
         "background": {
           "value": "{colors.shades.white}",

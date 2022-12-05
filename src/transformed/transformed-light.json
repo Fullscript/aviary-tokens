@@ -165,17 +165,17 @@
         "muted": {
           "value": "#EBF2EF",
           "type": "color",
-          "description": "Used as the subdued background for primary components such as pills. Paired with primary.textBase for a subtler contrast"
+          "description": "Used as the muted background for primary components such as pills and text buttons. Paired with primary.textBase for a subtler contrast"
         },
         "mutedHover": {
           "value": "#D1E0D9",
           "type": "color",
-          "description": "Used as the hovered subdued background for primary components such as pills. Paired with primary.textBase for a subtler contrast"
+          "description": "Used as the hovered muted background for primary components such as pills and text buttons. Paired with primary.textBase for a subtler contrast"
         },
         "mutedActive": {
           "value": "#B6CFC2",
           "type": "color",
-          "description": "Used as the pressed subdued background for primary components such as pills. Paired with primary.textBase for a subtler contrast"
+          "description": "Used as the pressed muted background for primary components such as pills and text buttons. Paired with primary.textBase for a subtler contrast"
         },
         "box": {
           "value": "#FAFFFC",
@@ -197,7 +197,7 @@
         "active": {
           "value": "#244C38",
           "type": "color",
-          "description": "Used for the pressed border colour for primary components such as buttons and Message"
+          "description": "Used for the pressed border colour for primary components such as buttons"
         }
       }
     },
@@ -238,17 +238,17 @@
         "muted": {
           "value": "#E6F1FC",
           "type": "color",
-          "description": "Used as the subdued background for informational components such as pills. Paired with info.textBase for a subtler contrast"
+          "description": "Used as the muted background for informational components such as pills and text buttons. Paired with info.textBase for a subtler contrast"
         },
         "mutedHover": {
           "value": "#C0D8F0",
           "type": "color",
-          "description": "Used as the hovered subdued background for informational components such as pills. Paired with info.textBase for a subtler contrast"
+          "description": "Used as the hovered muted background for informational components such as pills and text buttons. Paired with info.textBase for a subtler contrast"
         },
         "mutedActive": {
           "value": "#88B1D9",
           "type": "color",
-          "description": "Used as the pressed subdued background for informational components such as pills. Paired with info.textBase for a subtler contrast"
+          "description": "Used as the pressed muted background for informational components such as pills and text buttons. Paired with info.textBase for a subtler contrast"
         },
         "box": {
           "value": "#F5FAFF",
@@ -284,12 +284,12 @@
         "hover": {
           "value": "#8E4D14",
           "type": "color",
-          "description": "Used as the hovered text or fill colour for interactive and static warning components such as links, text, and icons"
+          "description": "Used as the hovered text or fill colour for interactive and static warning components such as links and text buttons"
         },
         "active": {
           "value": "#784213",
           "type": "color",
-          "description": "Used as the pressed text or fill colour for interactive and static warning components such as links, text, and icons"
+          "description": "Used as the pressed text or fill colour for interactive and static warning components such as links and text buttons"
         }
       },
       "background": {
@@ -311,17 +311,17 @@
         "muted": {
           "value": "#FFF3E8",
           "type": "color",
-          "description": "Used as the subdued background for warning components such as pills. Paired with warning.textBase for a subtler contrast"
+          "description": "Used as the muted background for warning components such as pills and text buttons. Paired with warning.textBase for a subtler contrast"
         },
         "mutedHover": {
           "value": "#F3D8C0",
           "type": "color",
-          "description": "Used as the hovered subdued background for warning components such as pills. Paired with warning.textBase for a subtler contrast"
+          "description": "Used as the hovered muted background for warning components such as pills and text buttons. Paired with warning.textBase for a subtler contrast"
         },
         "mutedActive": {
           "value": "#E7B88F",
           "type": "color",
-          "description": "Used as the pressed subdued background for warning components such as pills. Paired with warning.textBase for a subtler contrast"
+          "description": "Used as the pressed muted background for warning components such as pills and text buttons. Paired with warning.textBase for a subtler contrast"
         },
         "box": {
           "value": "#FFFAF5",
@@ -343,7 +343,7 @@
         "active": {
           "value": "#784213",
           "type": "color",
-          "description": "Used for the pressed border colour for warning components such as buttons and Message"
+          "description": "Used for the pressed border colour for warning components such as buttons"
         }
       }
     },
@@ -384,17 +384,17 @@
         "muted": {
           "value": "#FEEEF2",
           "type": "color",
-          "description": "Used as the subdued background for danger components such as pills. Paired with danger.textBase for a subtler contrast"
+          "description": "Used as the muted background for danger components such as pills and text buttons. Paired with danger.textBase for a subtler contrast"
         },
         "mutedHover": {
           "value": "#F0C4CD",
           "type": "color",
-          "description": "Used as the hovered subdued background for danger components such as pills. Paired with danger.textBase for a subtler contrast"
+          "description": "Used as the hovered muted background for danger components such as pills and text buttons. Paired with danger.textBase for a subtler contrast"
         },
         "mutedActive": {
           "value": "#E296A6",
           "type": "color",
-          "description": "Used as the pressed subdued background for danger components such as pills. Paired with danger.textBase for a subtler contrast"
+          "description": "Used as the pressed muted background for danger components such as pills and text buttons. Paired with danger.textBase for a subtler contrast"
         },
         "box": {
           "value": "#FFF7F9",
@@ -411,12 +411,12 @@
         "hover": {
           "value": "#980B29",
           "type": "color",
-          "description": "Used for the hovered border colour for danger components such as buttons and Message"
+          "description": "Used for the hovered border colour for danger components such as buttons"
         },
         "active": {
           "value": "#800D25",
           "type": "color",
-          "description": "Used for the pressed border colour for danger components such as buttons and Message"
+          "description": "Used for the pressed border colour for danger components such as buttons"
         }
       }
     },
@@ -430,12 +430,12 @@
         "hover": {
           "value": "#3B2566",
           "type": "color",
-          "description": "Used as the hovered text or fill colour for interactive and static highlight components such as links, text, and icons"
+          "description": "Used as the hovered text or fill colour for interactive and static highlight components such as links and text buttons"
         },
         "active": {
           "value": "#2A174F",
           "type": "color",
-          "description": "Used as the pressed text or fill colour for interactive and static highlight components such as links, text, and icons"
+          "description": "Used as the pressed text or fill colour for interactive and static highlight components such as links and text buttons"
         }
       },
       "background": {
@@ -457,17 +457,17 @@
         "muted": {
           "value": "#F2ECFE",
           "type": "color",
-          "description": "Used as the subdued background for highlight components such as pills. Paired with highlight.textBase for a subtler contrast"
+          "description": "Used as the muted background for highlight components such as pills and text buttons. Paired with highlight.textBase for a subtler contrast"
         },
         "mutedHover": {
           "value": "#D7CEE9",
           "type": "color",
-          "description": "Used as the hovered subdued background for highlight components such as pills. Paired with highlight.textBase for a subtler contrast"
+          "description": "Used as the hovered muted background for highlight components such as pills and text buttons. Paired with highlight.textBase for a subtler contrast"
         },
         "mutedActive": {
           "value": "#B9ABD5",
           "type": "color",
-          "description": "Used as the pressed subdued background for highlight components such as pills. Paired with highlight.textBase for a subtler contrast"
+          "description": "Used as the pressed muted background for highlight components such as pills and text buttons. Paired with highlight.textBase for a subtler contrast"
         },
         "box": {
           "value": "#FCFAFF",
@@ -531,82 +531,100 @@
       "background": {
         "base": {
           "value": "#F5F7FA",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the default background colour for HTML inputs"
         },
         "hover": {
           "value": "#E6EDF5",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the hovered background colour for HTML inputs"
         },
         "information": {
           "value": "#FFFFFF",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the default background colour for the text description below the input"
         }
       },
       "text": {
         "base": {
           "value": "#475A70",
-          "type": "color"
+          "type": "color",
+          "description": "Used for the default filled text colour for HTML inputs"
         },
         "information": {
           "value": "#475A70",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the text content colour for the text description below the input"
         },
         "informationError": {
           "value": "#AF2645",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the text content colour for the text description below the input when there are errors"
         },
         "label": {
           "value": "#475A70",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the default static label colour in HTML inputs which appears as a placeholder in the static state"
         },
         "floatingLabel": {
           "value": "#3971A8",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the floated label colour when the HTML input has focus"
         },
         "floatingLabelError": {
           "value": "#AF2645",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the static and floated label colour when the input is in an error state"
         },
         "placeholder": {
           "value": "#596D84",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the default placeholder text colour for basic and search inputs"
         },
         "active": {
           "value": "#2E3A47",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the label colour for labels that don't float when focused, like the select component"
         }
       },
       "border": {
         "base": {
           "value": "#E6EDF5",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the default border colour"
         },
         "error": {
           "value": "#AF2645",
-          "type": "color"
+          "type": "color",
+          "description": "Used for the border colour when the input is in an error state"
         },
         "hover": {
           "value": "#C8D3E0",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the hovered border colour"
         },
         "emphasized": {
           "value": "#596D84",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the default bottom border colour for floating label inputs or as the default border for inputs like checkbox"
         },
         "emphasizedHover": {
           "value": "#475A70",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the hovered bottom border colour for floating label inputs or as the hovered border for inputs like checkbox"
         },
         "active": {
           "value": "#3971A8",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the pressed bottom border colour for floating label inputs or as the engaged border for inputs like checkbox"
         }
       }
     },
     "separator": {
       "base": {
         "value": "#E6EDF5",
-        "type": "color"
+        "type": "color",
+        "description": "Used for the colour of the separator element"
       }
     },
     "light": {

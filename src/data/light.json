@@ -435,7 +435,7 @@
         "hover": {
           "value": "{colors.purple.700}",
           "type": "color",
-          "description": "Used as the hovered text or fill colour for interactive and static highlight components such as links and text buttons",
+          "description": "Used as the hovered text or fill colour for interactive and static highlight components such as links and text buttons"
         },
         "active": {
           "value": "{colors.purple.800}",
@@ -536,82 +536,100 @@
       "background": {
         "base": {
           "value": "{colors.grey.200}",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the default background colour for HTML inputs"
         },
         "hover": {
           "value": "{colors.grey.300}",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the hovered background colour for HTML inputs"
         },
         "information": {
           "value": "{colors.shades.white}",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the default background colour for the text description below the input"
         }
       },
       "text": {
         "base": {
           "value": "{colors.grey.600}",
-          "type": "color"
+          "type": "color",
+          "description": "Used for the default filled text colour for HTML inputs"
         },
         "information": {
           "value": "{colors.grey.600}",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the text content colour for the text description below the input"
         },
         "informationError": {
           "value": "{colors.red.600}",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the text content colour for the text description below the input when there are errors"
         },
         "label": {
           "value": "{colors.grey.600}",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the default static label colour in HTML inputs which appears as a placeholder in the static state"
         },
         "floatingLabel": {
           "value": "{colors.blue.600}",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the floated label colour when the HTML input has focus"
         },
         "floatingLabelError": {
           "value": "{colors.red.600}",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the static and floated label colour when the input is in an error state"
         },
         "placeholder": {
           "value": "{colors.grey.500}",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the default placeholder text colour for basic and search inputs"
         },
         "active": {
           "value": "{colors.grey.800}",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the label colour for labels that don't float when focused, like the select component"
         }
       },
       "border": {
         "base": {
           "value": "{colors.grey.300}",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the default border colour"
         },
         "error": {
           "value": "{colors.red.600}",
-          "type": "color"
+          "type": "color",
+          "description": "Used for the border colour when the input is in an error state"
         },
         "hover": {
           "value": "{colors.grey.400}",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the hovered border colour"
         },
         "emphasized": {
           "value": "{colors.grey.500}",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the default bottom border colour for floating label inputs or as the default border for inputs like checkbox"
         },
         "emphasizedHover": {
           "value": "{colors.grey.600}",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the hovered bottom border colour for floating label inputs or as the hovered border for inputs like checkbox"
         },
         "active": {
           "value": "{colors.blue.600}",
-          "type": "color"
+          "type": "color",
+          "description": "Used as the pressed bottom border colour for floating label inputs or as the engaged border for inputs like checkbox"
         }
       }
     },
     "separator": {
       "base": {
         "value": "{colors.grey.300}",
-        "type": "color"
+        "type": "color",
+        "description": "Used for the colour of the separator element"
       }
     },
     "light": {

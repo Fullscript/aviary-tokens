@@ -85,46 +85,51 @@
     "surface": {
       "level0": {
         "value": "#F5F7FA",
-        "type": "color"
+        "type": "color",
+        "description": "Used for setting the lowest most level, mainly applied as a background color to the HTML body. Should always be underneath levels 1 and 2"
       },
       "level1": {
         "value": "#FFFFFF",
-        "type": "color"
+        "type": "color",
+        "description": "Used commonly with Boxes and containers that are directly on surface level 0. Also can be used as an alternative HTML body background color."
       },
       "level2": {
         "value": "#F5F7FA",
-        "type": "color"
-      },
-      "level3": {
-        "value": "#FFFFFF",
-        "type": "color"
+        "type": "color",
+        "description": "Used for elements that are contained within Boxes or other wrappers that are surface level 1."
       },
       "interactive": {
         "background": {
           "value": "#FFFFFF",
-          "type": "color"
+          "type": "color",
+          "description": "Used for elements where the entire surface is interactable. For example Accordions, ActionBlock, and DropdownItems"
         },
         "hover": {
           "value": "#F5F7FA",
-          "type": "color"
+          "type": "color",
+          "description": "Hover state for elements where the entire surface is interactable. For example Accordions, ActionBlock, and DropdownItems"
         },
         "active": {
           "value": "#E6EDF5",
-          "type": "color"
+          "type": "color",
+          "description": "Active/Pressed state for elements where the entire surface is interactable. For example Accordions, ActionBlock, and DropdownItems"
         }
       },
       "overlay": {
-        "invertable": {
+        "contrast": {
           "value": "#2E3A47",
-          "type": "color"
+          "type": "color",
+          "description": "Used for elements that are absolutely positioned to overlay content on the page. Has a high contrast versus the current theme. Ex: Things like Toasts and Tooltips"
         },
-        "whiteInvertable": {
+        "theme": {
           "value": "#FFFFFF",
-          "type": "color"
+          "type": "color",
+          "description": "Used for elements that are absolutely positioned to overlay content on the page. Matches the base color of the theme. Ex: Snackbar"
         },
-        "static": {
+        "backdrop": {
           "value": "#36485C",
-          "type": "color"
+          "type": "color",
+          "description": "Used to overlay & de-emphasize the page to draw focus to certain areas. Ex: Used with Modals, Drawers"
         }
       }
     },

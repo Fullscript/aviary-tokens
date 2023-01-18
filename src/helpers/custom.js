@@ -63,8 +63,8 @@ const customColorObjectFormatter = (dictionary, theme, isJS) => {
   const commaOrColon = isJS ? `,` : `;`;
 
   const themeWithSlash = theme.destination.substring(0, theme.destination.indexOf("."));
-  const extractedThemeName = themeWithSlash.split("/")[1];
-  const prefix = `${declaration}theme: "${extractedThemeName}"${commaOrColon}\n`;
+  const extractedThemeName = { value: themeWithSlash.split("/")[1]};
+  const prefix = `${declaration}theme: ${valueOrType(extractedThemeName)}${commaOrColon}\n`;
 
   console.log(`HENLOOOO ${prefix}`);
 

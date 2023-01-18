@@ -190,17 +190,17 @@
       },
       "border": {
         "base": {
-          "value": "#42AD86",
+          "value": "#288563",
           "type": "color",
           "description": "Used for the border colour for primary components such as buttons and Message"
         },
         "hover": {
-          "value": "#86D6B9",
+          "value": "#256E53",
           "type": "color",
           "description": "Used for the hovered border colour for primary components such as buttons"
         },
         "active": {
-          "value": "#DBFFF1",
+          "value": "#1A5740",
           "type": "color",
           "description": "Used for the pressed border colour for primary components such as buttons"
         }
@@ -231,12 +231,12 @@
           "description": "Used as the background for informational components such as plain buttons. Paired with text.onBackground for contrast"
         },
         "hover": {
-          "value": "#6597CE",
+          "value": "#285685",
           "type": "color",
           "description": "Used as the hovered background for informational components such as plain buttons"
         },
         "active": {
-          "value": "#96BDE7",
+          "value": "#1F4366",
           "type": "color",
           "description": "Used as the pressed background for informational components such as plain buttons"
         },
@@ -263,17 +263,17 @@
       },
       "border": {
         "base": {
-          "value": "#6597CE",
+          "value": "#4577AD",
           "type": "color",
           "description": "Used for the border colour for informational components such as buttons and Message"
         },
         "hover": {
-          "value": "#96BDE7",
+          "value": "#285685",
           "type": "color",
           "description": "Used for the hovered border colour for informational components such as buttons"
         },
         "active": {
-          "value": "#D1E8FF",
+          "value": "#1F4366",
           "type": "color",
           "description": "Used for the pressed border colour for informational components such as buttons"
         }
@@ -336,17 +336,17 @@
       },
       "border": {
         "base": {
-          "value": "#CF7945",
+          "value": "#AD6234",
           "type": "color",
           "description": "Used for the border colour for warning components such as buttons and Message"
         },
         "hover": {
-          "value": "#E7AA84",
+          "value": "#8A4E29",
           "type": "color",
           "description": "Used for the hovered border colour for warning components"
         },
         "active": {
-          "value": "#FFE3D1",
+          "value": "#663A1E",
           "type": "color",
           "description": "Used for the pressed border colour for warning components such as buttons"
         }
@@ -409,17 +409,17 @@
       },
       "border": {
         "base": {
-          "value": "#C74C6B",
+          "value": "#B23655",
           "type": "color",
           "description": "Used for the border colour for danger components such as buttons and Message"
         },
         "hover": {
-          "value": "#EA8AA3",
+          "value": "#8F2843",
           "type": "color",
           "description": "Used for the hovered border colour for danger components such as buttons"
         },
         "active": {
-          "value": "#FFD1DD",
+          "value": "#611D30",
           "type": "color",
           "description": "Used for the pressed border colour for danger components such as buttons"
         }
@@ -482,17 +482,17 @@
       },
       "border": {
         "base": {
-          "value": "#865C99",
+          "value": "#693B80",
           "type": "color",
           "description": "Used for the border colour for highlight components such as buttons and Message"
         },
         "hover": {
-          "value": "#B990CC",
+          "value": "#542F66",
           "type": "color",
           "description": "Used for the hovered border colour for highlight components"
         },
         "active": {
-          "value": "#F0F1FF",
+          "value": "#432652",
           "type": "color",
           "description": "Used for the pressed border colour for highlight components such as buttons and Message"
         }

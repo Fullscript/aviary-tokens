@@ -2,7 +2,7 @@ const StyleDictionary = require("style-dictionary");
 require("./src/helpers/custom");
 
 const getStyleDictionaryConfig = (theme) => {
-  const core = theme === "core";
+  const isCore = theme.includes("core");
   return {
     source: [`src/transformed/transformed-${theme}.json`],
     platforms: {
@@ -16,7 +16,7 @@ const getStyleDictionaryConfig = (theme) => {
             filter: "custom/filter/typography",
           },
           {
-            destination: core ? "colors.scss" : `themes/${theme}.scss`,
+            destination: isCore ? `${theme}-colors.scss` : `themes/${theme}.scss`,
             format: "scss/variables",
             filter: {
               type: "color",
@@ -40,14 +40,14 @@ const getStyleDictionaryConfig = (theme) => {
           },
           {
             format: "custom/format/javascript-colors",
-            destination: core ? "colors.js" : `themes/${theme}.js`,
+            destination: isCore ? `${theme}-colors.js` : `themes/${theme}.js`,
             filter: {
               type: "color",
             },
           },
           {
             format: "custom/format/typescript-color-declarations",
-            destination: core ? "colors.d.ts" : `themes/${theme}.d.ts`,
+            destination: isCore ? `${theme}-colors.d.ts` : `themes/${theme}.d.ts`,
             filter: {
               type: "color",
             },
@@ -70,14 +70,14 @@ const getStyleDictionaryConfig = (theme) => {
           },
           {
             format: "custom/format/javascript-colors",
-            destination: core ? "colors.js" : `themes/${theme}.js`,
+            destination: isCore ? `${theme}-colors.js` : `themes/${theme}.js`,
             filter: {
               type: "color",
             },
           },
           {
             format: "custom/format/typescript-color-declarations",
-            destination: core ? "colors.d.ts" : `themes/${theme}.d.ts`,
+            destination: isCore ? `${theme}-colors.d.ts` : `themes/${theme}.d.ts`,
             filter: {
               type: "color",
             },
@@ -90,6 +90,6 @@ const getStyleDictionaryConfig = (theme) => {
 
 // Add themes to the array to create theme-specific files under themes folder
 // "core" theme will build files outside of the themes folder
-["core", "light"].map((theme) => {
+["core-light", "core-dark", "light", "dark"].map((theme) => {
   StyleDictionary.extend(getStyleDictionaryConfig(theme)).buildAllPlatforms();
 });

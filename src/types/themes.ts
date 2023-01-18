@@ -8,6 +8,5 @@ import * as dark from "../../dist/tokens/ts/themes/dark";
 
 type AviaryTheme = typeof light;
 
-export { light };
-export { dark };
+export { dark, light };
 export type { AviaryTheme };

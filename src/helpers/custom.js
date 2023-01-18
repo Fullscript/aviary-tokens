@@ -56,11 +56,13 @@ StyleDictionary.registerTransform({
 });
 
 // FORMATTERS
-const customColorObjectFormatter = (dictionary, isJS) => {
+const customColorObjectFormatter = (dictionary, theme, isJS) => {
   const valueOrType = (token) =>
     isJS ? `"${token.value}"` : `${getTypeScriptType(token.value)}`;
   const declaration = isJS ? "" : `export const `;
   const commaOrColon = isJS ? `,` : `;`;
+
+  const prefix = `theme: ${theme}`;
 
   return Object.entries(dictionary.properties.colors)
     .map((tokens) => {
@@ -78,13 +80,13 @@ const customColorObjectFormatter = (dictionary, isJS) => {
         `}${commaOrColon}`
       );
     })
-    .join(`\n`);
+    .join(`\n`).join(prefix);
 };
 
 StyleDictionary.registerFormat({
   name: "custom/format/typescript-color-declarations",
   formatter: ({ dictionary, file }) => {
-    return fileHeader({ file }) + customColorObjectFormatter(dictionary, false);
+    return fileHeader({ file }) + customColorObjectFormatter(dictionary, file, false);
   },
 });
 
@@ -94,7 +96,7 @@ StyleDictionary.registerFormat({
     return (
       fileHeader({ file }) +
       `module.exports = {` +
-      customColorObjectFormatter(dictionary, true) +
+      customColorObjectFormatter(dictionary, file, true) +
       `};`
     );
   },

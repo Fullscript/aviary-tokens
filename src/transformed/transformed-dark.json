@@ -545,7 +545,7 @@
           "description": "Used as the hovered background colour for HTML inputs"
         },
         "information": {
-          "value": "transparent",
+          "value": "#FFFFFF",
           "type": "color",
           "description": "Used as the default background colour for the text description below the input"
         }

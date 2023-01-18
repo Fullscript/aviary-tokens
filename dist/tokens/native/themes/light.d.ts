@@ -1,9 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Wed, 18 Jan 2023 19:27:38 GMT
+ * Generated on Wed, 18 Jan 2023 19:51:16 GMT
  */
 
-theme: [object Object];export const text : {emphasis : string,body : string,subdued : string,onBackground : string};
+export const theme: "light";
+export const text : {emphasis : string,body : string,subdued : string,onBackground : string};
 export const system : {textLabelEmphasis : string,textBase : string,textHover : string,textActive : string,backgroundBase : string,backgroundMuted : string,backgroundMutedHover : string,backgroundMutedActive : string,backgroundBox : string,borderBase : string,borderHover : string,borderActive : string,borderFocused : string};
 export const surface : {level0 : string,level1 : string,level1Copy : string,level2 : string,interactiveBackground : string,interactiveHover : string,interactiveActive : string,overlayContrast : string,overlayTheme : string,overlayBackdrop : string};
 export const primary : {textBase : string,textHover : string,textActive : string,backgroundBase : string,backgroundHover : string,backgroundActive : string,backgroundMuted : string,backgroundMutedHover : string,backgroundMutedActive : string,backgroundBox : string,borderBase : string,borderHover : string,borderActive : string};

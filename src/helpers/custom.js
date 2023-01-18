@@ -62,7 +62,11 @@ const customColorObjectFormatter = (dictionary, theme, isJS) => {
   const declaration = isJS ? "" : `export const `;
   const commaOrColon = isJS ? `,` : `;`;
 
-  const prefix = `theme: ${theme}${commaOrColon}`;
+  const themeWithSlash = theme.destination.substring(0, theme.destination.indexOf("."));
+  const extractedThemeName = themeWithSlash.split("/")[1];
+  const prefix = `${declaration}theme: "${extractedThemeName}"${commaOrColon}\n`;
+
+  console.log(`HENLOOOO ${prefix}`);
 
   return prefix + Object.entries(dictionary.properties.colors)
     .map((tokens) => {

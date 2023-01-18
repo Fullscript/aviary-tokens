@@ -1,9 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Wed, 18 Jan 2023 19:27:38 GMT
+ * Generated on Wed, 18 Jan 2023 19:51:16 GMT
  */
 
-module.exports = {theme: [object Object],text : {emphasis : "#98999B",body : "#616568",subdued : "#515357",onBackground : "#FFFFFF"},
+module.exports = {theme: "dark",
+text : {emphasis : "#98999B",body : "#616568",subdued : "#515357",onBackground : "#FFFFFF"},
 system : {textLabelEmphasis : "#E8E9EA",textBase : "#616568",textHover : "#98999B",textActive : "#E8E9EA",backgroundBase : "#FFFFFF",backgroundMuted : "#1A1D21",backgroundMutedHover : "#22272B",backgroundMutedActive : "#2D3238",backgroundBox : "#101012",borderBase : "#2D3238",borderHover : "#515357",borderActive : "#616568",borderFocused : "#6597CE"},
 surface : {level0 : "#1A1D21",level1 : "#FFFFFF",level1Copy : "#1A1D21",level2 : "#1A1D21",interactiveBackground : "#FFFFFF",interactiveHover : "#1A1D21",interactiveActive : "#22272B",overlayContrast : "#E8E9EA",overlayTheme : "#FFFFFF",overlayBackdrop : "#98999B"},
 primary : {textBase : "#42AD86",textHover : "#86D6B9",textActive : "#DBFFF1",backgroundBase : "#42AD86",backgroundHover : "#86D6B9",backgroundActive : "#DBFFF1",backgroundMuted : "#13402F",backgroundMutedHover : "#1A5740",backgroundMutedActive : "#256E53",backgroundBox : "#0C291E",borderBase : "#42AD86",borderHover : "#86D6B9",borderActive : "#DBFFF1"},

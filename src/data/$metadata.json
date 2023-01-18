@@ -2,7 +2,7 @@
   "tokenSetOrder": [
     "core-light",
     "core-dark",
-    "aviary",
+    "light",
     "dark"
   ]
 }

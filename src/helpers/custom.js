@@ -64,7 +64,7 @@ const customColorObjectFormatter = (dictionary, theme, isJS) => {
 
   const prefix = `theme: ${theme}`;
 
-  return Object.entries(dictionary.properties.colors)
+  return prefix + Object.entries(dictionary.properties.colors)
     .map((tokens) => {
       const colorObj = tokens[0];
       const filteredTokens = dictionary.allTokens.filter(
@@ -80,7 +80,7 @@ const customColorObjectFormatter = (dictionary, theme, isJS) => {
         `}${commaOrColon}`
       );
     })
-    .join(`\n`).join(prefix);
+    .join(`\n`);
 };
 
 StyleDictionary.registerFormat({

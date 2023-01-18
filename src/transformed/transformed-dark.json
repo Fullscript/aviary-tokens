@@ -25,55 +25,55 @@
     "system": {
       "text": {
         "labelEmphasis": {
-          "value": "#E8E9EA",
+          "value": "#FFFFFF",
           "type": "color"
         },
         "base": {
-          "value": "#616568",
-          "type": "color"
-        },
-        "hover": {
           "value": "#98999B",
           "type": "color"
         },
-        "active": {
+        "hover": {
           "value": "#E8E9EA",
+          "type": "color"
+        },
+        "active": {
+          "value": "#FFFFFF",
           "type": "color"
         }
       },
       "background": {
         "base": {
-          "value": "#FFFFFF",
-          "type": "color"
-        },
-        "muted": {
           "value": "#1A1D21",
           "type": "color"
         },
-        "mutedHover": {
+        "muted": {
           "value": "#22272B",
           "type": "color"
         },
-        "mutedActive": {
+        "mutedHover": {
           "value": "#2D3238",
           "type": "color"
         },
+        "mutedActive": {
+          "value": "#515357",
+          "type": "color"
+        },
         "box": {
-          "value": "#101012",
+          "value": "#1A1D21",
           "type": "color"
         }
       },
       "border": {
         "base": {
-          "value": "#2D3238",
-          "type": "color"
-        },
-        "hover": {
           "value": "#515357",
           "type": "color"
         },
-        "active": {
+        "hover": {
           "value": "#616568",
+          "type": "color"
+        },
+        "active": {
+          "value": "#98999B",
           "type": "color"
         },
         "focused": {
@@ -500,7 +500,7 @@
     },
     "disabled": {
       "text": {
-        "value": "#515357",
+        "value": "#616568",
         "type": "color",
         "description": "For use in disabled content like text and icons"
       },
@@ -515,18 +515,18 @@
         "description": "Used for the background in disabled components with little to no styling"
       },
       "border": {
-        "value": "#2D3238",
+        "value": "#515357",
         "type": "color",
         "description": "Used as the border for disabled components"
       },
       "input": {
         "background": {
-          "value": "#22272B",
+          "value": "#1B2228",
           "type": "color",
           "description": "For use in disabled inputs as the background colour"
         },
         "LabelText": {
-          "value": "#515357",
+          "value": "#616568",
           "type": "color",
           "description": "Used as the label colour for disabled inputs"
         }
@@ -535,91 +535,91 @@
     "input": {
       "background": {
         "base": {
-          "value": "#1A1D21",
+          "value": "#1B2228",
           "type": "color",
           "description": "Used as the default background colour for HTML inputs"
         },
         "hover": {
-          "value": "#22272B",
+          "value": "#2D3238",
           "type": "color",
           "description": "Used as the hovered background colour for HTML inputs"
         },
         "information": {
-          "value": "#FFFFFF",
+          "value": "transparent",
           "type": "color",
           "description": "Used as the default background colour for the text description below the input"
         }
       },
       "text": {
         "base": {
-          "value": "#616568",
+          "value": "#98999B",
           "type": "color",
           "description": "Used for the default filled text colour for HTML inputs"
         },
         "information": {
-          "value": "#616568",
+          "value": "#98999B",
           "type": "color",
           "description": "Used as the text content colour for the text description below the input"
         },
         "informationError": {
-          "value": "#C74C6B",
+          "value": "#B23655",
           "type": "color",
           "description": "Used as the text content colour for the text description below the input when there are errors"
         },
         "label": {
-          "value": "#616568",
+          "value": "#98999B",
           "type": "color",
           "description": "Used as the default static label colour in HTML inputs which appears as a placeholder in the static state"
         },
         "floatingLabel": {
-          "value": "#6597CE",
+          "value": "#4577AD",
           "type": "color",
           "description": "Used as the floated label colour when the HTML input has focus"
         },
         "floatingLabelError": {
-          "value": "#C74C6B",
+          "value": "#B23655",
           "type": "color",
           "description": "Used as the static and floated label colour when the input is in an error state"
         },
         "placeholder": {
-          "value": "#515357",
+          "value": "#616568",
           "type": "color",
           "description": "Used as the default placeholder text colour for basic and search inputs"
         },
         "active": {
-          "value": "#E8E9EA",
+          "value": "#FFFFFF",
           "type": "color",
           "description": "Used as the label colour for labels that don't float when focused, like the select component"
         }
       },
       "border": {
         "base": {
-          "value": "#22272B",
+          "value": "#2D3238",
           "type": "color",
           "description": "Used as the default border colour"
         },
         "error": {
-          "value": "#C74C6B",
+          "value": "#8F2843",
           "type": "color",
           "description": "Used for the border colour when the input is in an error state"
         },
         "hover": {
-          "value": "#2D3238",
+          "value": "#515357",
           "type": "color",
           "description": "Used as the hovered border colour"
         },
         "emphasized": {
-          "value": "#515357",
+          "value": "#616568",
           "type": "color",
           "description": "Used as the default bottom border colour for floating label inputs or as the default border for inputs like checkbox"
         },
         "emphasizedHover": {
-          "value": "#616568",
+          "value": "#98999B",
           "type": "color",
           "description": "Used as the hovered bottom border colour for floating label inputs or as the hovered border for inputs like checkbox"
         },
         "active": {
-          "value": "#6597CE",
+          "value": "#285685",
           "type": "color",
           "description": "Used as the pressed bottom border colour for floating label inputs or as the engaged border for inputs like checkbox"
         }
@@ -627,7 +627,7 @@
     },
     "separator": {
       "base": {
-        "value": "#22272B",
+        "value": "#2D3238",
         "type": "color",
         "description": "Used for the colour of the separator element"
       }

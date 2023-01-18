@@ -2,17 +2,17 @@
   "colors": {
     "text": {
       "emphasis": {
-        "value": "{colors.grey.700}",
+        "value": "{colors.grey.800}",
         "type": "color",
         "description": "Used for any text content and icons used with text that needs emphasizing"
       },
       "body": {
-        "value": "{colors.grey.600}",
+        "value": "{colors.grey.700}",
         "type": "color",
         "description": "Used for default text content and icons used with text"
       },
       "subdued": {
-        "value": "{colors.grey.500}",
+        "value": "{colors.grey.600}",
         "type": "color",
         "description": "Used for any text content and icons used with text that requires less prominence"
       },
@@ -84,38 +84,33 @@
     },
     "surface": {
       "level0": {
-        "value": "{colors.grey.200}",
+        "value": "{colors.grey.100}",
         "type": "color",
         "description": "Used for setting the lowest most level, mainly applied as a background color to the HTML body. Should always be underneath levels 1 and 2"
       },
       "level1": {
-        "value": "{colors.shades.white}",
-        "type": "color",
-        "description": "Used commonly with Boxes and containers that are directly on surface level 0. Also can be used as an alternative HTML body background color."
-      },
-      "level1-copy": {
         "value": "{colors.grey.200}",
         "type": "color",
         "description": "Used commonly with Boxes and containers that are directly on surface level 0. Also can be used as an alternative HTML body background color."
       },
       "level2": {
-        "value": "{colors.grey.200}",
+        "value": "{colors.grey.300}",
         "type": "color",
         "description": "Used for elements that are contained within Boxes or other wrappers that are surface level 1."
       },
       "interactive": {
         "background": {
-          "value": "{colors.shades.white}",
+          "value": "{colors.grey.200}",
           "type": "color",
           "description": "Used for elements where the entire surface is interactable. For example Accordions, ActionBlock, and DropdownItems"
         },
         "hover": {
-          "value": "{colors.grey.200}",
+          "value": "{colors.grey.300}",
           "type": "color",
           "description": "Hover state for elements where the entire surface is interactable. For example Accordions, ActionBlock, and DropdownItems"
         },
         "active": {
-          "value": "{colors.grey.300}",
+          "value": "{colors.grey.400}",
           "type": "color",
           "description": "Active/Pressed state for elements where the entire surface is interactable. For example Accordions, ActionBlock, and DropdownItems"
         }
@@ -158,17 +153,17 @@
       },
       "background": {
         "base": {
-          "value": "{colors.green.600}",
+          "value": "{colors.green.500}",
           "type": "color",
           "description": "Used as the background for primary components such as plain buttons. Paired with text.onBackground for contrast"
         },
         "hover": {
-          "value": "{colors.green.700}",
+          "value": "{colors.green.400}",
           "type": "color",
           "description": "Used as the hovered background for primary components such as plain buttons"
         },
         "active": {
-          "value": "{colors.green.800}",
+          "value": "{colors.green.300}",
           "type": "color",
           "description": "Used as the hovered background for primary components such as plain buttons"
         },
@@ -231,17 +226,17 @@
       },
       "background": {
         "base": {
-          "value": "{colors.blue.600}",
+          "value": "{colors.blue.500}",
           "type": "color",
           "description": "Used as the background for informational components such as plain buttons. Paired with text.onBackground for contrast"
         },
         "hover": {
-          "value": "{colors.blue.700}",
+          "value": "{colors.blue.600}",
           "type": "color",
           "description": "Used as the hovered background for informational components such as plain buttons"
         },
         "active": {
-          "value": "{colors.blue.800}",
+          "value": "{colors.blue.700}",
           "type": "color",
           "description": "Used as the pressed background for informational components such as plain buttons"
         },
@@ -304,17 +299,17 @@
       },
       "background": {
         "base": {
-          "value": "{colors.orange.600}",
+          "value": "{colors.orange.500}",
           "type": "color",
           "description": "Used as the background for warning components such as plain buttons. Paired with text.onBackground for contrast"
         },
         "hover": {
-          "value": "{colors.orange.700}",
+          "value": "{colors.orange.400}",
           "type": "color",
           "description": "Used as the hovered background for warning components such as plain buttons"
         },
         "active": {
-          "value": "{colors.orange.800}",
+          "value": "{colors.orange.300}",
           "type": "color",
           "description": "Used as the pressed background for warning components such as plain buttons"
         },
@@ -377,17 +372,17 @@
       },
       "background": {
         "base": {
-          "value": "{colors.red.600}",
+          "value": "{colors.red.500}",
           "type": "color",
           "description": "Used as the background for danger components such as plain buttons. Paired with text.onBackground for contrast"
         },
         "hover": {
-          "value": "{colors.red.700}",
+          "value": "{colors.red.400}",
           "type": "color",
           "description": "Used as the hovered background for danger components such as plain buttons"
         },
         "active": {
-          "value": "{colors.red.800}",
+          "value": "{colors.red.300}",
           "type": "color",
           "description": "Used as the pressed background for danger components such as plain buttons"
         },
@@ -450,17 +445,17 @@
       },
       "background": {
         "base": {
-          "value": "{colors.purple.600}",
+          "value": "{colors.purple.500}",
           "type": "color",
           "description": "Used as the background for highlight components such as plain buttons. Paired with text.onBackground for contrast"
         },
         "hover": {
-          "value": "{colors.purple.700}",
+          "value": "{colors.purple.400}",
           "type": "color",
           "description": "Used as the hovered background for highlight components such as plain buttons"
         },
         "active": {
-          "value": "{colors.purple.800}",
+          "value": "{colors.purple.300}",
           "type": "color",
           "description": "Used as the pressed background for highlight components such as plain buttons"
         },

@@ -13,8 +13,7 @@
     "name": "dark",
     "selectedTokenSets": {
       "core-dark": "source",
-      "dark": "enabled",
-      "light": "disabled"
+      "dark": "enabled"
     },
     "$figmaStyleReferences": {}
   }

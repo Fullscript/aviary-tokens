@@ -25,55 +25,55 @@
     "system": {
       "text": {
         "labelEmphasis": {
-          "value": "{colors.grey.800}",
+          "value": "{colors.shades.white}",
           "type": "color"
         },
         "base": {
-          "value": "{colors.grey.600}",
-          "type": "color"
-        },
-        "hover": {
           "value": "{colors.grey.700}",
           "type": "color"
         },
-        "active": {
+        "hover": {
           "value": "{colors.grey.800}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{colors.shades.white}",
           "type": "color"
         }
       },
       "background": {
         "base": {
-          "value": "{colors.shades.white}",
-          "type": "color"
-        },
-        "muted": {
           "value": "{colors.grey.200}",
           "type": "color"
         },
-        "mutedHover": {
+        "muted": {
           "value": "{colors.grey.300}",
           "type": "color"
         },
-        "mutedActive": {
+        "mutedHover": {
           "value": "{colors.grey.400}",
           "type": "color"
         },
+        "mutedActive": {
+          "value": "{colors.grey.500}",
+          "type": "color"
+        },
         "box": {
-          "value": "{colors.grey.100}",
+          "value": "{colors.grey.200}",
           "type": "color"
         }
       },
       "border": {
         "base": {
-          "value": "{colors.grey.400}",
-          "type": "color"
-        },
-        "hover": {
           "value": "{colors.grey.500}",
           "type": "color"
         },
-        "active": {
+        "hover": {
           "value": "{colors.grey.600}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{colors.grey.700}",
           "type": "color"
         },
         "focused": {
@@ -500,7 +500,7 @@
     },
     "disabled": {
       "text": {
-        "value": "{colors.grey.500}",
+        "value": "{colors.grey.600}",
         "type": "color",
         "description": "For use in disabled content like text and icons"
       },
@@ -515,18 +515,18 @@
         "description": "Used for the background in disabled components with little to no styling"
       },
       "border": {
-        "value": "{colors.grey.400}",
+        "value": "{colors.grey.500}",
         "type": "color",
         "description": "Used as the border for disabled components"
       },
       "input": {
         "background": {
-          "value": "{colors.grey.300}",
+          "value": "#1B2228",
           "type": "color",
           "description": "For use in disabled inputs as the background colour"
         },
         "LabelText": {
-          "value": "{colors.grey.500}",
+          "value": "{colors.grey.600}",
           "type": "color",
           "description": "Used as the label colour for disabled inputs"
         }
@@ -535,91 +535,91 @@
     "input": {
       "background": {
         "base": {
-          "value": "{colors.grey.200}",
+          "value": "#1B2228",
           "type": "color",
           "description": "Used as the default background colour for HTML inputs"
         },
         "hover": {
-          "value": "{colors.grey.300}",
+          "value": "{colors.grey.400}",
           "type": "color",
           "description": "Used as the hovered background colour for HTML inputs"
         },
         "information": {
-          "value": "{colors.shades.white}",
+          "value": "{colors.shades.transparent}",
           "type": "color",
           "description": "Used as the default background colour for the text description below the input"
         }
       },
       "text": {
         "base": {
-          "value": "{colors.grey.600}",
+          "value": "{colors.grey.700}",
           "type": "color",
           "description": "Used for the default filled text colour for HTML inputs"
         },
         "information": {
-          "value": "{colors.grey.600}",
+          "value": "{colors.grey.700}",
           "type": "color",
           "description": "Used as the text content colour for the text description below the input"
         },
         "informationError": {
-          "value": "{colors.red.600}",
+          "value": "{colors.red.500}",
           "type": "color",
           "description": "Used as the text content colour for the text description below the input when there are errors"
         },
         "label": {
-          "value": "{colors.grey.600}",
+          "value": "{colors.grey.700}",
           "type": "color",
           "description": "Used as the default static label colour in HTML inputs which appears as a placeholder in the static state"
         },
         "floatingLabel": {
-          "value": "{colors.blue.600}",
+          "value": "{colors.blue.500}",
           "type": "color",
           "description": "Used as the floated label colour when the HTML input has focus"
         },
         "floatingLabelError": {
-          "value": "{colors.red.600}",
+          "value": "{colors.red.500}",
           "type": "color",
           "description": "Used as the static and floated label colour when the input is in an error state"
         },
         "placeholder": {
-          "value": "{colors.grey.500}",
+          "value": "{colors.grey.600}",
           "type": "color",
           "description": "Used as the default placeholder text colour for basic and search inputs"
         },
         "active": {
-          "value": "{colors.grey.800}",
+          "value": "{colors.shades.white}",
           "type": "color",
           "description": "Used as the label colour for labels that don't float when focused, like the select component"
         }
       },
       "border": {
         "base": {
-          "value": "{colors.grey.300}",
+          "value": "{colors.grey.400}",
           "type": "color",
           "description": "Used as the default border colour"
         },
         "error": {
-          "value": "{colors.red.600}",
+          "value": "{colors.red.400}",
           "type": "color",
           "description": "Used for the border colour when the input is in an error state"
         },
         "hover": {
-          "value": "{colors.grey.400}",
+          "value": "{colors.grey.500}",
           "type": "color",
           "description": "Used as the hovered border colour"
         },
         "emphasized": {
-          "value": "{colors.grey.500}",
+          "value": "{colors.grey.600}",
           "type": "color",
           "description": "Used as the default bottom border colour for floating label inputs or as the default border for inputs like checkbox"
         },
         "emphasizedHover": {
-          "value": "{colors.grey.600}",
+          "value": "{colors.grey.700}",
           "type": "color",
           "description": "Used as the hovered bottom border colour for floating label inputs or as the hovered border for inputs like checkbox"
         },
         "active": {
-          "value": "{colors.blue.600}",
+          "value": "{colors.blue.400}",
           "type": "color",
           "description": "Used as the pressed bottom border colour for floating label inputs or as the engaged border for inputs like checkbox"
         }
@@ -627,7 +627,7 @@
     },
     "separator": {
       "base": {
-        "value": "{colors.grey.300}",
+        "value": "{colors.grey.400}",
         "type": "color",
         "description": "Used for the colour of the separator element"
       }

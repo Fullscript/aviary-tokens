@@ -93,11 +93,6 @@
         "type": "color",
         "description": "Used commonly with Boxes and containers that are directly on surface level 0. Also can be used as an alternative HTML body background color."
       },
-      "level1-copy": {
-        "value": "{colors.grey.200}",
-        "type": "color",
-        "description": "Used commonly with Boxes and containers that are directly on surface level 0. Also can be used as an alternative HTML body background color."
-      },
       "level2": {
         "value": "{colors.grey.200}",
         "type": "color",

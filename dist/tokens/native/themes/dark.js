@@ -1,0 +1,17 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 18 Jan 2023 19:27:38 GMT
+ */
+
+module.exports = {theme: [object Object],text : {emphasis : "#98999B",body : "#616568",subdued : "#515357",onBackground : "#FFFFFF"},
+system : {textLabelEmphasis : "#E8E9EA",textBase : "#616568",textHover : "#98999B",textActive : "#E8E9EA",backgroundBase : "#FFFFFF",backgroundMuted : "#1A1D21",backgroundMutedHover : "#22272B",backgroundMutedActive : "#2D3238",backgroundBox : "#101012",borderBase : "#2D3238",borderHover : "#515357",borderActive : "#616568",borderFocused : "#6597CE"},
+surface : {level0 : "#1A1D21",level1 : "#FFFFFF",level1Copy : "#1A1D21",level2 : "#1A1D21",interactiveBackground : "#FFFFFF",interactiveHover : "#1A1D21",interactiveActive : "#22272B",overlayContrast : "#E8E9EA",overlayTheme : "#FFFFFF",overlayBackdrop : "#98999B"},
+primary : {textBase : "#42AD86",textHover : "#86D6B9",textActive : "#DBFFF1",backgroundBase : "#42AD86",backgroundHover : "#86D6B9",backgroundActive : "#DBFFF1",backgroundMuted : "#13402F",backgroundMutedHover : "#1A5740",backgroundMutedActive : "#256E53",backgroundBox : "#0C291E",borderBase : "#42AD86",borderHover : "#86D6B9",borderActive : "#DBFFF1"},
+info : {textBase : "#6597CE",textHover : "#96BDE7",textActive : "#D1E8FF",backgroundBase : "#6597CE",backgroundHover : "#96BDE7",backgroundActive : "#D1E8FF",backgroundMuted : "#142C45",backgroundMutedHover : "#1F4366",backgroundMutedActive : "#285685",backgroundBox : "#0C1B29",borderBase : "#6597CE",borderHover : "#96BDE7",borderActive : "#D1E8FF"},
+warning : {textBase : "#CF7945",textHover : "#E7AA84",textActive : "#FFE3D1",backgroundBase : "#CF7945",backgroundHover : "#E7AA84",backgroundActive : "#FFE3D1",backgroundMuted : "#4A2915",backgroundMutedHover : "#663A1E",backgroundMutedActive : "#8A4E29",backgroundBox : "#29170C",borderBase : "#CF7945",borderHover : "#E7AA84",borderActive : "#FFE3D1"},
+danger : {textBase : "#C74C6B",textHover : "#EA8AA3",textActive : "#FFD1DD",backgroundBase : "#C74C6B",backgroundHover : "#EA8AA3",backgroundActive : "#FFD1DD",backgroundMuted : "#451522",backgroundMutedHover : "#611D30",backgroundMutedActive : "#8F2843",backgroundBox : "#290F16",borderBase : "#C74C6B",borderHover : "#EA8AA3",borderActive : "#FFD1DD"},
+highlight : {textBase : "#865C99",textHover : "#B990CC",textActive : "#F0F1FF",backgroundBase : "#865C99",backgroundHover : "#B990CC",backgroundActive : "#F0F1FF",backgroundMuted : "#33193F",backgroundMutedHover : "#432652",backgroundMutedActive : "#542F66",backgroundBox : "#200F29",borderBase : "#865C99",borderHover : "#B990CC",borderActive : "#F0F1FF"},
+disabled : {text : "#515357",background : "#1A1D21",nakedBackground : "transparent",border : "#2D3238",inputBackground : "#22272B",inputLabelText : "#515357"},
+input : {backgroundBase : "#1A1D21",backgroundHover : "#22272B",backgroundInformation : "#FFFFFF",textBase : "#616568",textInformation : "#616568",textInformationError : "#C74C6B",textLabel : "#616568",textFloatingLabel : "#6597CE",textFloatingLabelError : "#C74C6B",textPlaceholder : "#515357",textActive : "#E8E9EA",borderBase : "#22272B",borderError : "#C74C6B",borderHover : "#2D3238",borderEmphasized : "#515357",borderEmphasizedHover : "#616568",borderActive : "#6597CE"},
+separator : {base : "#22272B"},
+light : {backgroundBase : "#FFFFFF",backgroundContrast : "#616568",backgroundHover : "#1A1D21",backgroundActive : "#22272B",textBase : "#E8E9EA",linkMutedBase : "#1A1D21",linkMutedHover : "#FFFFFF"},};

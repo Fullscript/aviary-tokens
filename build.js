@@ -84,6 +84,20 @@ const getStyleDictionaryConfig = (theme) => {
           },
         ],
       },
+
+      Documentation: {
+        transformGroup: "custom/documentation",
+        buildPath: "dist/documentation/",
+        files: [
+          {
+            format: "custom/format/documentation-colors",
+            destination: "color-tokens.js",
+            filter: {
+              type: "color",
+            },
+          },
+        ],
+      },
     },
   };
 };

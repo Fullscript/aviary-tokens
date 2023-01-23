@@ -1,10 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Mon, 23 Jan 2023 17:09:11 GMT
+ * Generated on Mon, 23 Jan 2023 19:02:29 GMT
  */
 
-module.exports = {theme: "undefined",
-green : {100 : "#FAFFFC",200 : "#EBF2EF",300 : "#D1E0D9",400 : "#B6CFC2",500 : "#86B09B",600 : "#307553",700 : "#275E43",800 : "#244C38"},
+module.exports = {green : {100 : "#FAFFFC",200 : "#EBF2EF",300 : "#D1E0D9",400 : "#B6CFC2",500 : "#86B09B",600 : "#307553",700 : "#275E43",800 : "#244C38"},
 blue : {100 : "#F5FAFF",200 : "#E6F1FC",300 : "#C0D8F0",400 : "#88B1D9",500 : "#5D96CF",600 : "#3971A8",700 : "#21588F",800 : "#194673"},
 red : {100 : "#FFF7F9",200 : "#FEEEF2",300 : "#F0C4CD",400 : "#E296A6",500 : "#C6516A",600 : "#AF2645",700 : "#980B29",800 : "#800D25"},
 purple : {100 : "#FCFAFF",200 : "#F2ECFE",300 : "#D7CEE9",400 : "#B9ABD5",500 : "#8471AB",600 : "#533E7D",700 : "#3B2566",800 : "#2A174F"},

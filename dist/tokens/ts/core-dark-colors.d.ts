@@ -1,9 +1,8 @@
 /**
  * Do not edit directly
- * Generated on Mon, 23 Jan 2023 17:09:12 GMT
+ * Generated on Mon, 23 Jan 2023 19:02:29 GMT
  */
 
-export const theme: any;
 export const green : {100 : string,200 : string,300 : string,400 : string,500 : string,600 : string,700 : string,800 : string};
 export const blue : {100 : string,200 : string,300 : string,400 : string,500 : string,600 : string,700 : string,800 : string};
 export const red : {100 : string,200 : string,300 : string,400 : string,500 : string,600 : string,700 : string,800 : string};

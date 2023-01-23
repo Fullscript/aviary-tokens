@@ -116,18 +116,18 @@
         }
       },
       "overlay": {
-        "contrast": {
-          "value": "{colors.grey.800}",
+        "dark": {
+          "value": "{colors.grey.300}",
           "type": "color",
           "description": "Used for elements that are absolutely positioned to overlay content on the page. Has a high contrast versus the current theme. Ex: Things like Toasts and Tooltips"
         },
         "theme": {
-          "value": "{colors.shades.white}",
+          "value": "{colors.grey.300}",
           "type": "color",
           "description": "Used for elements that are absolutely positioned to overlay content on the page. Matches the base color of the theme. Ex: Snackbar"
         },
         "backdrop": {
-          "value": "{colors.grey.700}",
+          "value": "{colors.grey.200}",
           "type": "color",
           "description": "Used to overlay & de-emphasize the page to draw focus to certain areas. Ex: Used with Modals, Drawers"
         }
@@ -552,7 +552,7 @@
       },
       "text": {
         "base": {
-          "value": "{colors.grey.700}",
+          "value": "{colors.shades.white}",
           "type": "color",
           "description": "Used for the default filled text colour for HTML inputs"
         },

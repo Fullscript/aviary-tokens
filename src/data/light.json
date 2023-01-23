@@ -116,7 +116,7 @@
         }
       },
       "overlay": {
-        "contrast": {
+        "dark": {
           "value": "{colors.grey.800}",
           "type": "color",
           "description": "Used for elements that are absolutely positioned to overlay content on the page. Has a high contrast versus the current theme. Ex: Things like Toasts and Tooltips"

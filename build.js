@@ -90,6 +90,6 @@ const getStyleDictionaryConfig = (theme) => {
 
 // Add themes to the array to create theme-specific files under themes folder
 // "core" theme will build files outside of the themes folder
-["core-light", "core-dark", "light", "dark"].map((theme) => {
+["core-light", "core-dark", "light", "dark", "emerson"].map((theme) => {
   StyleDictionary.extend(getStyleDictionaryConfig(theme)).buildAllPlatforms();
 });

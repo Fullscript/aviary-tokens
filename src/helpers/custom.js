@@ -64,36 +64,45 @@ const customColorObjectFormatter = (dictionary, theme, isJS) => {
 
   let prefix = ``;
   // Only add a prefix for theme files, not core ones
-  if(!theme?.destination.includes("core")) {
-    const themeWithSlash = theme.destination.substring(0, theme.destination.indexOf("."));
-    const extractedThemeName = { value: themeWithSlash.split("/")[1]};
-    prefix = `${declaration}theme: ${valueOrType(extractedThemeName)}${commaOrColon}\n`;
+  if (!theme?.destination.includes("core")) {
+    const themeWithSlash = theme.destination.substring(
+      0,
+      theme.destination.indexOf(".")
+    );
+    const extractedThemeName = { value: themeWithSlash.split("/")[1] };
+    prefix = `${declaration}theme: ${valueOrType(
+      extractedThemeName
+    )}${commaOrColon}\n`;
   }
 
+  return (
+    prefix +
+    Object.entries(dictionary.properties.colors)
+      .map((tokens) => {
+        const colorObj = tokens[0];
+        const filteredTokens = dictionary.allTokens.filter(
+          (token) => token.attributes.type === colorObj
+        );
 
-  return prefix + Object.entries(dictionary.properties.colors)
-    .map((tokens) => {
-      const colorObj = tokens[0];
-      const filteredTokens = dictionary.allTokens.filter(
-        (token) => token.attributes.type === colorObj
-      );
-
-      return (
-        declaration +
-        `${colorObj} : {` +
-        filteredTokens.map((token) => {
-          return `${token.name}: ` + valueOrType(token);
-        }) +
-        `}${commaOrColon}`
-      );
-    })
-    .join(`\n`);
+        return (
+          declaration +
+          `${colorObj} : {` +
+          filteredTokens.map((token) => {
+            return `${token.name}: ` + valueOrType(token);
+          }) +
+          `}${commaOrColon}`
+        );
+      })
+      .join(`\n`)
+  );
 };
 
 StyleDictionary.registerFormat({
   name: "custom/format/typescript-color-declarations",
   formatter: ({ dictionary, file }) => {
-    return fileHeader({ file }) + customColorObjectFormatter(dictionary, file, false);
+    return (
+      fileHeader({ file }) + customColorObjectFormatter(dictionary, file, false)
+    );
   },
 });
 
@@ -109,38 +118,42 @@ StyleDictionary.registerFormat({
   },
 });
 
-// StyleDictionary.registerFormat({
-//   name: "custom/format/documentation-colors",
-//   formatter: ({ dictionary, file }) => {
-//     return (
-//       fileHeader({ file }) +
-//       `module.exports = ` +
-//       Object.entries(dictionary.properties.colors).map((tokens) => {
-//         const colorObj = tokens[0];
-//         const filteredTokens = dictionary.allTokens.filter(
-//           (token) => token.attributes.type === colorObj
-//         );
-//         console.log(filteredTokens);
-//         return `{${colorObj} :{ ${filteredTokens.map((token) => {
-//           return `${token.name}:{
-//             fullName: "${colorObj}.${token.name}",
-//             hex: "${token.value}",
-//             description: "${token.description}"
-//           }`;
-//         })}}}`;
-//       }) +
-//       `;`
-//     );
-//   },
-// });
+const colorDocumentationFormatter = (dictionary) => {
+  const renderDescription = (desc) => {
+    return desc ? `description: "${desc}"` : "";
+  };
+
+  return Object.entries(dictionary.properties.colors)
+    .map((tokens) => {
+      const colorObj = tokens[0];
+      const filteredTokens = dictionary.allTokens.filter(
+        (token) => token.attributes.type === colorObj
+      );
+
+      return (
+        `${colorObj} : {` +
+        filteredTokens.map((token) => {
+          return `${token.name}:{
+            name: "${colorObj}.${token.name}",
+            hex: "${token.value}",
+            ${renderDescription(token.description)}
+          
+          }`;
+        }) +
+        `},`
+      );
+    })
+    .join(`\n`);
+};
 
 StyleDictionary.registerFormat({
   name: "custom/format/documentation-colors",
   formatter: ({ dictionary, file }) => {
     return (
       fileHeader({ file }) +
-      dictionary.allProperties[0] +
-      console.log(dictionary.allProperties)
+      `module.exports = {` +
+      colorDocumentationFormatter(dictionary) +
+      `};`
     );
   },
 });
@@ -173,5 +186,9 @@ StyleDictionary.registerTransformGroup({
 
 StyleDictionary.registerTransformGroup({
   name: "custom/documentation",
-  transforms: ["attribute/cti"],
+  transforms: [
+    "attribute/cti",
+    "custom/name/remove-desktop-prefix",
+    "custom/name/remove-color-prefix",
+  ],
 });

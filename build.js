@@ -16,7 +16,9 @@ const getStyleDictionaryConfig = (theme) => {
             filter: "custom/filter/typography",
           },
           {
-            destination: isCore ? `${theme}-colors.scss` : `themes/${theme}.scss`,
+            destination: isCore
+              ? `${theme}-colors.scss`
+              : `themes/${theme}.scss`,
             format: "scss/variables",
             filter: {
               type: "color",
@@ -47,7 +49,9 @@ const getStyleDictionaryConfig = (theme) => {
           },
           {
             format: "custom/format/typescript-color-declarations",
-            destination: isCore ? `${theme}-colors.d.ts` : `themes/${theme}.d.ts`,
+            destination: isCore
+              ? `${theme}-colors.d.ts`
+              : `themes/${theme}.d.ts`,
             filter: {
               type: "color",
             },
@@ -77,7 +81,9 @@ const getStyleDictionaryConfig = (theme) => {
           },
           {
             format: "custom/format/typescript-color-declarations",
-            destination: isCore ? `${theme}-colors.d.ts` : `themes/${theme}.d.ts`,
+            destination: isCore
+              ? `${theme}-colors.d.ts`
+              : `themes/${theme}.d.ts`,
             filter: {
               type: "color",
             },
@@ -91,7 +97,7 @@ const getStyleDictionaryConfig = (theme) => {
         files: [
           {
             format: "custom/format/documentation-colors",
-            destination: "color-tokens.js",
+            destination: isCore ? `${theme}-colors.js` : `themes/${theme}.js`,
             filter: {
               type: "color",
             },

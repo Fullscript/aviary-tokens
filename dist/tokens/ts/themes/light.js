@@ -1,11 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Mon, 05 Dec 2022 18:56:57 GMT
+ * Generated on Mon, 23 Jan 2023 20:15:27 GMT
  */
 
-module.exports = {text : {emphasis : "#36485C",body : "#475A70",subdued : "#596D84",onBackground : "#FFFFFF"},
+module.exports = {theme: "light",
+text : {emphasis : "#36485C",body : "#475A70",subdued : "#596D84",onBackground : "#FFFFFF"},
 system : {textLabelEmphasis : "#2E3A47",textBase : "#475A70",textHover : "#36485C",textActive : "#2E3A47",backgroundBase : "#FFFFFF",backgroundMuted : "#F5F7FA",backgroundMutedHover : "#E6EDF5",backgroundMutedActive : "#C8D3E0",backgroundBox : "#FCFEFF",borderBase : "#C8D3E0",borderHover : "#596D84",borderActive : "#475A70",borderFocused : "#3971A8"},
-surface : {level0 : "#F5F7FA",level1 : "#FFFFFF",level2 : "#F5F7FA",interactiveBackground : "#FFFFFF",interactiveHover : "#F5F7FA",interactiveActive : "#E6EDF5",overlayContrast : "#2E3A47",overlayTheme : "#FFFFFF",overlayBackdrop : "#36485C"},
+surface : {level0 : "#F5F7FA",level1 : "#FFFFFF",level2 : "#F5F7FA",interactiveBackground : "#FFFFFF",interactiveHover : "#F5F7FA",interactiveActive : "#E6EDF5",overlayDark : "#2E3A47",overlayTheme : "#FFFFFF",overlayBackdrop : "#36485C"},
 primary : {textBase : "#307553",textHover : "#275E43",textActive : "#244C38",backgroundBase : "#307553",backgroundHover : "#275E43",backgroundActive : "#244C38",backgroundMuted : "#EBF2EF",backgroundMutedHover : "#D1E0D9",backgroundMutedActive : "#B6CFC2",backgroundBox : "#FAFFFC",borderBase : "#307553",borderHover : "#275E43",borderActive : "#244C38"},
 info : {textBase : "#3971A8",textHover : "#21588F",textActive : "#194673",backgroundBase : "#3971A8",backgroundHover : "#21588F",backgroundActive : "#194673",backgroundMuted : "#E6F1FC",backgroundMutedHover : "#C0D8F0",backgroundMutedActive : "#88B1D9",backgroundBox : "#F5FAFF",borderBase : "#3971A8",borderHover : "#21588F",borderActive : "#194673"},
 warning : {textBase : "#B4631D",textHover : "#8E4D14",textActive : "#784213",backgroundBase : "#B4631D",backgroundHover : "#8E4D14",backgroundActive : "#784213",backgroundMuted : "#FFF3E8",backgroundMutedHover : "#F3D8C0",backgroundMutedActive : "#E7B88F",backgroundBox : "#FFFAF5",borderBase : "#B4631D",borderHover : "#8E4D14",borderActive : "#784213"},

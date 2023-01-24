@@ -56,13 +56,22 @@ StyleDictionary.registerTransform({
 });
 
 // FORMATTERS
-const customColorObjectFormatter = (dictionary, isJS) => {
+const customColorObjectFormatter = (dictionary, theme, isJS) => {
   const valueOrType = (token) =>
     isJS ? `"${token.value}"` : `${getTypeScriptType(token.value)}`;
   const declaration = isJS ? "" : `export const `;
   const commaOrColon = isJS ? `,` : `;`;
 
-  return Object.entries(dictionary.properties.colors)
+  let prefix = ``;
+  // Only add a prefix for theme files, not core ones
+  if(!theme?.destination.includes("core")) {
+    const themeWithSlash = theme.destination.substring(0, theme.destination.indexOf("."));
+    const extractedThemeName = { value: themeWithSlash.split("/")[1]};
+    prefix = `${declaration}theme: ${valueOrType(extractedThemeName)}${commaOrColon}\n`;
+  }
+
+
+  return prefix + Object.entries(dictionary.properties.colors)
     .map((tokens) => {
       const colorObj = tokens[0];
       const filteredTokens = dictionary.allTokens.filter(
@@ -84,7 +93,7 @@ const customColorObjectFormatter = (dictionary, isJS) => {
 StyleDictionary.registerFormat({
   name: "custom/format/typescript-color-declarations",
   formatter: ({ dictionary, file }) => {
-    return fileHeader({ file }) + customColorObjectFormatter(dictionary, false);
+    return fileHeader({ file }) + customColorObjectFormatter(dictionary, file, false);
   },
 });
 
@@ -94,7 +103,7 @@ StyleDictionary.registerFormat({
     return (
       fileHeader({ file }) +
       `module.exports = {` +
-      customColorObjectFormatter(dictionary, true) +
+      customColorObjectFormatter(dictionary, file, true) +
       `};`
     );
   },

@@ -4,8 +4,9 @@
 // You willl need to update any import/require paths to be relative to the root directory
 // Do it! Upon pain of broken pipelines
 import * as light from "../../dist/tokens/ts/themes/light";
+import * as dark from "../../dist/tokens/ts/themes/dark";
 
 type AviaryTheme = typeof light;
 
-export { light };
+export { dark, light };
 export type { AviaryTheme };

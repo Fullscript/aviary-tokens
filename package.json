@@ -11,9 +11,11 @@
     "build:typescript": "yarn build:types && yarn build:babel",
     "build:types": "tsc --emitDeclarationOnly --declarationMap --declaration -p ./tsconfig.json",
     "build:babel": "yarn babel src --out-dir dist --ignore 'src/**/*.spec.ts' --extensions .ts",
-    "transform": "yarn transform-core && yarn transform-light",
-    "transform-core": "yarn token-transformer src/data src/transformed/transformed-core.json core --expandTypography",
-    "transform-light": "yarn token-transformer src/data src/transformed/transformed-light.json core,light core",
+    "transform": "yarn transform-core-light && yarn transform-core-dark && yarn transform-light && yarn transform-dark",
+    "transform-core-light": "yarn token-transformer src/data src/transformed/transformed-core-light.json core-light --expandTypography",
+    "transform-core-dark": "yarn token-transformer src/data src/transformed/transformed-core-dark.json core-dark --expandTypography",
+    "transform-light": "yarn token-transformer src/data src/transformed/transformed-light.json core-light,light core-light",
+    "transform-dark": "yarn token-transformer src/data src/transformed/transformed-dark.json core-dark,dark core-dark",
     "clean": "rm -rf dist/"
   },
   "devDependencies": {

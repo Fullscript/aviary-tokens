@@ -23,7 +23,7 @@ require("core-js/modules/es.symbol.iterator.js");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.light = exports.dark = void 0;
+exports.light = exports.emerson = exports.dark = void 0;
 
 var light = _interopRequireWildcard(require("./dist/tokens/ts/themes/light"));
 
@@ -32,6 +32,10 @@ exports.light = light;
 var dark = _interopRequireWildcard(require("./dist/tokens/ts/themes/dark"));
 
 exports.dark = dark;
+
+var emerson = _interopRequireWildcard(require("./dist/tokens/ts/themes/emerson"));
+
+exports.emerson = emerson;
 
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 

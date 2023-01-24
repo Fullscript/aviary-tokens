@@ -2,22 +2,22 @@
   "colors": {
     "text": {
       "emphasis": {
-        "value": "{colors.grey.800}",
+        "value": "#1A1D21",
         "type": "color",
         "description": "Used for any text content and icons used with text that needs emphasizing"
       },
       "body": {
-        "value": "{colors.grey.700}",
+        "value": "#22272B",
         "type": "color",
         "description": "Used for default text content and icons used with text"
       },
       "subdued": {
-        "value": "{colors.grey.600}",
+        "value": "#2D3238",
         "type": "color",
         "description": "Used for any text content and icons used with text that requires less prominence"
       },
       "onBackground": {
-        "value": "{colors.shades.white}",
+        "value": "#FFFFFF",
         "type": "color",
         "description": "For use on darker or colour profile backgrounds that require highly contrasted text"
       }
@@ -25,109 +25,109 @@
     "system": {
       "text": {
         "labelEmphasis": {
-          "value": "{colors.shades.white}",
+          "value": "#101012",
           "type": "color"
         },
         "base": {
-          "value": "{colors.grey.700}",
+          "value": "#22272B",
           "type": "color"
         },
         "hover": {
-          "value": "{colors.grey.800}",
+          "value": "#1A1D21",
           "type": "color"
         },
         "active": {
-          "value": "{colors.shades.white}",
+          "value": "#101012",
           "type": "color"
         }
       },
       "background": {
         "base": {
-          "value": "{colors.grey.200}",
+          "value": "#FFFFFF",
           "type": "color"
         },
         "muted": {
-          "value": "{colors.grey.300}",
+          "value": "#98999B",
           "type": "color"
         },
         "mutedHover": {
-          "value": "{colors.grey.400}",
+          "value": "#616568",
           "type": "color"
         },
         "mutedActive": {
-          "value": "{colors.grey.500}",
+          "value": "#515357",
           "type": "color"
         },
         "box": {
-          "value": "{colors.grey.200}",
+          "value": "#E8E9EA",
           "type": "color"
         }
       },
       "border": {
         "base": {
-          "value": "{colors.grey.500}",
+          "value": "#515357",
           "type": "color"
         },
         "hover": {
-          "value": "{colors.grey.600}",
+          "value": "#2D3238",
           "type": "color"
         },
         "active": {
-          "value": "{colors.grey.700}",
+          "value": "#22272B",
           "type": "color"
         },
         "focused": {
-          "value": "{colors.blue.600}",
+          "value": "#0281d7",
           "type": "color"
         }
       }
     },
     "surface": {
       "level0": {
-        "value": "{colors.grey.100}",
+        "value": "#98999B",
         "type": "color",
         "description": "Used for setting the lowest most level, mainly applied as a background color to the HTML body. Should always be underneath levels 1 and 2"
       },
       "level1": {
-        "value": "{colors.grey.200}",
+        "value": "#FFFFFF",
         "type": "color",
         "description": "Used commonly with Boxes and containers that are directly on surface level 0. Also can be used as an alternative HTML body background color."
       },
       "level2": {
-        "value": "{colors.grey.300}",
+        "value": "#98999B",
         "type": "color",
         "description": "Used for elements that are contained within Boxes or other wrappers that are surface level 1."
       },
       "interactive": {
         "background": {
-          "value": "{colors.grey.200}",
+          "value": "#FFFFFF",
           "type": "color",
           "description": "Used for elements where the entire surface is interactable. For example Accordions, ActionBlock, and DropdownItems"
         },
         "hover": {
-          "value": "{colors.grey.300}",
+          "value": "#98999B",
           "type": "color",
           "description": "Hover state for elements where the entire surface is interactable. For example Accordions, ActionBlock, and DropdownItems"
         },
         "active": {
-          "value": "{colors.grey.400}",
+          "value": "#616568",
           "type": "color",
           "description": "Active/Pressed state for elements where the entire surface is interactable. For example Accordions, ActionBlock, and DropdownItems"
         }
       },
       "overlay": {
         "dark": {
-          "value": "{colors.grey.300}",
+          "value": "#101012",
           "type": "color",
           "description": "Used for elements that are absolutely positioned to overlay content on the page. Has a high contrast versus the current theme. Ex: Things like Toasts and Tooltips"
         },
         "theme": {
-          "value": "{colors.grey.300}",
+          "value": "#FFFFFF",
           "type": "color",
           "description": "Used for elements that are absolutely positioned to overlay content on the page. Matches the base color of the theme. Ex: Snackbar"
         },
         "backdrop": {
-          "value": "{colors.grey.200}",
+          "value": "#1A1D21",
           "type": "color",
           "description": "Used to overlay & de-emphasize the page to draw focus to certain areas. Ex: Used with Modals, Drawers"
         }
@@ -136,71 +136,71 @@
     "primary": {
       "text": {
         "base": {
-          "value": "{colors.green.600}",
+          "value": "#307553",
           "type": "color",
           "description": "Used as the text or fill colour for interactive and static primary components such as links, text, and icons"
         },
         "hover": {
-          "value": "{colors.green.700}",
+          "value": "#275E43",
           "type": "color",
           "description": "Used as the hovered text or fill colour for interactive primary components such as links and text buttons"
         },
         "active": {
-          "value": "{colors.green.800}",
+          "value": "#244C38",
           "type": "color",
           "description": "Used as the pressed text or fill colour for interactive primary components such as links and text buttons"
         }
       },
       "background": {
         "base": {
-          "value": "{colors.green.500}",
+          "value": "#307553",
           "type": "color",
           "description": "Used as the background for primary components such as plain buttons. Paired with text.onBackground for contrast"
         },
         "hover": {
-          "value": "{colors.green.400}",
+          "value": "#275E43",
           "type": "color",
           "description": "Used as the hovered background for primary components such as plain buttons"
         },
         "active": {
-          "value": "{colors.green.300}",
+          "value": "#244C38",
           "type": "color",
           "description": "Used as the hovered background for primary components such as plain buttons"
         },
         "muted": {
-          "value": "{colors.green.200}",
+          "value": "#EBF2EF",
           "type": "color",
           "description": "Used as the muted background for primary components such as pills and text buttons. Paired with primary.textBase for a subtler contrast"
         },
         "mutedHover": {
-          "value": "{colors.green.300}",
+          "value": "#D1E0D9",
           "type": "color",
           "description": "Used as the hovered muted background for primary components such as pills and text buttons. Paired with primary.textBase for a subtler contrast"
         },
         "mutedActive": {
-          "value": "{colors.green.400}",
+          "value": "#B6CFC2",
           "type": "color",
           "description": "Used as the pressed muted background for primary components such as pills and text buttons. Paired with primary.textBase for a subtler contrast"
         },
         "box": {
-          "value": "{colors.green.100}",
+          "value": "#FAFFFC",
           "type": "color",
           "description": "Used as a very light background for primary components such as Message and Box. Used for containers with content blocks"
         }
       },
       "border": {
         "base": {
-          "value": "{colors.green.500}",
+          "value": "#307553",
           "type": "color",
           "description": "Used for the border colour for primary components such as buttons and Message"
         },
         "hover": {
-          "value": "{colors.green.400}",
+          "value": "#275E43",
           "type": "color",
           "description": "Used for the hovered border colour for primary components such as buttons"
         },
         "active": {
-          "value": "{colors.green.300}",
+          "value": "#244C38",
           "type": "color",
           "description": "Used for the pressed border colour for primary components such as buttons"
         }
@@ -209,71 +209,71 @@
     "info": {
       "text": {
         "base": {
-          "value": "{colors.blue.600}",
+          "value": "#0281d7",
           "type": "color",
           "description": "Used as the text or fill colour for interactive and static informational components such as links, text, and icons"
         },
         "hover": {
-          "value": "{colors.blue.700}",
+          "value": "#21588F",
           "type": "color",
           "description": "Used as the hovered colour for interactive informational components such as links and text buttons"
         },
         "active": {
-          "value": "{colors.blue.800}",
+          "value": "#194673",
           "type": "color",
           "description": "Used as the pressed colour for interactive informational components such as links and text buttons"
         }
       },
       "background": {
         "base": {
-          "value": "{colors.blue.500}",
+          "value": "#0281d7",
           "type": "color",
           "description": "Used as the background for informational components such as plain buttons. Paired with text.onBackground for contrast"
         },
         "hover": {
-          "value": "{colors.blue.400}",
+          "value": "#21588F",
           "type": "color",
           "description": "Used as the hovered background for informational components such as plain buttons"
         },
         "active": {
-          "value": "{colors.blue.300}",
+          "value": "#194673",
           "type": "color",
           "description": "Used as the pressed background for informational components such as plain buttons"
         },
         "muted": {
-          "value": "{colors.blue.200}",
+          "value": "#E6F1FC",
           "type": "color",
           "description": "Used as the muted background for informational components such as pills and text buttons. Paired with info.textBase for a subtler contrast"
         },
         "mutedHover": {
-          "value": "{colors.blue.300}",
+          "value": "#C0D8F0",
           "type": "color",
           "description": "Used as the hovered muted background for informational components such as pills and text buttons. Paired with info.textBase for a subtler contrast"
         },
         "mutedActive": {
-          "value": "{colors.blue.400}",
+          "value": "#88B1D9",
           "type": "color",
           "description": "Used as the pressed muted background for informational components such as pills and text buttons. Paired with info.textBase for a subtler contrast"
         },
         "box": {
-          "value": "{colors.blue.100}",
+          "value": "#F5FAFF",
           "type": "color",
           "description": "Used as a very light background for informational components such as Message and Box. Used for containers with content blocks"
         }
       },
       "border": {
         "base": {
-          "value": "{colors.blue.500}",
+          "value": "#0281d7",
           "type": "color",
           "description": "Used for the border colour for informational components such as buttons and Message"
         },
         "hover": {
-          "value": "{colors.blue.400}",
+          "value": "#21588F",
           "type": "color",
           "description": "Used for the hovered border colour for informational components such as buttons"
         },
         "active": {
-          "value": "{colors.blue.300}",
+          "value": "#194673",
           "type": "color",
           "description": "Used for the pressed border colour for informational components such as buttons"
         }
@@ -282,71 +282,71 @@
     "warning": {
       "text": {
         "base": {
-          "value": "{colors.orange.600}",
+          "value": "#B4631D",
           "type": "color",
           "description": "Used as the text or fill colour for interactive and static warning components such as links, text, and icons"
         },
         "hover": {
-          "value": "{colors.orange.700}",
+          "value": "#8E4D14",
           "type": "color",
           "description": "Used as the hovered text or fill colour for interactive and static warning components such as links and text buttons"
         },
         "active": {
-          "value": "{colors.orange.800}",
+          "value": "#784213",
           "type": "color",
           "description": "Used as the pressed text or fill colour for interactive and static warning components such as links and text buttons"
         }
       },
       "background": {
         "base": {
-          "value": "{colors.orange.500}",
+          "value": "#B4631D",
           "type": "color",
           "description": "Used as the background for warning components such as plain buttons. Paired with text.onBackground for contrast"
         },
         "hover": {
-          "value": "{colors.orange.400}",
+          "value": "#8E4D14",
           "type": "color",
           "description": "Used as the hovered background for warning components such as plain buttons"
         },
         "active": {
-          "value": "{colors.orange.300}",
+          "value": "#784213",
           "type": "color",
           "description": "Used as the pressed background for warning components such as plain buttons"
         },
         "muted": {
-          "value": "{colors.orange.200}",
+          "value": "#FFF3E8",
           "type": "color",
           "description": "Used as the muted background for warning components such as pills and text buttons. Paired with warning.textBase for a subtler contrast"
         },
         "mutedHover": {
-          "value": "{colors.orange.300}",
+          "value": "#F3D8C0",
           "type": "color",
           "description": "Used as the hovered muted background for warning components such as pills and text buttons. Paired with warning.textBase for a subtler contrast"
         },
         "mutedActive": {
-          "value": "{colors.orange.400}",
+          "value": "#E7B88F",
           "type": "color",
           "description": "Used as the pressed muted background for warning components such as pills and text buttons. Paired with warning.textBase for a subtler contrast"
         },
         "box": {
-          "value": "{colors.orange.100}",
+          "value": "#FFFAF5",
           "type": "color",
           "description": "Used as a very light background for warning components such as Message and Box. Used for containers with content blocks"
         }
       },
       "border": {
         "base": {
-          "value": "{colors.orange.500}",
+          "value": "#B4631D",
           "type": "color",
           "description": "Used for the border colour for warning components such as buttons and Message"
         },
         "hover": {
-          "value": "{colors.orange.400}",
+          "value": "#8E4D14",
           "type": "color",
           "description": "Used for the hovered border colour for warning components"
         },
         "active": {
-          "value": "{colors.orange.300}",
+          "value": "#784213",
           "type": "color",
           "description": "Used for the pressed border colour for warning components such as buttons"
         }
@@ -355,71 +355,71 @@
     "danger": {
       "text": {
         "base": {
-          "value": "{colors.red.600}",
+          "value": "#AF2645",
           "type": "color",
           "description": "Used as the text or fill colour for interactive and static danger components such as links, text, and icons"
         },
         "hover": {
-          "value": "{colors.red.700}",
+          "value": "#980B29",
           "type": "color",
           "description": "Used as the hovered colour for interactive danger components such as links and text buttons"
         },
         "active": {
-          "value": "{colors.red.800}",
+          "value": "#800D25",
           "type": "color",
           "description": "Used as the pressed colour for interactive danger components such as links and text buttons"
         }
       },
       "background": {
         "base": {
-          "value": "{colors.red.500}",
+          "value": "#AF2645",
           "type": "color",
           "description": "Used as the background for danger components such as plain buttons. Paired with text.onBackground for contrast"
         },
         "hover": {
-          "value": "{colors.red.400}",
+          "value": "#980B29",
           "type": "color",
           "description": "Used as the hovered background for danger components such as plain buttons"
         },
         "active": {
-          "value": "{colors.red.300}",
+          "value": "#800D25",
           "type": "color",
           "description": "Used as the pressed background for danger components such as plain buttons"
         },
         "muted": {
-          "value": "{colors.red.200}",
+          "value": "#FEEEF2",
           "type": "color",
           "description": "Used as the muted background for danger components such as pills and text buttons. Paired with danger.textBase for a subtler contrast"
         },
         "mutedHover": {
-          "value": "{colors.red.300}",
+          "value": "#F0C4CD",
           "type": "color",
           "description": "Used as the hovered muted background for danger components such as pills and text buttons. Paired with danger.textBase for a subtler contrast"
         },
         "mutedActive": {
-          "value": "{colors.red.400}",
+          "value": "#E296A6",
           "type": "color",
           "description": "Used as the pressed muted background for danger components such as pills and text buttons. Paired with danger.textBase for a subtler contrast"
         },
         "box": {
-          "value": "{colors.red.100}",
+          "value": "#FFF7F9",
           "type": "color",
           "description": "Used as a very light background for warning components such as Message and Box. Used for containers with content blocks"
         }
       },
       "border": {
         "base": {
-          "value": "{colors.red.500}",
+          "value": "#AF2645",
           "type": "color",
           "description": "Used for the border colour for danger components such as buttons and Message"
         },
         "hover": {
-          "value": "{colors.red.400}",
+          "value": "#980B29",
           "type": "color",
           "description": "Used for the hovered border colour for danger components such as buttons"
         },
         "active": {
-          "value": "{colors.red.300}",
+          "value": "#800D25",
           "type": "color",
           "description": "Used for the pressed border colour for danger components such as buttons"
         }
@@ -428,71 +428,71 @@
     "highlight": {
       "text": {
         "base": {
-          "value": "{colors.purple.600}",
+          "value": "#533E7D",
           "type": "color",
           "description": "Used as the text or fill colour for interactive and static highlight components such as links, text, and icons"
         },
         "hover": {
-          "value": "{colors.purple.700}",
+          "value": "#3B2566",
           "type": "color",
           "description": "Used as the hovered text or fill colour for interactive and static highlight components such as links and text buttons"
         },
         "active": {
-          "value": "{colors.purple.800}",
+          "value": "#2A174F",
           "type": "color",
           "description": "Used as the pressed text or fill colour for interactive and static highlight components such as links and text buttons"
         }
       },
       "background": {
         "base": {
-          "value": "{colors.purple.500}",
+          "value": "#533E7D",
           "type": "color",
           "description": "Used as the background for highlight components such as plain buttons. Paired with text.onBackground for contrast"
         },
         "hover": {
-          "value": "{colors.purple.400}",
+          "value": "#3B2566",
           "type": "color",
           "description": "Used as the hovered background for highlight components such as plain buttons"
         },
         "active": {
-          "value": "{colors.purple.300}",
+          "value": "#2A174F",
           "type": "color",
           "description": "Used as the pressed background for highlight components such as plain buttons"
         },
         "muted": {
-          "value": "{colors.purple.200}",
+          "value": "#F2ECFE",
           "type": "color",
           "description": "Used as the muted background for highlight components such as pills and text buttons. Paired with highlight.textBase for a subtler contrast"
         },
         "mutedHover": {
-          "value": "{colors.purple.300}",
+          "value": "#D7CEE9",
           "type": "color",
           "description": "Used as the hovered muted background for highlight components such as pills and text buttons. Paired with highlight.textBase for a subtler contrast"
         },
         "mutedActive": {
-          "value": "{colors.purple.400}",
+          "value": "#B9ABD5",
           "type": "color",
           "description": "Used as the pressed muted background for highlight components such as pills and text buttons. Paired with highlight.textBase for a subtler contrast"
         },
         "box": {
-          "value": "{colors.purple.100}",
+          "value": "#FCFAFF",
           "type": "color",
           "description": "Used as a very light background for highlight components such as Message and Box. Used for containers with content blocks"
         }
       },
       "border": {
         "base": {
-          "value": "{colors.purple.500}",
+          "value": "#533E7D",
           "type": "color",
           "description": "Used for the border colour for highlight components such as buttons and Message"
         },
         "hover": {
-          "value": "{colors.purple.400}",
+          "value": "#3B2566",
           "type": "color",
           "description": "Used for the hovered border colour for highlight components"
         },
         "active": {
-          "value": "{colors.purple.300}",
+          "value": "#2A174F",
           "type": "color",
           "description": "Used for the pressed border colour for highlight components such as buttons and Message"
         }
@@ -500,33 +500,33 @@
     },
     "disabled": {
       "text": {
-        "value": "{colors.grey.600}",
+        "value": "#2D3238",
         "type": "color",
         "description": "For use in disabled content like text and icons"
       },
       "background": {
-        "value": "{colors.grey.200}",
+        "value": "#98999B",
         "type": "color",
         "description": "Used as the background colour for disabled components"
       },
       "nakedBackground": {
-        "value": "{colors.shades.transparent}",
+        "value": "transparent",
         "type": "color",
         "description": "Used for the background in disabled components with little to no styling"
       },
       "border": {
-        "value": "{colors.grey.500}",
+        "value": "#515357",
         "type": "color",
         "description": "Used as the border for disabled components"
       },
       "input": {
         "background": {
-          "value": "#1B2228",
+          "value": "#616568",
           "type": "color",
           "description": "For use in disabled inputs as the background colour"
         },
         "LabelText": {
-          "value": "{colors.grey.600}",
+          "value": "#2D3238",
           "type": "color",
           "description": "Used as the label colour for disabled inputs"
         }
@@ -535,91 +535,91 @@
     "input": {
       "background": {
         "base": {
-          "value": "#1B2228",
+          "value": "#98999B",
           "type": "color",
           "description": "Used as the default background colour for HTML inputs"
         },
         "hover": {
-          "value": "{colors.grey.400}",
+          "value": "#616568",
           "type": "color",
           "description": "Used as the hovered background colour for HTML inputs"
         },
         "information": {
-          "value": "{colors.shades.white}",
+          "value": "#FFFFFF",
           "type": "color",
           "description": "Used as the default background colour for the text description below the input"
         }
       },
       "text": {
         "base": {
-          "value": "{colors.shades.white}",
+          "value": "#22272B",
           "type": "color",
           "description": "Used for the default filled text colour for HTML inputs"
         },
         "information": {
-          "value": "{colors.grey.700}",
+          "value": "#22272B",
           "type": "color",
           "description": "Used as the text content colour for the text description below the input"
         },
         "informationError": {
-          "value": "{colors.red.500}",
+          "value": "#AF2645",
           "type": "color",
           "description": "Used as the text content colour for the text description below the input when there are errors"
         },
         "label": {
-          "value": "{colors.grey.700}",
+          "value": "#22272B",
           "type": "color",
           "description": "Used as the default static label colour in HTML inputs which appears as a placeholder in the static state"
         },
         "floatingLabel": {
-          "value": "{colors.blue.500}",
+          "value": "#0281d7",
           "type": "color",
           "description": "Used as the floated label colour when the HTML input has focus"
         },
         "floatingLabelError": {
-          "value": "{colors.red.500}",
+          "value": "#AF2645",
           "type": "color",
           "description": "Used as the static and floated label colour when the input is in an error state"
         },
         "placeholder": {
-          "value": "{colors.grey.600}",
+          "value": "#2D3238",
           "type": "color",
           "description": "Used as the default placeholder text colour for basic and search inputs"
         },
         "active": {
-          "value": "{colors.shades.white}",
+          "value": "#101012",
           "type": "color",
           "description": "Used as the label colour for labels that don't float when focused, like the select component"
         }
       },
       "border": {
         "base": {
-          "value": "{colors.grey.400}",
+          "value": "#616568",
           "type": "color",
           "description": "Used as the default border colour"
         },
         "error": {
-          "value": "{colors.red.400}",
+          "value": "#AF2645",
           "type": "color",
           "description": "Used for the border colour when the input is in an error state"
         },
         "hover": {
-          "value": "{colors.grey.500}",
+          "value": "#515357",
           "type": "color",
           "description": "Used as the hovered border colour"
         },
         "emphasized": {
-          "value": "{colors.grey.600}",
+          "value": "#2D3238",
           "type": "color",
           "description": "Used as the default bottom border colour for floating label inputs or as the default border for inputs like checkbox"
         },
         "emphasizedHover": {
-          "value": "{colors.grey.700}",
+          "value": "#22272B",
           "type": "color",
           "description": "Used as the hovered bottom border colour for floating label inputs or as the hovered border for inputs like checkbox"
         },
         "active": {
-          "value": "{colors.blue.400}",
+          "value": "#0281d7",
           "type": "color",
           "description": "Used as the pressed bottom border colour for floating label inputs or as the engaged border for inputs like checkbox"
         }
@@ -627,7 +627,7 @@
     },
     "separator": {
       "base": {
-        "value": "{colors.grey.400}",
+        "value": "#616568",
         "type": "color",
         "description": "Used for the colour of the separator element"
       }
@@ -635,41 +635,41 @@
     "light": {
       "background": {
         "base": {
-          "value": "{colors.shades.white}",
+          "value": "#FFFFFF",
           "type": "color",
           "description": "For use as background colour in light profile components on contrasting surface backgrounds"
         },
         "contrast": {
-          "value": "{colors.grey.600}",
+          "value": "#22272B",
           "type": "color",
           "description": "For use as a contrasting background colour in light profile components, to match shade of surface background"
         },
         "hover": {
-          "value": "{colors.grey.200}",
+          "value": "#98999B",
           "type": "color",
           "description": "For use as background hover colour in light profile components on contrasting surface backgrounds"
         },
         "active": {
-          "value": "{colors.grey.300}",
+          "value": "#616568",
           "type": "color",
           "description": "For use as background active colour in light profile components on contrasting surface backgrounds"
         }
       },
       "text": {
         "base": {
-          "value": "{colors.grey.800}",
+          "value": "#101012",
           "type": "color",
           "description": "Used as the content colour (text, icons) for light profile components, to match shade of constrasting surface background"
         }
       },
       "link": {
         "mutedBase": {
-          "value": "{colors.grey.200}",
+          "value": "#98999B",
           "type": "color",
           "description": "Used as link colour for light profile components on contrasting surface backgrounds"
         },
         "mutedHover": {
-          "value": "{colors.shades.white}",
+          "value": "#FFFFFF",
           "type": "color",
           "description": "Used for link hover colour for light profile components on contrasting surface backgrounds"
         }

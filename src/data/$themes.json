@@ -16,5 +16,14 @@
       "dark": "enabled"
     },
     "$figmaStyleReferences": {}
+  },
+  {
+    "id": "9dc4ea487325204d708a9da7eb4ce44f0a0e1d35",
+    "name": "emerson",
+    "selectedTokenSets": {
+      "emerson": "enabled",
+      "core-emerson": "source"
+    },
+    "$figmaStyleReferences": {}
   }
 ]

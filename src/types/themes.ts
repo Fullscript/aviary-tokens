@@ -5,8 +5,9 @@
 // Do it! Upon pain of broken pipelines
 import * as light from "../../dist/tokens/ts/themes/light";
 import * as dark from "../../dist/tokens/ts/themes/dark";
+import * as emerson from "../../dist/tokens/ts/themes/emerson";
 
 type AviaryTheme = typeof light;
 
-export { dark, light };
+export { dark, light, emerson };
 export type { AviaryTheme };

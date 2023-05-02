@@ -26,72 +26,59 @@
       "text": {
         "labelEmphasis": {
           "value": "{colors.grey.800}",
-          "type": "color",
-          "description": "Used for any text content and icons used with text that needs emphasizing"
+          "type": "color"
         },
         "base": {
           "value": "{colors.grey.600}",
-          "type": "color",
-          "description": "Used as the text or fill colour for interactive and static system components such as links, text, and icons"
+          "type": "color"
         },
         "hover": {
           "value": "{colors.grey.700}",
-          "type": "color",
-          "description": "Used as the hovered text or fill colour for interactive system components such as links and text buttons"
+          "type": "color"
         },
         "active": {
           "value": "{colors.grey.800}",
-          "type": "color",
-          "description": "Used as the pressed text or fill colour for interactive system components such as links and text buttons"
+          "type": "color"
         }
       },
       "background": {
         "base": {
           "value": "{colors.shades.white}",
-          "type": "color",
-          "description": "Used as the background for system components"
+          "type": "color"
         },
         "muted": {
           "value": "{colors.grey.200}",
-          "type": "color",
-          "description": "Used as the muted background for system components"
+          "type": "color"
         },
         "mutedHover": {
           "value": "{colors.grey.300}",
-          "type": "color",
-          "description": "Used as the hovered muted background for system components"
+          "type": "color"
         },
         "mutedActive": {
           "value": "{colors.grey.400}",
-          "type": "color",
-          "description": "Used as the pressed muted background for system components"
+          "type": "color"
         },
         "box": {
           "value": "{colors.grey.100}",
-          "type": "color",
-          "description": "Used as a background colour for a system container like Box or Message"
+          "type": "color"
         }
       },
       "border": {
         "base": {
           "value": "{colors.grey.400}",
-          "type": "color",
-          "description": "Used for the border colour for system components"
+          "type": "color"
         },
         "hover": {
           "value": "{colors.grey.500}",
-          "type": "color",
-          "description": "Used for the hovered border colour for system components"
+          "type": "color"
         },
         "active": {
           "value": "{colors.grey.600}",
-          "type": "color",
-          "description": "Used for the pressed border colour for system components"
+          "type": "color"
         },
         "focused": {
           "value": "{colors.blue.600}",
-          "type": "color",
-          "description": "Used for the focused border colour for system components"
+          "type": "color"
         }
       }
     },
@@ -132,7 +119,7 @@
         "dark": {
           "value": "{colors.grey.800}",
           "type": "color",
-          "description": "Used for elements that are absolutely positioned to overlay content on the page. Is always a dark background regardless of theme. Ex: Things like Toasts and Tooltips"
+          "description": "Used for elements that are absolutely positioned to overlay content on the page. Has a high contrast versus the current theme. Ex: Things like Toasts and Tooltips"
         },
         "theme": {
           "value": "{colors.shades.white}",
@@ -686,6 +673,61 @@
           "type": "color",
           "description": "Used for link hover colour for light profile components on contrasting surface backgrounds"
         }
+      }
+    }
+  },
+  "shadows": {
+    "card": {
+      "base": {
+        "value": {
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0",
+          "color": "",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "Used for static card-like components like Box"
+      },
+      "hover": {
+        "value": {
+          "x": "0",
+          "y": "2",
+          "blur": "8",
+          "spread": "0",
+          "color": "",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "Used for hover states on card-like components like Box"
+      }
+    },
+    "popover": {
+      "base": {
+        "value": {
+          "x": "0",
+          "y": "4",
+          "blur": "16",
+          "spread": "0",
+          "color": "",
+          "type": "boxShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "modal": {
+      "base": {
+        "value": {
+          "x": "0",
+          "y": "8",
+          "blur": "32",
+          "spread": "0",
+          "color": "",
+          "type": "boxShadow"
+        },
+        "type": "boxShadow",
+        "description": "Used for modals"
       }
     }
   }

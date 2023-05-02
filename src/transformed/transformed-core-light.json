@@ -217,6 +217,40 @@
         "value": "transparent",
         "type": "color"
       }
+    },
+    "yellow": {
+      "100": {
+        "value": "#faf8f2",
+        "type": "color"
+      },
+      "200": {
+        "value": "#fcf3dd",
+        "type": "color"
+      },
+      "300": {
+        "value": "#fce7b1",
+        "type": "color"
+      },
+      "400": {
+        "value": "#fcd97e",
+        "type": "color"
+      },
+      "500": {
+        "value": "#fccb4c",
+        "type": "color"
+      },
+      "600": {
+        "value": "#ffc121",
+        "type": "color"
+      },
+      "700": {
+        "value": "#f7b200",
+        "type": "color"
+      },
+      "800": {
+        "value": "#e5a500",
+        "type": "color"
+      }
     }
   }
 }

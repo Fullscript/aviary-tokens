@@ -1,4 +1,31 @@
 {
+  "borderRadius": {
+    "base": {
+      "value": "4px",
+      "type": "borderRadius",
+      "description": "Default border radius option for most components"
+    },
+    "card": {
+      "value": "8px",
+      "type": "borderRadius",
+      "description": "Used for card-type components like NewBox, Accordion, etc."
+    },
+    "circle": {
+      "value": "50%",
+      "type": "borderRadius",
+      "description": "Used for circular components like Avatar"
+    },
+    "modal": {
+      "value": "8px",
+      "type": "borderRadius",
+      "description": "Used for Modals"
+    },
+    "pill": {
+      "value": "100px",
+      "type": "borderRadius",
+      "description": "Used for Pills"
+    }
+  },
   "typography": {
     "letterSpacing": {
       "base": {

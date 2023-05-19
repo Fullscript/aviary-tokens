@@ -7,25 +7,20 @@ const AVIARY_COLORS = {
   system: "system",
 };
 
-const EXTENDED_AVIARY_COLORS = {
-  ...AVIARY_COLORS,
-  light: "light",
+const AVIARY_INTENTIONS = {
+  success: "success",
+  danger: "danger",
+  warning: "warning",
+  system: "system",
+  autoship: "autoship",
 };
 
 type AviaryColors = keyof typeof AVIARY_COLORS;
-type ExtendedAviaryColors = keyof typeof EXTENDED_AVIARY_COLORS;
+type AviaryIntentions = keyof typeof AVIARY_INTENTIONS;
 
 interface AviaryColorProps {
   isColor?: AviaryColors;
 }
-interface AviaryExtendedColorProps {
-  isColor?: ExtendedAviaryColors;
-}
 
-export type {
-  AviaryColors,
-  AviaryColorProps,
-  AviaryExtendedColorProps,
-  ExtendedAviaryColors,
-};
-export { AVIARY_COLORS, EXTENDED_AVIARY_COLORS };
+export type { AviaryColors, AviaryColorProps, AviaryIntentions };
+export { AVIARY_COLORS };

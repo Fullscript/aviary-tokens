@@ -219,6 +219,79 @@
         }
       }
     },
+    "success": {
+      "text": {
+        "base": {
+          "value": "{colors.green.600}",
+          "type": "color",
+          "description": "Used as the text or fill colour for successful intention versions of components such as message, pill, or box"
+        },
+        "hover": {
+          "value": "{colors.green.700}",
+          "type": "color",
+          "description": "Used as the hovered text or fill colour for successful intention versions of components such as message, pill, or box"
+        },
+        "active": {
+          "value": "{colors.green.800}",
+          "type": "color",
+          "description": "Used as the pressed text or fill colour for successful intention versions of components such as message, pill, or box"
+        }
+      },
+      "background": {
+        "base": {
+          "value": "{colors.green.600}",
+          "type": "color",
+          "description": "Description to come."
+        },
+        "hover": {
+          "value": "{colors.green.700}",
+          "type": "color",
+          "description": "Description to come."
+        },
+        "active": {
+          "value": "{colors.green.800}",
+          "type": "color",
+          "description": "Description to come."
+        },
+        "muted": {
+          "value": "{colors.green.200}",
+          "type": "color",
+          "description": "Used as the muted background for successful intention versions of components such as message, pill, or box. Paired with primary.textBase for a subtler contrast"
+        },
+        "mutedHover": {
+          "value": "{colors.green.300}",
+          "type": "color",
+          "description": "Used as the hovered muted background for successful intention versions of components such as message, pill, or box. Paired with primary.textBase for a subtler contrast"
+        },
+        "mutedActive": {
+          "value": "{colors.green.400}",
+          "type": "color",
+          "description": "Used as the pressed muted background for successful intention versions of components such as message, pill, or box. Paired with primary.textBase for a subtler contrast"
+        },
+        "box": {
+          "value": "{colors.green.100}",
+          "type": "color",
+          "description": "Used as a very light background for successful intention versions of components such as message, pill, or box. Used for containers with content blocks"
+        }
+      },
+      "border": {
+        "base": {
+          "value": "{colors.green.600}",
+          "type": "color",
+          "description": "Used for the border colour for successful intention versions of components such as buttons and Message"
+        },
+        "hover": {
+          "value": "{colors.green.700}",
+          "type": "color",
+          "description": "Used for the hovered border colour for primary components such as buttons"
+        },
+        "active": {
+          "value": "{colors.green.800}",
+          "type": "color",
+          "description": "Used for the pressed border colour for primary components such as buttons"
+        }
+      }
+    },
     "info": {
       "text": {
         "base": {

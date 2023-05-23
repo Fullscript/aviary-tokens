@@ -194,7 +194,7 @@ success : {textBase:{
           },backgroundMutedHover:{
             name: "success.backgroundMutedHover",
             hex: "#1A5740",
-            description: "Used as the hovered muted background for successful intention versions of components such as message, pill, or box. Paired with primary.textBase for a subtler contrast"
+            description: "Used as the hovered muted background for successful intention versions of components such as message, pill, or box. Paired with success.textBase for a subtler contrast"
           },backgroundMutedActive:{
             name: "success.backgroundMutedActive",
             hex: "#256E53",

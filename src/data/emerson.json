@@ -256,17 +256,17 @@
         "muted": {
           "value": "{colors.green.200}",
           "type": "color",
-          "description": "Used as the muted background for successful intention versions of components such as message, pill, or box. Paired with primary.textBase for a subtler contrast"
+          "description": "Used as the muted background for successful intention versions of components such as message, pill, or box. Paired with successful.textBase for a subtler contrast"
         },
         "mutedHover": {
           "value": "{colors.green.300}",
           "type": "color",
-          "description": "Used as the hovered muted background for successful intention versions of components such as message, pill, or box. Paired with primary.textBase for a subtler contrast"
+          "description": "Used as the hovered muted background for successful intention versions of components such as message, pill, or box. Paired with successful.textBase for a subtler contrast"
         },
         "mutedActive": {
           "value": "{colors.green.400}",
           "type": "color",
-          "description": "Used as the pressed muted background for successful intention versions of components such as message, pill, or box. Paired with primary.textBase for a subtler contrast"
+          "description": "Used as the pressed muted background for successful intention versions of components such as message, pill, or box. Paired with successful.textBase for a subtler contrast"
         },
         "box": {
           "value": "{colors.green.100}",

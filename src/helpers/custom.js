@@ -115,7 +115,10 @@ const customColorObjectFormatter = (dictionary, theme, isJS) => {
   );
 };
 
-const customBoxShadowObjectFormatter = (dictionary, isJS) => {
+const customBoxShadowObjectFormatter = (dictionary, theme, isJS) => {
+  // no box shadow tokens for core, returns empty object otherwise
+  if (theme?.destination.includes("core")) return "";
+
   const boxShadows = dictionary.allTokens.filter(
     (token) => token.attributes.category === "boxShadows"
   );
@@ -142,7 +145,7 @@ StyleDictionary.registerFormat({
     return (
       fileHeader({ file }) +
       customColorObjectFormatter(dictionary, file, false) +
-      customBoxShadowObjectFormatter(dictionary, false)
+      customBoxShadowObjectFormatter(dictionary, file, false)
     );
   },
 });
@@ -154,7 +157,7 @@ StyleDictionary.registerFormat({
       fileHeader({ file }) +
       `module.exports = {` +
       customColorObjectFormatter(dictionary, file, true) +
-      customBoxShadowObjectFormatter(dictionary, true) +
+      customBoxShadowObjectFormatter(dictionary, file, true) +
       `};`
     );
   },

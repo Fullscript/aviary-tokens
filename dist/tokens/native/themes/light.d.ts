@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 12 May 2023 16:40:48 GMT
+ * Generated on Fri, 19 May 2023 14:09:16 GMT
  */
 
 export const theme: string;
@@ -8,6 +8,7 @@ export const text : {emphasis : string,body : string,subdued : string,onBackgrou
 export const system : {textLabelEmphasis : string,textBase : string,textHover : string,textActive : string,backgroundBase : string,backgroundMuted : string,backgroundMutedHover : string,backgroundMutedActive : string,backgroundBox : string,borderBase : string,borderHover : string,borderActive : string,borderFocused : string};
 export const surface : {level0 : string,level1 : string,level2 : string,interactiveBackground : string,interactiveHover : string,interactiveActive : string,overlayDark : string,overlayTheme : string,overlayBackdrop : string};
 export const primary : {textBase : string,textHover : string,textActive : string,backgroundBase : string,backgroundHover : string,backgroundActive : string,backgroundMuted : string,backgroundMutedHover : string,backgroundMutedActive : string,backgroundBox : string,borderBase : string,borderHover : string,borderActive : string};
+export const success : {textBase : string,textHover : string,textActive : string,backgroundBase : string,backgroundHover : string,backgroundActive : string,backgroundMuted : string,backgroundMutedHover : string,backgroundMutedActive : string,backgroundBox : string,borderBase : string,borderHover : string,borderActive : string};
 export const info : {textBase : string,textHover : string,textActive : string,backgroundBase : string,backgroundHover : string,backgroundActive : string,backgroundMuted : string,backgroundMutedHover : string,backgroundMutedActive : string,backgroundBox : string,borderBase : string,borderHover : string,borderActive : string};
 export const warning : {textBase : string,textHover : string,textActive : string,backgroundBase : string,backgroundHover : string,backgroundActive : string,backgroundMuted : string,backgroundMutedHover : string,backgroundMutedActive : string,backgroundBox : string,borderBase : string,borderHover : string,borderActive : string};
 export const danger : {textBase : string,textHover : string,textActive : string,backgroundBase : string,backgroundHover : string,backgroundActive : string,backgroundMuted : string,backgroundMutedHover : string,backgroundMutedActive : string,backgroundBox : string,borderBase : string,borderHover : string,borderActive : string};

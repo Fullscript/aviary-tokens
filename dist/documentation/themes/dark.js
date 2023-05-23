@@ -198,7 +198,7 @@ success : {textBase:{
           },backgroundMutedActive:{
             name: "success.backgroundMutedActive",
             hex: "#256E53",
-            description: "Used as the pressed muted background for successful intention versions of components such as message, pill, or box. Paired with primary.textBase for a subtler contrast"
+            description: "Used as the pressed muted background for successful intention versions of components such as message, pill, or box. Paired with success.textBase for a subtler contrast"
           },backgroundBox:{
             name: "success.backgroundBox",
             hex: "#0C291E",

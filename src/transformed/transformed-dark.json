@@ -256,7 +256,7 @@
         "muted": {
           "value": "#13402F",
           "type": "color",
-          "description": "Used as the muted background for successful intention versions of components such as message, pill, or box. Paired with successful.textBase for a subtler contrast"
+          "description": "Used as the muted background for successful intention versions of components such as message, pill, or box. Paired with successful.textBase for a subtler contrast."
         },
         "mutedHover": {
           "value": "#1A5740",

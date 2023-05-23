@@ -283,12 +283,12 @@
         "hover": {
           "value": "#275E43",
           "type": "color",
-          "description": "Used for the hovered border colour for primary components such as buttons"
+          "description": "Used for the hovered border colour for successful components such as buttons"
         },
         "active": {
           "value": "#244C38",
           "type": "color",
-          "description": "Used for the pressed border colour for primary components such as buttons"
+          "description": "Used for the pressed border colour for successful components such as buttons"
         }
       }
     },

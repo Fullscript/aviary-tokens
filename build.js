@@ -160,7 +160,7 @@ const themes = [
   "core-light",
   "core-dark",
   "light",
-  "light-ds3",
+  "lightDS3",
   "dark",
   "emerson",
 ];

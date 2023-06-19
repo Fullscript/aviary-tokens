@@ -4,7 +4,7 @@
 // You willl need to update any import/require paths to be relative to the root directory
 // Do it! Upon pain of broken pipelines
 import * as light from "../../dist/tokens/ts/themes/light";
-import * as lightDS3 from "../../dist/tokens/ts/themes/light-ds3";
+import * as lightDS3 from "../../dist/tokens/ts/themes/lightDS3";
 import * as dark from "../../dist/tokens/ts/themes/dark";
 import * as emerson from "../../dist/tokens/ts/themes/emerson";
 

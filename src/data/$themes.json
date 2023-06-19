@@ -9,6 +9,15 @@
     "$figmaStyleReferences": {}
   },
   {
+    "id": "0267bc0cf8e845357dec8661fec245e9e478e58c",
+    "name": "lightDS3",
+    "selectedTokenSets": {
+      "core-light": "source",
+      "lightDS3": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
     "id": "03f1b3b3488bbe1ef0b7156c20081f1e3474d6f2",
     "name": "dark",
     "selectedTokenSets": {

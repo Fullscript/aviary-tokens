@@ -149,7 +149,7 @@
     "primary": {
       "text": {
         "base": {
-          "value": "{colors.green.600}",
+          "value": "{colors.grey.700}",
           "type": "color",
           "description": "Used as the text or fill colour for interactive and static primary components such as links, text, and icons"
         },
@@ -166,7 +166,7 @@
       },
       "background": {
         "base": {
-          "value": "{colors.green.600}",
+          "value": "{colors.grey.700}",
           "type": "color",
           "description": "Used as the background for primary components such as plain buttons. Paired with text.onBackground for contrast"
         },

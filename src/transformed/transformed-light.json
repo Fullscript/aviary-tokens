@@ -97,7 +97,7 @@
     },
     "surface": {
       "level0": {
-        "value": "#F5F7FA",
+        "value": "#FFFFFF",
         "type": "color",
         "description": "Used for setting the lowest most level, mainly applied as a background color to the HTML body. Should always be underneath levels 1 and 2"
       },

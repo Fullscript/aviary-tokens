@@ -149,49 +149,49 @@
     "primary": {
       "text": {
         "base": {
-          "value": "{colors.green.600}",
+          "value": "{colors.grey.200}",
           "type": "color",
           "description": "Used as the text or fill colour for interactive and static primary components such as links, text, and icons"
         },
         "hover": {
-          "value": "{colors.green.700}",
+          "value": "{colors.grey.200}",
           "type": "color",
           "description": "Used as the hovered text or fill colour for interactive primary components such as links and text buttons"
         },
         "active": {
-          "value": "{colors.green.800}",
+          "value": "{colors.grey.200}",
           "type": "color",
           "description": "Used as the pressed text or fill colour for interactive primary components such as links and text buttons"
         }
       },
       "background": {
         "base": {
-          "value": "{colors.green.500}",
+          "value": "{colors.grey.800}",
           "type": "color",
           "description": "Used as the background for primary components such as plain buttons. Paired with text.onBackground for contrast"
         },
         "hover": {
-          "value": "{colors.green.400}",
+          "value": "{colors.shades.white}",
           "type": "color",
           "description": "Used as the hovered background for primary components such as plain buttons"
         },
         "active": {
-          "value": "{colors.green.300}",
+          "value": "{colors.shades.white}",
           "type": "color",
           "description": "Used as the hovered background for primary components such as plain buttons"
         },
         "muted": {
-          "value": "{colors.green.200}",
+          "value": "{colors.grey.300}",
           "type": "color",
           "description": "Used as the muted background for primary components such as pills and text buttons. Paired with primary.textBase for a subtler contrast"
         },
         "mutedHover": {
-          "value": "{colors.green.300}",
+          "value": "{colors.grey.400}",
           "type": "color",
           "description": "Used as the hovered muted background for primary components such as pills and text buttons. Paired with primary.textBase for a subtler contrast"
         },
         "mutedActive": {
-          "value": "{colors.green.400}",
+          "value": "{colors.grey.500}",
           "type": "color",
           "description": "Used as the pressed muted background for primary components such as pills and text buttons. Paired with primary.textBase for a subtler contrast"
         },
@@ -203,17 +203,17 @@
       },
       "border": {
         "base": {
-          "value": "{colors.green.500}",
+          "value": "{colors.grey.500}",
           "type": "color",
           "description": "Used for the border colour for primary components such as buttons and Message"
         },
         "hover": {
-          "value": "{colors.green.400}",
+          "value": "{colors.grey.600}",
           "type": "color",
           "description": "Used for the hovered border colour for primary components such as buttons"
         },
         "active": {
-          "value": "{colors.green.300}",
+          "value": "{colors.grey.700}",
           "type": "color",
           "description": "Used for the pressed border colour for primary components such as buttons"
         }

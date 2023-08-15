@@ -25,6 +25,6 @@ interface AviaryColorProps {
 interface AviaryExtendedColorProps {
     isColor?: ExtendedAviaryColors;
 }
-export type { AviaryColors, AviaryColorProps, AviaryExtendedColorProps, ExtendedAviaryColors };
+export type { AviaryColors, AviaryColorProps, AviaryExtendedColorProps, ExtendedAviaryColors, };
 export { AVIARY_COLORS, EXTENDED_AVIARY_COLORS };
 //# sourceMappingURL=interfaces.d.ts.map

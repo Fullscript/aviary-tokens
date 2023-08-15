@@ -203,19 +203,19 @@
       },
       "border": {
         "base": {
-          "value": "{colors.grey.700}",
+          "value": "{colors.grey.400}",
           "type": "color",
-          "description": "Used for the border colour for primary components such as buttons and Message"
+          "description": "Used for the border colour for primary components"
         },
         "hover": {
-          "value": "{colors.grey.800}",
+          "value": "{colors.grey.500}",
           "type": "color",
-          "description": "Used for the hovered border colour for primary components such as buttons"
+          "description": "Used for the hovered border colour for primary components"
         },
         "active": {
-          "value": "{colors.grey.900}",
+          "value": "{colors.grey.800}",
           "type": "color",
-          "description": "Used for the pressed border colour for primary components such as buttons"
+          "description": "Used for the pressed border colour for primary components"
         }
       }
     },

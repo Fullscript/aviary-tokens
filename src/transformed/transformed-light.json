@@ -203,19 +203,19 @@
       },
       "border": {
         "base": {
-          "value": "#36485C",
+          "value": "#C8D3E0",
           "type": "color",
-          "description": "Used for the border colour for primary components such as buttons and Message"
+          "description": "Used for the border colour for primary components"
         },
         "hover": {
-          "value": "#2E3A47",
+          "value": "#596D84",
           "type": "color",
-          "description": "Used for the hovered border colour for primary components such as buttons"
+          "description": "Used for the hovered border colour for primary components"
         },
         "active": {
-          "value": "#212933",
+          "value": "#2E3A47",
           "type": "color",
-          "description": "Used for the pressed border colour for primary components such as buttons"
+          "description": "Used for the pressed border colour for primary components"
         }
       }
     },

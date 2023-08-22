@@ -605,6 +605,10 @@
         "type": "color",
         "description": "Used as the border for disabled components"
       },
+      "nakedContent": {
+        "value": "#22272B",
+        "type": "color"
+      },
       "input": {
         "background": {
           "value": "#2D3238",
@@ -616,10 +620,6 @@
           "type": "color",
           "description": "Used as the label colour for disabled inputs"
         }
-      },
-      "nakedContent": {
-        "value": "#22272B",
-        "type": "color"
       }
     },
     "input": {

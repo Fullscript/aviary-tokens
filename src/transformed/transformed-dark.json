@@ -249,17 +249,17 @@
           "description": "Description to come."
         },
         "active": {
-          "value": "#1A5740",
+          "value": "#13402F",
           "type": "color",
           "description": "Description to come."
         },
         "muted": {
-          "value": "#13402F",
+          "value": "#0F3326",
           "type": "color",
           "description": "Used as the muted background for successful intention versions of components such as message, pill, or box. Paired with successful.textBase for a subtler contrast."
         },
         "mutedHover": {
-          "value": "#1A5740",
+          "value": "#13402F",
           "type": "color",
           "description": "Used as the hovered muted background for successful intention versions of components such as message, pill, or box. Paired with successful.textBase for a subtler contrast"
         },
@@ -286,7 +286,7 @@
           "description": "Used for the hovered border colour for successful components such as message"
         },
         "active": {
-          "value": "#1A5740",
+          "value": "#13402F",
           "type": "color",
           "description": "Used for the pressed border colour for successful components such as message"
         }
@@ -322,17 +322,17 @@
           "description": "Used as the hovered background for informational components such as plain buttons"
         },
         "active": {
-          "value": "#1F4366",
+          "value": "#142C45",
           "type": "color",
           "description": "Used as the pressed background for informational components such as plain buttons"
         },
         "muted": {
-          "value": "#142C45",
+          "value": "#102337",
           "type": "color",
           "description": "Used as the muted background for informational components such as pills and text buttons. Paired with info.textBase for a subtler contrast"
         },
         "mutedHover": {
-          "value": "#1F4366",
+          "value": "#142C45",
           "type": "color",
           "description": "Used as the hovered muted background for informational components such as pills and text buttons. Paired with info.textBase for a subtler contrast"
         },
@@ -359,7 +359,7 @@
           "description": "Used for the hovered border colour for informational components such as buttons"
         },
         "active": {
-          "value": "#1F4366",
+          "value": "#142C45",
           "type": "color",
           "description": "Used for the pressed border colour for informational components such as buttons"
         }
@@ -395,17 +395,17 @@
           "description": "Used as the hovered background for warning components such as plain buttons"
         },
         "active": {
-          "value": "#663A1E",
+          "value": "#4A2915",
           "type": "color",
           "description": "Used as the pressed background for warning components such as plain buttons"
         },
         "muted": {
-          "value": "#4A2915",
+          "value": "#361D0E",
           "type": "color",
           "description": "Used as the muted background for warning components such as pills and text buttons. Paired with warning.textBase for a subtler contrast"
         },
         "mutedHover": {
-          "value": "#663A1E",
+          "value": "#4A2915",
           "type": "color",
           "description": "Used as the hovered muted background for warning components such as pills and text buttons. Paired with warning.textBase for a subtler contrast"
         },
@@ -432,7 +432,7 @@
           "description": "Used for the hovered border colour for warning components"
         },
         "active": {
-          "value": "#663A1E",
+          "value": "#4A2915",
           "type": "color",
           "description": "Used for the pressed border colour for warning components such as buttons"
         }
@@ -468,17 +468,17 @@
           "description": "Used as the hovered background for danger components such as plain buttons"
         },
         "active": {
-          "value": "#611D30",
+          "value": "#451522",
           "type": "color",
           "description": "Used as the pressed background for danger components such as plain buttons"
         },
         "muted": {
-          "value": "#451522",
+          "value": "#34101A",
           "type": "color",
           "description": "Used as the muted background for danger components such as pills and text buttons. Paired with danger.textBase for a subtler contrast"
         },
         "mutedHover": {
-          "value": "#611D30",
+          "value": "#451522",
           "type": "color",
           "description": "Used as the hovered muted background for danger components such as pills and text buttons. Paired with danger.textBase for a subtler contrast"
         },
@@ -505,7 +505,7 @@
           "description": "Used for the hovered border colour for danger components such as buttons"
         },
         "active": {
-          "value": "#611D30",
+          "value": "#451522",
           "type": "color",
           "description": "Used for the pressed border colour for danger components such as buttons"
         }
@@ -541,17 +541,17 @@
           "description": "Used as the hovered background for highlight components such as plain buttons"
         },
         "active": {
-          "value": "#432652",
+          "value": "#33193F",
           "type": "color",
           "description": "Used as the pressed background for highlight components such as plain buttons"
         },
         "muted": {
-          "value": "#33193F",
+          "value": "#291433",
           "type": "color",
           "description": "Used as the muted background for highlight components such as pills and text buttons. Paired with highlight.textBase for a subtler contrast"
         },
         "mutedHover": {
-          "value": "#432652",
+          "value": "#33193F",
           "type": "color",
           "description": "Used as the hovered muted background for highlight components such as pills and text buttons. Paired with highlight.textBase for a subtler contrast"
         },
@@ -578,7 +578,7 @@
           "description": "Used for the hovered border colour for highlight components"
         },
         "active": {
-          "value": "#432652",
+          "value": "#33193F",
           "type": "color",
           "description": "Used for the pressed border colour for highlight components such as buttons and Message"
         }

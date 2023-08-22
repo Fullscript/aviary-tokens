@@ -135,7 +135,7 @@
           "description": "Used for elements that are absolutely positioned to overlay content on the page. Is always a dark background regardless of theme. Ex: Things like Toasts and Tooltips"
         },
         "theme": {
-          "value": "{colors.grey.300}",
+          "value": "{colors.grey.200}",
           "type": "color",
           "description": "Used for elements that are absolutely positioned to overlay content on the page. Matches the base color of the theme. Ex: Snackbar"
         },
@@ -607,7 +607,7 @@
       },
       "input": {
         "background": {
-          "value": "#1B2228",
+          "value": "{colors.grey.400}",
           "type": "color",
           "description": "For use in disabled inputs as the background colour"
         },
@@ -616,6 +616,10 @@
           "type": "color",
           "description": "Used as the label colour for disabled inputs"
         }
+      },
+      "nakedContent": {
+        "value": "{colors.grey.300}",
+        "type": "color"
       }
     },
     "input": {

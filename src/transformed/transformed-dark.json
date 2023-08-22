@@ -7,12 +7,12 @@
         "description": "Used for any text content and icons used with text that needs emphasizing"
       },
       "body": {
-        "value": "#98999B",
+        "value": "#BCBDBF",
         "type": "color",
         "description": "Used for default text content and icons used with text"
       },
       "subdued": {
-        "value": "#616568",
+        "value": "#98999B",
         "type": "color",
         "description": "Used for any text content and icons used with text that requires less prominence"
       },
@@ -30,7 +30,7 @@
           "description": "Used for any text content and icons used with text that needs emphasizing"
         },
         "base": {
-          "value": "#98999B",
+          "value": "#BCBDBF",
           "type": "color",
           "description": "Used as the text or fill colour for interactive and static system components such as links, text, and icons"
         },
@@ -79,12 +79,12 @@
           "description": "Used for the border colour for system components"
         },
         "hover": {
-          "value": "#616568",
+          "value": "#98999B",
           "type": "color",
           "description": "Used for the hovered border colour for system components"
         },
         "active": {
-          "value": "#98999B",
+          "value": "#BCBDBF",
           "type": "color",
           "description": "Used for the pressed border colour for system components"
         },
@@ -208,12 +208,12 @@
           "description": "Used for the border colour for primary components such as buttons and Message"
         },
         "hover": {
-          "value": "#616568",
+          "value": "#98999B",
           "type": "color",
           "description": "Used for the hovered border colour for primary components such as buttons"
         },
         "active": {
-          "value": "#98999B",
+          "value": "#BCBDBF",
           "type": "color",
           "description": "Used for the pressed border colour for primary components such as buttons"
         }
@@ -586,7 +586,7 @@
     },
     "disabled": {
       "text": {
-        "value": "#616568",
+        "value": "#98999B",
         "type": "color",
         "description": "For use in disabled content like text and icons"
       },
@@ -612,7 +612,7 @@
           "description": "For use in disabled inputs as the background colour"
         },
         "LabelText": {
-          "value": "#616568",
+          "value": "#98999B",
           "type": "color",
           "description": "Used as the label colour for disabled inputs"
         }
@@ -643,7 +643,7 @@
           "description": "Used for the default filled text colour for HTML inputs"
         },
         "information": {
-          "value": "#98999B",
+          "value": "#BCBDBF",
           "type": "color",
           "description": "Used as the text content colour for the text description below the input"
         },
@@ -653,7 +653,7 @@
           "description": "Used as the text content colour for the text description below the input when there are errors"
         },
         "label": {
-          "value": "#98999B",
+          "value": "#BCBDBF",
           "type": "color",
           "description": "Used as the default static label colour in HTML inputs which appears as a placeholder in the static state"
         },
@@ -668,7 +668,7 @@
           "description": "Used as the static and floated label colour when the input is in an error state"
         },
         "placeholder": {
-          "value": "#616568",
+          "value": "#98999B",
           "type": "color",
           "description": "Used as the default placeholder text colour for basic and search inputs"
         },
@@ -695,12 +695,12 @@
           "description": "Used as the hovered border colour"
         },
         "emphasized": {
-          "value": "#616568",
+          "value": "#98999B",
           "type": "color",
           "description": "Used as the default bottom border colour for floating label inputs or as the default border for inputs like checkbox"
         },
         "emphasizedHover": {
-          "value": "#98999B",
+          "value": "#BCBDBF",
           "type": "color",
           "description": "Used as the hovered bottom border colour for floating label inputs or as the hovered border for inputs like checkbox"
         },
@@ -726,7 +726,7 @@
           "description": "For use as background colour in light profile components on contrasting surface backgrounds"
         },
         "contrast": {
-          "value": "#616568",
+          "value": "#98999B",
           "type": "color",
           "description": "For use as a contrasting background colour in light profile components, to match shade of surface background"
         },

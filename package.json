@@ -1,7 +1,7 @@
 {
   "name": "aviary-tokens",
   "license": "MIT",
-  "version": "0.27.1",
+  "version": "0.27.3",
   "description": "Design tokens for the Fullscript Aviary design system",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",

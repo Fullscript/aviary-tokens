@@ -767,6 +767,22 @@
         "type": "color",
         "description": "For use only with box shadow tokens"
       }
+    },
+    "accent": {
+      "sand": {
+        "muted": {
+          "value": "#F6F1E5",
+          "type": "color",
+          "description": "Used for the backgrounds of elements that have the sand accent color"
+        }
+      },
+      "forest": {
+        "text": {
+          "value": "#275E43",
+          "type": "color",
+          "description": "Used for the text within accent elements of forest type"
+        }
+      }
     }
   },
   "boxShadows": {

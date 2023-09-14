@@ -767,6 +767,14 @@
         "type": "color",
         "description": "For use only with box shadow tokens"
       }
+    },
+    "accent": {
+      "sand": {
+        "value": "{colors.blue.300}",
+        "type": "color",
+        "description": "this is a fake sand",
+        "$extensions": {}
+      }
     }
   },
   "boxShadows": {

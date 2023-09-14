@@ -255,6 +255,16 @@
         "value": "#e5a500",
         "type": "color"
       }
+    },
+    "brown": {
+      "100": {
+        "value": "#F6F1E5",
+        "type": "color"
+      },
+      "200": {
+        "value": "#E4D9C2",
+        "type": "color"
+      }
     }
   }
 }

@@ -264,6 +264,14 @@
       "200": {
         "value": "#E4D9C2",
         "type": "color"
+      },
+      "300": {
+        "value": "#DACCAA",
+        "type": "color"
+      },
+      "700": {
+        "value": "#5E4D27",
+        "type": "color"
       }
     }
   }

@@ -217,6 +217,24 @@
         "value": "transparent",
         "type": "color"
       }
+    },
+    "brown": {
+      "100": {
+        "value": "#33260F",
+        "type": "color"
+      },
+      "200": {
+        "value": "#402F13",
+        "type": "color"
+      },
+      "300": {
+        "value": "#6E5225",
+        "type": "color"
+      },
+      "700": {
+        "value": "#D6BA87",
+        "type": "color"
+      }
     }
   },
   "opacity": {

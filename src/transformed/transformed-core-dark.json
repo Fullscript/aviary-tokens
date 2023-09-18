@@ -218,5 +218,11 @@
         "type": "color"
       }
     }
+  },
+  "opacity": {
+    "subtle": {
+      "value": "50%",
+      "type": "opacity"
+    }
   }
 }

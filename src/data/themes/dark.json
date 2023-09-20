@@ -102,7 +102,7 @@
         "description": "Used for setting the lowest most level, mainly applied as a background color to the HTML body. Should always be underneath levels 1 and 2"
       },
       "level1": {
-        "value": "{colors.grey.200}",
+        "value": "{colors.grey.100}",
         "type": "color",
         "description": "Used commonly with Boxes and containers that are directly on surface level 0. Also can be used as an alternative HTML body background color."
       },

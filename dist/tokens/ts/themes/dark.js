@@ -1,12 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Wed, 20 Sep 2023 19:03:08 GMT
+ * Generated on Wed, 20 Sep 2023 19:33:38 GMT
  */
 
 module.exports = {theme: "dark",
 text : {emphasis : "#E8E9EA",body : "#BCBDBF",subdued : "#98999B",onBackground : "#FFFFFF"},
 system : {textLabelEmphasis : "#FFFFFF",textBase : "#BCBDBF",textHover : "#E8E9EA",textActive : "#FFFFFF",backgroundBase : "#1A1D21",backgroundMuted : "#22272B",backgroundMutedHover : "#2D3238",backgroundMutedActive : "#515357",backgroundBox : "#1A1D21",borderBase : "#515357",borderHover : "#98999B",borderActive : "#BCBDBF",borderFocused : "#6597CE"},
-surface : {level0 : "#101012",level1 : "#1A1D21",level2 : "#22272B",interactiveBackground : "#1A1D21",interactiveHover : "#22272B",interactiveActive : "#2D3238",overlayDark : "#22272B",overlayTheme : "#1A1D21",overlayBackdrop : "#1A1D21"},
+surface : {level0 : "#101012",level1 : "#101012",level2 : "#22272B",interactiveBackground : "#1A1D21",interactiveHover : "#22272B",interactiveActive : "#2D3238",overlayDark : "#22272B",overlayTheme : "#1A1D21",overlayBackdrop : "#1A1D21"},
 primary : {textBase : "#1A1D21",textHover : "#1A1D21",textActive : "#1A1D21",backgroundBase : "#E8E9EA",backgroundHover : "#FFFFFF",backgroundActive : "#FFFFFF",backgroundMuted : "#22272B",backgroundMutedHover : "#2D3238",backgroundMutedActive : "#515357",backgroundBox : "#0C291E",borderBase : "#515357",borderHover : "#98999B",borderActive : "#BCBDBF"},
 success : {textBase : "#42AD86",textHover : "#86D6B9",textActive : "#DBFFF1",backgroundBase : "#288563",backgroundHover : "#42AD86",backgroundActive : "#86D6B9",backgroundMuted : "#0F3326",backgroundMutedHover : "#13402F",backgroundMutedActive : "#256E53",backgroundBox : "#0C291E",borderBase : "#256E53",borderHover : "#288563",borderActive : "#42AD86"},
 info : {textBase : "#6597CE",textHover : "#96BDE7",textActive : "#D1E8FF",backgroundBase : "#4577AD",backgroundHover : "#285685",backgroundActive : "#142C45",backgroundMuted : "#102337",backgroundMutedHover : "#142C45",backgroundMutedActive : "#285685",backgroundBox : "#0C1B29",borderBase : "#4577AD",borderHover : "#285685",borderActive : "#142C45"},

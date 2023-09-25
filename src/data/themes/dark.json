@@ -47,7 +47,7 @@
       },
       "background": {
         "base": {
-          "value": "{colors.grey.200}",
+          "value": "{colors.grey.100}",
           "type": "color",
           "description": "Used as the background for system components"
         },

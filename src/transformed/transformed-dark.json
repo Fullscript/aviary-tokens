@@ -47,7 +47,7 @@
       },
       "background": {
         "base": {
-          "value": "#1A1D21",
+          "value": "#101012",
           "type": "color",
           "description": "Used as the background for system components"
         },

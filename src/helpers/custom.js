@@ -94,6 +94,12 @@ const customColorObjectFormatter = (dictionary, theme, isJS) => {
     )}${commaOrColon(isJS)}\n`;
   }
 
+  const accentTokens = dictionary.allTokens.filter(
+    (token) => token.attributes.type === "accent"
+  );
+
+  // console.log({ accentTokens });
+
   return (
     prefix +
     Object.entries(dictionary.properties.colors)
@@ -105,10 +111,6 @@ const customColorObjectFormatter = (dictionary, theme, isJS) => {
           (token) =>
             token.attributes.type === colorObj &&
             token.attributes.type !== "accent"
-        );
-
-        const accentTokens = dictionary.allTokens.filter(
-          (token) => token.attributes.type === "accent"
         );
 
         // filteredToken:   {
@@ -127,13 +129,6 @@ const customColorObjectFormatter = (dictionary, theme, isJS) => {
         // } ,
         //   path: [Array]
         // },
-
-        //  `accent : {` +
-        //    accentTokens.map((token) => {
-        //      console.log({ token });
-        //      return `${token.name} : ` + valueOrType(token, isJS);
-        //    }) +
-        //    `}${commaOrColon(isJS)}`;
 
         return (
           declaration(isJS) +

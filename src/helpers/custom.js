@@ -99,9 +99,41 @@ const customColorObjectFormatter = (dictionary, theme, isJS) => {
     Object.entries(dictionary.properties.colors)
       .map((tokens) => {
         const colorObj = tokens[0];
+        // colorObj = "danger", "accent", etc.
+
         const filteredTokens = dictionary.allTokens.filter(
-          (token) => token.attributes.type === colorObj
+          (token) =>
+            token.attributes.type === colorObj &&
+            token.attributes.type !== "accent"
         );
+
+        const accentTokens = dictionary.allTokens.filter(
+          (token) => token.attributes.type === "accent"
+        );
+
+        // filteredToken:   {
+        //   value: '#E4D9C2',
+        //   type: 'color',
+        //   filePath: 'src/transformed/transformed-light.json',
+        //   isSource: true,
+        //   original: [Object],
+        //   name: 'sandBackgroundMutedHover',
+        //   attributes: {
+        //   category: 'colors',
+        //   type: 'accent',
+        //   item: 'forest',
+        //   subitem: 'text',
+        //   state: 'base'
+        // } ,
+        //   path: [Array]
+        // },
+
+        //  `accent : {` +
+        //    accentTokens.map((token) => {
+        //      console.log({ token });
+        //      return `${token.name} : ` + valueOrType(token, isJS);
+        //    }) +
+        //    `}${commaOrColon(isJS)}`;
 
         return (
           declaration(isJS) +

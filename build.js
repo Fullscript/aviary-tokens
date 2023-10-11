@@ -156,13 +156,13 @@ const getStyleDictionaryConfig = (theme) => {
 // Add themes to the array to create theme-specific files under themes folder
 // "core" theme will build files outside of the themes folder
 const themes = [
-  "primitives",
-  "core-light",
-  "core-dark",
+  // "primitives",
+  // "core-light",
+  // "core-dark",
   "light",
-  "lightDS3",
-  "dark",
-  "emerson",
+  // "lightDS3",
+  // "dark",
+  // "emerson",
 ];
 
 themes.map((theme) => {

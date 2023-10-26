@@ -20,8 +20,9 @@ const AVIARY_BUTTON_INTENTIONS = {
   lightText: "lightText",
 };
 
+type CoreAviaryIntentions = keyof typeof CORE_AVIARY_INTENTIONS;
 type AviaryIntentions = keyof typeof AVIARY_INTENTIONS;
 type AviaryButtonIntentions = keyof typeof AVIARY_BUTTON_INTENTIONS;
 
-export type { AviaryButtonIntentions, AviaryIntentions };
-export { AVIARY_BUTTON_INTENTIONS, AVIARY_INTENTIONS };
+export type { AviaryButtonIntentions, AviaryIntentions, CoreAviaryIntentions };
+export { AVIARY_BUTTON_INTENTIONS, AVIARY_INTENTIONS, CORE_AVIARY_INTENTIONS };

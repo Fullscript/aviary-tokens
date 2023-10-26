@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 20 Oct 2023 14:01:17 GMT
+ * Generated on Thu, 26 Oct 2023 18:45:29 GMT
  */
 
 module.exports = {theme: "emerson",text : {emphasis : "#36485C",body : "#475A70",subdued : "#596D84",onBackground : "#FFFFFF"},

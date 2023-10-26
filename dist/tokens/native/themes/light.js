@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 20 Oct 2023 14:01:17 GMT
+ * Generated on Thu, 26 Oct 2023 18:45:28 GMT
  */
 
 module.exports = {theme: "light",text : {emphasis : "#2E3A47",body : "#36485C",subdued : "#475A70",onBackground : "#FFFFFF"},

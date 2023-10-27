@@ -17,7 +17,7 @@ require("core-js/modules/es.object.get-own-property-descriptors.js");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.AVIARY_INTENTIONS = exports.AVIARY_BUTTON_INTENTIONS = void 0;
+exports.CORE_AVIARY_INTENTIONS = exports.AVIARY_INTENTIONS = exports.AVIARY_BUTTON_INTENTIONS = void 0;
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 
@@ -31,6 +31,7 @@ var CORE_AVIARY_INTENTIONS = {
   danger: "danger",
   success: "success"
 };
+exports.CORE_AVIARY_INTENTIONS = CORE_AVIARY_INTENTIONS;
 
 var AVIARY_INTENTIONS = _objectSpread(_objectSpread({}, CORE_AVIARY_INTENTIONS), {}, {
   warning: "warning"

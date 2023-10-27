@@ -11,7 +11,9 @@ const AVIARY_INTENTIONS = {
 };
 
 const AVIARY_BUTTON_INTENTIONS = {
-  ...CORE_AVIARY_INTENTIONS,
+  primary: "primary",
+  system: "system",
+  danger: "danger",
   textSuccess: "textSuccess",
   textSystem: "textSystem",
   textDanger: "textDanger",

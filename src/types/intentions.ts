@@ -8,6 +8,7 @@ const CORE_AVIARY_INTENTIONS = {
 const AVIARY_INTENTIONS = {
   ...CORE_AVIARY_INTENTIONS,
   warning: "warning",
+  autoship: "autoship",
 };
 
 const AVIARY_BUTTON_INTENTIONS = {

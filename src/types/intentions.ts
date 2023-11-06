@@ -13,7 +13,7 @@ const AVIARY_INTENTIONS = {
 
 const AVIARY_BUTTON_INTENTIONS = {
   primary: "primary",
-  system: "system",
+  secondary: "secondary",
   danger: "danger",
   textSuccess: "textSuccess",
   textSystem: "textSystem",

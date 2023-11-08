@@ -774,18 +774,23 @@
           "base": {
             "value": "{colors.green.700}",
             "type": "color"
+          },
+          "emphasis": {
+            "value": "{colors.green.800}",
+            "type": "color",
+            "description": "Accent used for headings and icons of empahsis"
           }
         },
         "background": {
-          "muted": {
+          "muted0": {
             "value": "{colors.green.200}",
             "type": "color"
           },
-          "mutedHover": {
+          "muted1": {
             "value": "{colors.green.300}",
             "type": "color"
           },
-          "mutedActive": {
+          "muted2": {
             "value": "{colors.green.400}",
             "type": "color"
           }
@@ -796,18 +801,23 @@
           "base": {
             "value": "{colors.brown.700}",
             "type": "color"
+          },
+          "emphasis": {
+            "value": "{colors.brown.800}",
+            "type": "color",
+            "description": "Accent colour used for heading or icons of emphasis"
           }
         },
         "background": {
-          "muted": {
+          "muted0": {
             "value": "{colors.brown.200}",
             "type": "color"
           },
-          "mutedHover": {
+          "muted1": {
             "value": "{colors.brown.300}",
             "type": "color"
           },
-          "mutedActive": {
+          "muted2": {
             "value": "{colors.brown.400}",
             "type": "color"
           }

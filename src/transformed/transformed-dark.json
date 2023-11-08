@@ -778,18 +778,22 @@
           "base": {
             "value": "#86D6B9",
             "type": "color"
+          },
+          "emphasis": {
+            "value": "#DBFFF1",
+            "type": "color"
           }
         },
         "background": {
-          "muted": {
+          "muted0": {
             "value": "#0F3326",
             "type": "color"
           },
-          "mutedHover": {
+          "muted1": {
             "value": "#13402F",
             "type": "color"
           },
-          "mutedActive": {
+          "muted2": {
             "value": "#256E53",
             "type": "color"
           }
@@ -800,18 +804,22 @@
           "base": {
             "value": "#D6BA87",
             "type": "color"
+          },
+          "emphasis": {
+            "value": "#EFE5D1",
+            "type": "color"
           }
         },
         "background": {
-          "muted": {
+          "muted0": {
             "value": "#33260F",
             "type": "color"
           },
-          "mutedHover": {
+          "muted1": {
             "value": "#402F13",
             "type": "color"
           },
-          "mutedActive": {
+          "muted2": {
             "value": "#6E5225",
             "type": "color"
           }

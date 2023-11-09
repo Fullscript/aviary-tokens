@@ -147,14 +147,14 @@
       "colors.light.link.mutedBase": "6c25cf859fd5fe005d6d3d8105285273979efaef",
       "colors.light.link.mutedHover": "6ee91d3d55850e2be25111e43b4feb07f30b558f",
       "colors.shadow.base": "e111134b28a04358464e5db77f877bb7bdaa7f87",
-      "colors.accent.forest.text.base": "133e8536656679590fd34782825c87dbe361f5fc",
-      "colors.accent.sand.text.base": "f59f9463aa924d84cc72dfedbc87025a21e3a79f",
       "colors.accent.sand.background.muted0": "1f80bfda40d7aaf4feb9440c11e293d5c36d116b",
       "colors.accent.sand.background.muted1": "adc00e877d57850eda6f980b1604be173a39dfcb",
       "colors.accent.sand.background.muted2": "a1ea1cfdf434fec95f2630e2c078f29548dafbd8",
       "colors.accent.forest.background.muted0": "afd4222b1bdaac58ea3ed42e67c57fe8761526e2",
       "colors.accent.forest.background.muted1": "422ee8c9af70766189aef6510b1eaacdfa3fd1a3",
-      "colors.accent.forest.background.muted2": "ccd84fa409aafb1b899260656c2173a873b70da7"
+      "colors.accent.forest.background.muted2": "ccd84fa409aafb1b899260656c2173a873b70da7",
+      "colors.accent.sand.text.body": "f59f9463aa924d84cc72dfedbc87025a21e3a79f",
+      "colors.accent.forest.text.body": "133e8536656679590fd34782825c87dbe361f5fc"
     }
   },
   {
@@ -456,14 +456,14 @@
       "colors.light.link.mutedBase": "6c25cf859fd5fe005d6d3d8105285273979efaef",
       "colors.light.link.mutedHover": "6ee91d3d55850e2be25111e43b4feb07f30b558f",
       "colors.shadow.base": "e111134b28a04358464e5db77f877bb7bdaa7f87",
-      "colors.accent.forest.text.base": "133e8536656679590fd34782825c87dbe361f5fc",
-      "colors.accent.sand.text.base": "f59f9463aa924d84cc72dfedbc87025a21e3a79f",
       "colors.accent.sand.background.muted0": "1f80bfda40d7aaf4feb9440c11e293d5c36d116b",
       "colors.accent.sand.background.muted1": "adc00e877d57850eda6f980b1604be173a39dfcb",
       "colors.accent.sand.background.muted2": "a1ea1cfdf434fec95f2630e2c078f29548dafbd8",
       "colors.accent.forest.background.muted0": "afd4222b1bdaac58ea3ed42e67c57fe8761526e2",
       "colors.accent.forest.background.muted1": "422ee8c9af70766189aef6510b1eaacdfa3fd1a3",
-      "colors.accent.forest.background.muted2": "ccd84fa409aafb1b899260656c2173a873b70da7"
+      "colors.accent.forest.background.muted2": "ccd84fa409aafb1b899260656c2173a873b70da7",
+      "colors.accent.sand.text.body": "f59f9463aa924d84cc72dfedbc87025a21e3a79f",
+      "colors.accent.forest.text.body": "133e8536656679590fd34782825c87dbe361f5fc"
     }
   },
   {

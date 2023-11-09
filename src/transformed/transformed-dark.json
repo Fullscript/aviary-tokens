@@ -775,7 +775,7 @@
     "accent": {
       "forest": {
         "text": {
-          "base": {
+          "body": {
             "value": "#86D6B9",
             "type": "color"
           },
@@ -801,7 +801,7 @@
       },
       "sand": {
         "text": {
-          "base": {
+          "body": {
             "value": "#D6BA87",
             "type": "color"
           },

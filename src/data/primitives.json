@@ -126,6 +126,11 @@
       "sansSerif": {
         "value": "Mulish",
         "type": "fontFamilies"
+      },
+      "serif": {
+        "value": "Besley",
+        "type": "fontFamilies",
+        "description": "serif brand font"
       }
     },
     "weight": {

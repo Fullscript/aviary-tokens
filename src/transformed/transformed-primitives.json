@@ -129,8 +129,7 @@
       },
       "serif": {
         "value": "Besley",
-        "type": "fontFamilies",
-        "description": "Serif brand font"
+        "type": "fontFamilies"
       }
     },
     "weight": {

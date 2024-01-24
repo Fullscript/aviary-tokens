@@ -5,4 +5,4 @@ type SystemColorProfileTheme = typeof light.system;
 
 type ColorProfileTheme = StandardColorsProfileTheme | SystemColorProfileTheme;
 
-export type { ColorProfileTheme };
+export type { ColorProfileTheme, StandardColorsProfileTheme };

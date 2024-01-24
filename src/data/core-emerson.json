@@ -224,6 +224,10 @@
       "700": {
         "value": "#5E4D27",
         "type": "color"
+      },
+      "800": {
+        "value": "#3E3114",
+        "type": "color"
       }
     },
     "shades": {

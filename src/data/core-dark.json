@@ -234,6 +234,10 @@
       "700": {
         "value": "#D6BA87",
         "type": "color"
+      },
+      "800": {
+        "value": "#EFE5D1",
+        "type": "color"
       }
     }
   },

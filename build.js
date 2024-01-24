@@ -35,6 +35,16 @@ const getStyleDictionaryConfig = (theme) => {
         files: [
           {
             format: "javascript/module-flat",
+            destination: "dimensions.js",
+            filter: "custom/filter/dimensions",
+          },
+          {
+            format: "typescript/es6-declarations",
+            destination: "dimensions.d.ts",
+            filter: "custom/filter/dimensions",
+          },
+          {
+            format: "javascript/module-flat",
             destination: "borders.js",
             filter: "custom/filter/borders",
           },
@@ -52,16 +62,6 @@ const getStyleDictionaryConfig = (theme) => {
             format: "typescript/es6-declarations",
             destination: "typography.d.ts",
             filter: "custom/filter/typography",
-          },
-          {
-            format: "javascript/module-flat",
-            destination: "borders.js",
-            filter: "custom/filter/borders",
-          },
-          {
-            format: "typescript/es6-declarations",
-            destination: "borders.d.ts",
-            filter: "custom/filter/borders",
           },
           {
             format: "custom/format/javascript-colors",
@@ -98,16 +98,6 @@ const getStyleDictionaryConfig = (theme) => {
             format: "typescript/es6-declarations",
             destination: "typography.d.ts",
             filter: "custom/filter/typography",
-          },
-          {
-            format: "javascript/module-flat",
-            destination: "borders.js",
-            filter: "custom/filter/borders",
-          },
-          {
-            format: "typescript/es6-declarations",
-            destination: "borders.d.ts",
-            filter: "custom/filter/borders",
           },
           {
             format: "custom/format/javascript-colors",

@@ -25,6 +25,14 @@ StyleDictionary.registerFilter({
   },
 });
 
+// filter dimensions
+StyleDictionary.registerFilter({
+  name: "custom/filter/dimensions",
+  matcher: function (token) {
+    return token.attributes.category === "dimensions";
+  },
+});
+
 // filter boxShadows, colors, and opacity
 StyleDictionary.registerFilter({
   name: "custom/filter/themeTokens",

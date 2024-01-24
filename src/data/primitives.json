@@ -126,6 +126,10 @@
       "sansSerif": {
         "value": "Mulish",
         "type": "fontFamilies"
+      },
+      "serif": {
+        "value": "Besley",
+        "type": "fontFamilies"
       }
     },
     "weight": {
@@ -308,6 +312,15 @@
           "textCase": "{typography.textCase.base}"
         },
         "type": "typography"
+      }
+    }
+  },
+  "dimensions": {
+    "contentArea": {
+      "max": {
+        "value": "1196px",
+        "type": "dimension",
+        "description": "Max width for main content area"
       }
     }
   }

@@ -4,10 +4,10 @@
     "name": "light",
     "selectedTokenSets": {
       "core-light": "source",
-      "themes/light": "enabled"
+      "themes/light": "enabled",
+      "primitives": "source"
     },
     "$figmaStyleReferences": {},
-    "group": "theme-colours",
     "$figmaCollectionId": "VariableCollectionId:2834:5684",
     "$figmaModeId": "2834:3",
     "$figmaVariableReferences": {
@@ -155,17 +155,18 @@
       "colors.accent.forest.background.muted2": "ccd84fa409aafb1b899260656c2173a873b70da7",
       "colors.accent.sand.text.body": "f59f9463aa924d84cc72dfedbc87025a21e3a79f",
       "colors.accent.forest.text.body": "133e8536656679590fd34782825c87dbe361f5fc"
-    }
+    },
+    "group": "theme-colours"
   },
   {
     "id": "0267bc0cf8e845357dec8661fec245e9e478e58c",
     "name": "lightDS3",
     "selectedTokenSets": {
       "core-light": "source",
-      "themes/lightDS3": "enabled"
+      "themes/lightDS3": "enabled",
+      "primitives": "source"
     },
     "$figmaStyleReferences": {},
-    "group": "theme-colours",
     "$figmaCollectionId": "VariableCollectionId:2834:5684",
     "$figmaModeId": "3354:2",
     "$figmaVariableReferences": {
@@ -305,17 +306,18 @@
       "colors.light.link.mutedBase": "6c25cf859fd5fe005d6d3d8105285273979efaef",
       "colors.light.link.mutedHover": "6ee91d3d55850e2be25111e43b4feb07f30b558f",
       "colors.shadow.base": "e111134b28a04358464e5db77f877bb7bdaa7f87"
-    }
+    },
+    "group": "theme-colours"
   },
   {
     "id": "03f1b3b3488bbe1ef0b7156c20081f1e3474d6f2",
     "name": "dark",
     "selectedTokenSets": {
       "core-dark": "source",
-      "themes/dark": "enabled"
+      "themes/dark": "enabled",
+      "primitives": "source"
     },
     "$figmaStyleReferences": {},
-    "group": "theme-colours",
     "$figmaCollectionId": "VariableCollectionId:2834:5684",
     "$figmaModeId": "2834:4",
     "$figmaVariableReferences": {
@@ -464,17 +466,18 @@
       "colors.accent.forest.background.muted2": "ccd84fa409aafb1b899260656c2173a873b70da7",
       "colors.accent.sand.text.body": "f59f9463aa924d84cc72dfedbc87025a21e3a79f",
       "colors.accent.forest.text.body": "133e8536656679590fd34782825c87dbe361f5fc"
-    }
+    },
+    "group": "theme-colours"
   },
   {
     "id": "9dc4ea487325204d708a9da7eb4ce44f0a0e1d35",
     "name": "emerson",
     "selectedTokenSets": {
       "core-emerson": "source",
-      "themes/emerson": "enabled"
+      "themes/emerson": "enabled",
+      "primitives": "source"
     },
     "$figmaStyleReferences": {},
-    "group": "theme-colours",
     "$figmaCollectionId": "VariableCollectionId:2834:5684",
     "$figmaModeId": "3354:3",
     "$figmaVariableReferences": {
@@ -614,6 +617,7 @@
       "colors.light.link.mutedBase": "6c25cf859fd5fe005d6d3d8105285273979efaef",
       "colors.light.link.mutedHover": "6ee91d3d55850e2be25111e43b4feb07f30b558f",
       "colors.shadow.base": "e111134b28a04358464e5db77f877bb7bdaa7f87"
-    }
+    },
+    "group": "theme-colours"
   }
 ]

@@ -903,7 +903,7 @@
       },
       "h2": {
         "value": {
-          "fontFamily": "Besley",
+          "fontFamily": "Mulish",
           "fontWeight": 500,
           "fontSize": "32px",
           "lineHeight": "40px",
@@ -914,7 +914,7 @@
       },
       "h3": {
         "value": {
-          "fontFamily": "Besley",
+          "fontFamily": "Mulish",
           "fontWeight": 500,
           "fontSize": "24px",
           "lineHeight": "32px",

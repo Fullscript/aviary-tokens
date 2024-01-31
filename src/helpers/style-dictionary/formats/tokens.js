@@ -15,7 +15,20 @@ const commaOrColon = (isJS) => (isJS ? `,` : `;`);
 const valueOrType = (token, isJS) =>
   isJS ? `"${token.value}"` : `${getTypeScriptType(token.value)}`;
 
-const addPrefix = (theme, isJS) => {
+const capitalizeFirstLetter = (string) => {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+};
+
+/*
+ * Adds a prefix to the object output that identifies the theme
+ *
+ * ex:
+ * module.exports = {
+ *   theme: "light" <===== ADDS THIS LINE
+ *   colors: { ... }
+ * }
+ */
+const addThemePrefix = (theme, isJS) => {
   // Only add a prefix for theme files, not core ones
   if (theme?.destination.includes("core")) return ``;
 
@@ -27,7 +40,7 @@ const addPrefix = (theme, isJS) => {
   return (prefix = `${declaration(isJS)}theme: ${valueOrType(
     extractedThemeName,
     isJS
-  )}${commaOrColon(isJS)}`);
+  )}${commaOrColon(isJS)}\n`);
 };
 
 const renderOutput = (isJS, tokenFamily, tokensArray, customValueOrType) => {
@@ -38,15 +51,79 @@ const renderOutput = (isJS, tokenFamily, tokensArray, customValueOrType) => {
 
   return (
     declaration(isJS) +
-    `${tokenFamily} : {` +
+    `${tokenFamily}: {` +
     tokensArray.map((token) => {
       return `${token.name} : ` + renderValueOrType(token);
     }) +
-    `}${commaOrColon(isJS)}`
+    `}${commaOrColon(isJS)}\n`
   );
 };
 
+const renderTypographyOutput = (isJS, tokensArray, customValueOrType) => {
+  const renderValueOrType = (token, isFontWeight) =>
+    customValueOrType(token, isJS, isFontWeight);
+
+  /* Output the typography sub values
+   *
+   * ex: {
+   *    fontFamily: "Mulish"
+   *    fontSize: "24px"
+   * }
+   */
+  const getTypographySubValues = (typographyValues) => {
+    return Object.entries(typographyValues).map((key, value) => {
+      const propertyName = key[0];
+      const propertyValue = key[1];
+
+      return `${propertyName}: ${renderValueOrType(
+        propertyValue,
+        propertyName === `fontWeight`
+      )} `;
+    });
+  };
+
+  /* Pluck out the main Typography types, into two sizes
+   *
+   * 1. Root typography types
+   * ex: h1, h2, h3, etc.
+   *
+   * 2. Mobile typography types
+   * ex: mobileH1, mobileH2
+   */
+  const typographyParentTypes = tokensArray.map((token) => {
+    const typographyType = token.attributes.item;
+    const isMobile = token.attributes.type === "mobile";
+
+    const getTokenName = () => {
+      if (isMobile) {
+        return `mobile${capitalizeFirstLetter(typographyType)}`;
+      }
+      return typographyType;
+    };
+
+    return `${getTokenName()}: { ${getTypographySubValues(token.value)} }`;
+  });
+
+  return `${declaration(
+    isJS
+  )}typography: { ${typographyParentTypes}  }${commaOrColon(isJS)}`;
+};
+
+/*
+ * Formats base color objects, which are not nested.
+ * This covers all basic token colors
+ *
+ * ex:
+ * module.exports = {
+ *   text: {...}
+ *   primary: {...}
+ *   separator: {...}
+ * }
+ *
+ * @excludes accent color type tokens
+ */
 const customBaseColorObjectFormatter = (dictionary, isJS) => {
+  if (!dictionary.properties.colors) return "";
   return Object.entries(dictionary.properties.colors)
     .filter((tokens) => tokens[0] !== "accent")
     .map((tokens) => {
@@ -57,10 +134,22 @@ const customBaseColorObjectFormatter = (dictionary, isJS) => {
 
       return renderOutput(isJS, colorObj, filteredTokens);
     })
-    .join(`\n`);
+    .join(``);
 };
 
+/*
+ * Formats accent color type tokens, which are nested under the "accent" key
+ * instead of at the root like other color type tokens
+ *
+ * ex:
+ * module.exports = {
+ *   accent: {
+ *     forest: {...}
+ *   }
+ * }
+ */
 const customAccentColorObjectFormatter = (dictionary, isJS) => {
+  if (!dictionary.properties.colors) return "";
   return Object.entries(dictionary.properties.colors)
     .filter((tokens) => tokens[0] === "accent")
     .map((tokens) => {
@@ -130,6 +219,16 @@ const customBoxShadowObjectFormatter = (dictionary, theme, isJS) => {
   return renderOutput(isJS, "boxShadows", boxShadows, valueOrType);
 };
 
+/*
+ * Formats opacity type tokens
+ *
+ * ex:
+ * module.exports = {
+ *   opacity : {overlayBackdrop : 0.2},};
+ * }
+ *
+ * @excludes "core" type token files
+ */
 const customOpacityObjectFormatter = (dictionary, theme, isJS) => {
   // no opacity tokens for core, returns empty object otherwise
   if (theme?.destination.includes("core")) return "";
@@ -144,16 +243,49 @@ const customOpacityObjectFormatter = (dictionary, theme, isJS) => {
   return renderOutput(isJS, "opacity", opacityTokens, valueOrType);
 };
 
+/*
+ * Formats typography tokens
+ *
+ * ex:
+ * module.exports = {
+ *   typography : {
+ *     h1 : {
+ *      fontFamily: "Mulish"
+ *     }
+ *   }}
+ * }
+ *
+ * @excludes "core" type token files
+ */
+const customTypographyObjectFormatter = (dictionary, theme, isJS) => {
+  // no typography tokens for core, returns empty object otherwise
+  if (theme?.destination.includes("core" || "primitives")) return "";
+
+  const typography = dictionary.allTokens.filter(
+    (token) => token.attributes.category === "typography"
+  );
+
+  const valueOrType = (token, isJS, isFontWeight) => {
+    if (isFontWeight) {
+      return isJS ? `${token}` : `number`;
+    }
+    return isJS ? `"${token}"` : `string`;
+  };
+
+  return renderTypographyOutput(isJS, typography, valueOrType);
+};
+
 StyleDictionary.registerFormat({
   name: "custom/format/typescript-color-declarations",
   formatter: ({ dictionary, file }) => {
     return (
       fileHeader({ file }) +
-      addPrefix(file, false) +
+      addThemePrefix(file, false) +
       customBaseColorObjectFormatter(dictionary, false) +
       customAccentColorObjectFormatter(dictionary, false) +
       customBoxShadowObjectFormatter(dictionary, file, false) +
-      customOpacityObjectFormatter(dictionary, file, false)
+      customOpacityObjectFormatter(dictionary, file, false) +
+      customTypographyObjectFormatter(dictionary, file, false)
     );
   },
 });
@@ -164,11 +296,12 @@ StyleDictionary.registerFormat({
     return (
       fileHeader({ file }) +
       `module.exports = {` +
-      addPrefix(file, true) +
+      addThemePrefix(file, true) +
       customBaseColorObjectFormatter(dictionary, true) +
       customAccentColorObjectFormatter(dictionary, true) +
       customBoxShadowObjectFormatter(dictionary, file, true) +
       customOpacityObjectFormatter(dictionary, file, true) +
+      customTypographyObjectFormatter(dictionary, file, true) +
       `};`
     );
   },

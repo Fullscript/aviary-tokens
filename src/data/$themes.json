@@ -4,8 +4,8 @@
     "name": "light",
     "selectedTokenSets": {
       "core-light": "source",
-      "themes/light": "enabled",
-      "primitives": "source"
+      "primitives": "source",
+      "themes/light": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaCollectionId": "VariableCollectionId:2834:5684",
@@ -163,8 +163,8 @@
     "name": "lightDS3",
     "selectedTokenSets": {
       "core-light": "source",
-      "themes/lightDS3": "enabled",
-      "primitives": "source"
+      "primitives": "source",
+      "themes/lightDS3": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaCollectionId": "VariableCollectionId:2834:5684",
@@ -314,8 +314,8 @@
     "name": "dark",
     "selectedTokenSets": {
       "core-dark": "source",
-      "themes/dark": "enabled",
-      "primitives": "source"
+      "primitives": "source",
+      "themes/dark": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaCollectionId": "VariableCollectionId:2834:5684",

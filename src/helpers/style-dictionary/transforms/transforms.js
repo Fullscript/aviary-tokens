@@ -47,11 +47,13 @@ StyleDictionary.registerTransform({
   },
 });
 
-// turns font weight numbers to string
+// Turns font weight numbers to string
+// Only used in fs-native
 StyleDictionary.registerTransform({
   name: "custom/value/font-weight-to-string",
   type: "value",
-  matcher: (token) => token.type === "fontWeights" || token.type === "fontWeight",
+  matcher: (token) =>
+    token.type === "fontWeights" || token.type === "fontWeight",
   transformer: function (token) {
     return token.value.toString();
   },

@@ -43,7 +43,7 @@ StyleDictionary.registerFilter({
 StyleDictionary.registerFilter({
   name: "custom/filter/themeTokens",
   matcher: (token) => {
-    // Do not parse primitive tokens, as they are not themed
+    // Do not parse primitive tokens, as they are not theme tokens
     const primitiveFile = token.filePath.includes("primitive");
     if (primitiveFile) {
       return false;

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 01 Feb 2024 15:21:24 GMT
+ * Generated on Thu, 01 Feb 2024 20:38:27 GMT
  */
 
 export const h1 : { fontFamily: string, fontWeight: number, fontSize: string, lineHeight: string, textDecoration: string, textCase: string };

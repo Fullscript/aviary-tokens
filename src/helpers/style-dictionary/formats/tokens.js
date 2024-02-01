@@ -43,6 +43,18 @@ const addThemePrefix = (theme, isJS) => {
   )}${commaOrColon(isJS)}\n`);
 };
 
+/*
+ * Renders the output for each token family
+ *
+ * ex:
+ * module.exports = {
+ *   primary: {
+ *     textBase: "#FFF",
+ *     textHover: "#0070F3",
+ *     etc...
+ *  }
+ * }
+ */
 const renderOutput = (isJS, tokenFamily, tokensArray, customValueOrType) => {
   const renderValueOrType = (token) =>
     customValueOrType

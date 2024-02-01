@@ -40,6 +40,11 @@ StyleDictionary.registerFilter({
 StyleDictionary.registerFilter({
   name: "custom/filter/themeTokens",
   matcher: (token) => {
+    const primitiveFile = token.filePath.includes("primitive");
+    if (primitiveFile) {
+      return false;
+    }
+
     return (
       token.attributes.category === "boxShadows" ||
       token.attributes.category === "colors" ||

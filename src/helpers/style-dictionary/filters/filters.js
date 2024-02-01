@@ -21,10 +21,7 @@ StyleDictionary.registerFilter({
 StyleDictionary.registerFilter({
   name: "custom/filter/typography",
   matcher: function (token) {
-    return (
-      token.attributes.category === "typography" ||
-      token.attributes.category === "typography-old"
-    );
+    return token.attributes.category === "typography";
   },
 });
 

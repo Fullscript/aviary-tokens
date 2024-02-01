@@ -21,6 +21,12 @@ StyleDictionary.registerFilter({
 StyleDictionary.registerFilter({
   name: "custom/filter/typography",
   matcher: function (token) {
+    // Only export typography primitives
+    const primitiveFile = token.filePath.includes("primitive");
+    if (!primitiveFile) {
+      return false;
+    }
+
     return token.attributes.category === "typography";
   },
 });
@@ -37,6 +43,7 @@ StyleDictionary.registerFilter({
 StyleDictionary.registerFilter({
   name: "custom/filter/themeTokens",
   matcher: (token) => {
+    // Do not parse primitive tokens, as they are not themed
     const primitiveFile = token.filePath.includes("primitive");
     if (primitiveFile) {
       return false;

@@ -21,7 +21,6 @@ StyleDictionary.registerFilter({
 StyleDictionary.registerFilter({
   name: "custom/filter/typography",
   matcher: function (token) {
-    // console.log(token);
     return (
       token.attributes.category === "typography" ||
       token.attributes.category === "typography-old"

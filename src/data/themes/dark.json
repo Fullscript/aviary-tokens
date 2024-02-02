@@ -2,7 +2,7 @@
   "colors": {
     "text": {
       "emphasis": {
-        "value": "{colors.grey.800}",
+        "value": "{colors.shades.white}",
         "type": "color",
         "description": "Used for any text content and icons used with text that needs emphasizing"
       },
@@ -130,7 +130,7 @@
       },
       "overlay": {
         "dark": {
-          "value": "{colors.grey.300}",
+          "value": "{colors.grey.200}",
           "type": "color",
           "description": "Used for elements that are absolutely positioned to overlay content on the page. Is always a dark background regardless of theme. Ex: Things like Toasts and Tooltips"
         },
@@ -140,7 +140,7 @@
           "description": "Used for elements that are absolutely positioned to overlay content on the page. Matches the base color of the theme. Ex: Snackbar"
         },
         "backdrop": {
-          "value": "{colors.grey.200}",
+          "value": "{colors.shades.black}",
           "type": "color",
           "description": "Used to overlay & de-emphasize the page to draw focus to certain areas. Ex: Used with Modals, Drawers"
         }

@@ -2,7 +2,7 @@
   "colors": {
     "text": {
       "emphasis": {
-        "value": "#E8E9EA",
+        "value": "#FFFFFF",
         "type": "color",
         "description": "Used for any text content and icons used with text that needs emphasizing"
       },
@@ -47,7 +47,7 @@
       },
       "background": {
         "base": {
-          "value": "#101012",
+          "value": "#141719",
           "type": "color",
           "description": "Used as the background for system components"
         },
@@ -67,7 +67,7 @@
           "description": "Used as the pressed muted background for system components"
         },
         "box": {
-          "value": "#1A1D21",
+          "value": "#1D2124",
           "type": "color",
           "description": "Used as a background colour for a system container like Box or Message"
         }
@@ -97,12 +97,12 @@
     },
     "surface": {
       "level0": {
-        "value": "#101012",
+        "value": "#141719",
         "type": "color",
         "description": "Used for setting the lowest most level, mainly applied as a background color to the HTML body. Should always be underneath levels 1 and 2"
       },
       "level1": {
-        "value": "#101012",
+        "value": "#141719",
         "type": "color",
         "description": "Used commonly with Boxes and containers that are directly on surface level 0. Also can be used as an alternative HTML body background color."
       },
@@ -113,7 +113,7 @@
       },
       "interactive": {
         "background": {
-          "value": "#1A1D21",
+          "value": "#1D2124",
           "type": "color",
           "description": "Used for elements where the entire surface is interactable. For example Accordions, ActionBlock, and DropdownItems"
         },
@@ -130,17 +130,17 @@
       },
       "overlay": {
         "dark": {
-          "value": "#22272B",
+          "value": "#1D2124",
           "type": "color",
           "description": "Used for elements that are absolutely positioned to overlay content on the page. Is always a dark background regardless of theme. Ex: Things like Toasts and Tooltips"
         },
         "theme": {
-          "value": "#1A1D21",
+          "value": "#1D2124",
           "type": "color",
           "description": "Used for elements that are absolutely positioned to overlay content on the page. Matches the base color of the theme. Ex: Snackbar"
         },
         "backdrop": {
-          "value": "#1A1D21",
+          "value": "#000000",
           "type": "color",
           "description": "Used to overlay & de-emphasize the page to draw focus to certain areas. Ex: Used with Modals, Drawers"
         }
@@ -149,17 +149,17 @@
     "primary": {
       "text": {
         "base": {
-          "value": "#1A1D21",
+          "value": "#1D2124",
           "type": "color",
           "description": "Used as the text or fill colour for interactive and static primary components such as links, text, and icons"
         },
         "hover": {
-          "value": "#1A1D21",
+          "value": "#1D2124",
           "type": "color",
           "description": "Used as the hovered text or fill colour for interactive primary components such as links and text buttons"
         },
         "active": {
-          "value": "#1A1D21",
+          "value": "#1D2124",
           "type": "color",
           "description": "Used as the pressed text or fill colour for interactive primary components such as links and text buttons"
         }
@@ -227,12 +227,12 @@
           "description": "Used as the text or fill colour for successful intention versions of components such as message, pill, or box"
         },
         "hover": {
-          "value": "#86D6B9",
+          "value": "#BFE8D9",
           "type": "color",
           "description": "Used as the hovered text or fill colour for successful intention versions of components such as message, pill, or box"
         },
         "active": {
-          "value": "#DBFFF1",
+          "value": "#F0FFF9",
           "type": "color",
           "description": "Used as the pressed text or fill colour for successful intention versions of components such as message, pill, or box"
         }
@@ -249,22 +249,22 @@
           "description": "Description to come."
         },
         "active": {
-          "value": "#86D6B9",
+          "value": "#BFE8D9",
           "type": "color",
           "description": "Description to come."
         },
         "muted": {
-          "value": "#0F3326",
+          "value": "#124935",
           "type": "color",
           "description": "Used as the muted background for successful intention versions of components such as message, pill, or box. Paired with successful.textBase for a subtler contrast."
         },
         "mutedHover": {
-          "value": "#13402F",
+          "value": "#1F5B45",
           "type": "color",
           "description": "Used as the hovered muted background for successful intention versions of components such as message, pill, or box. Paired with successful.textBase for a subtler contrast"
         },
         "mutedActive": {
-          "value": "#256E53",
+          "value": "#206A4F",
           "type": "color",
           "description": "Used as the pressed muted background for successful intention versions of components such as message, pill, or box. Paired with successful.textBase for a subtler contrast"
         },
@@ -276,7 +276,7 @@
       },
       "border": {
         "base": {
-          "value": "#256E53",
+          "value": "#206A4F",
           "type": "color",
           "description": "Used for the border colour for successful intention versions of components such as buttons and Message"
         },
@@ -400,12 +400,12 @@
           "description": "Used as the pressed background for warning components such as plain buttons"
         },
         "muted": {
-          "value": "#361D0E",
+          "value": "#4A2915",
           "type": "color",
           "description": "Used as the muted background for warning components such as pills and text buttons. Paired with warning.textBase for a subtler contrast"
         },
         "mutedHover": {
-          "value": "#4A2915",
+          "value": "#63371C",
           "type": "color",
           "description": "Used as the hovered muted background for warning components such as pills and text buttons. Paired with warning.textBase for a subtler contrast"
         },
@@ -473,12 +473,12 @@
           "description": "Used as the pressed background for danger components such as plain buttons"
         },
         "muted": {
-          "value": "#34101A",
+          "value": "#451522",
           "type": "color",
           "description": "Used as the muted background for danger components such as pills and text buttons. Paired with danger.textBase for a subtler contrast"
         },
         "mutedHover": {
-          "value": "#451522",
+          "value": "#5E1D2E",
           "type": "color",
           "description": "Used as the hovered muted background for danger components such as pills and text buttons. Paired with danger.textBase for a subtler contrast"
         },
@@ -546,12 +546,12 @@
           "description": "Used as the pressed background for highlight components such as plain buttons"
         },
         "muted": {
-          "value": "#291433",
+          "value": "#33193F",
           "type": "color",
           "description": "Used as the muted background for highlight components such as pills and text buttons. Paired with highlight.textBase for a subtler contrast"
         },
         "mutedHover": {
-          "value": "#33193F",
+          "value": "#482359",
           "type": "color",
           "description": "Used as the hovered muted background for highlight components such as pills and text buttons. Paired with highlight.textBase for a subtler contrast"
         },
@@ -776,25 +776,25 @@
       "forest": {
         "text": {
           "body": {
-            "value": "#86D6B9",
+            "value": "#BFE8D9",
             "type": "color"
           },
           "emphasis": {
-            "value": "#DBFFF1",
+            "value": "#F0FFF9",
             "type": "color"
           }
         },
         "background": {
           "muted0": {
-            "value": "#0F3326",
+            "value": "#124935",
             "type": "color"
           },
           "muted1": {
-            "value": "#13402F",
+            "value": "#1F5B45",
             "type": "color"
           },
           "muted2": {
-            "value": "#256E53",
+            "value": "#206A4F",
             "type": "color"
           }
         }
@@ -802,25 +802,25 @@
       "sand": {
         "text": {
           "body": {
-            "value": "#D6BA87",
+            "value": "#EFE5D1",
             "type": "color"
           },
           "emphasis": {
-            "value": "#EFE5D1",
+            "value": "#F6F1E5",
             "type": "color"
           }
         },
         "background": {
           "muted0": {
-            "value": "#33260F",
+            "value": "#493612",
             "type": "color"
           },
           "muted1": {
-            "value": "#402F13",
+            "value": "#5E4317",
             "type": "color"
           },
           "muted2": {
-            "value": "#6E5225",
+            "value": "#6B5024",
             "type": "color"
           }
         }

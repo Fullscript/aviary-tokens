@@ -898,7 +898,7 @@
         "value": {
           "fontFamily": "Mulish",
           "fontWeight": 700,
-          "fontSize": "32px",
+          "fontSize": "40px",
           "lineHeight": "40px",
           "textDecoration": "none",
           "textCase": "none"
@@ -938,6 +938,17 @@
         },
         "type": "typography"
       },
+      "h5": {
+        "value": {
+          "fontFamily": "Mulish",
+          "fontWeight": 700,
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography"
+      },
       "body": {
         "value": {
           "fontFamily": "Mulish",
@@ -953,8 +964,8 @@
         "value": {
           "fontFamily": "Mulish",
           "fontWeight": 500,
-          "fontSize": "14px",
-          "lineHeight": "16px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
           "textDecoration": "none",
           "textCase": "none"
         },
@@ -1028,6 +1039,17 @@
         },
         "type": "typography"
       },
+      "h5": {
+        "value": {
+          "fontFamily": "Mulish",
+          "fontWeight": 700,
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography"
+      },
       "body": {
         "value": {
           "fontFamily": "Mulish",
@@ -1043,8 +1065,8 @@
         "value": {
           "fontFamily": "Mulish",
           "fontWeight": 500,
-          "fontSize": "14px",
-          "lineHeight": "16px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
           "textDecoration": "none",
           "textCase": "none"
         },

@@ -118,7 +118,7 @@ const renderTypographyOutput = (isJS, tokensArray, customValueOrType) => {
 
   return `${declaration(
     isJS
-  )}typography: { ${typographyParentTypes}  }${commaOrColon(isJS)}`;
+  )}aviaryTypography: { ${typographyParentTypes}  }${commaOrColon(isJS)}`;
 };
 
 /*

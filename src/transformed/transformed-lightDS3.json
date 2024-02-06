@@ -904,7 +904,7 @@
       "h2": {
         "value": {
           "fontFamily": "Mulish",
-          "fontWeight": 500,
+          "fontWeight": 700,
           "fontSize": "32px",
           "lineHeight": "40px",
           "textDecoration": "none",
@@ -915,7 +915,7 @@
       "h3": {
         "value": {
           "fontFamily": "Mulish",
-          "fontWeight": 500,
+          "fontWeight": 700,
           "fontSize": "24px",
           "lineHeight": "32px",
           "textDecoration": "none",
@@ -1004,7 +1004,7 @@
       },
       "h2": {
         "value": {
-          "fontFamily": "Besley",
+          "fontFamily": "Mulish",
           "fontWeight": 500,
           "fontSize": "28px",
           "lineHeight": "32px",
@@ -1015,7 +1015,7 @@
       },
       "h3": {
         "value": {
-          "fontFamily": "Besley",
+          "fontFamily": "Mulish",
           "fontWeight": 500,
           "fontSize": "22px",
           "lineHeight": "32px",

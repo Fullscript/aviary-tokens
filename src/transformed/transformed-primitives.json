@@ -105,20 +105,28 @@
       }
     },
     "lineHeight": {
+      "xxlarge": {
+        "value": "50px",
+        "type": "lineHeights"
+      },
       "xlarge": {
-        "value": "40px",
+        "value": "44px",
         "type": "lineHeights"
       },
       "large": {
-        "value": "32px",
+        "value": "34px",
         "type": "lineHeights"
       },
-      "normal": {
-        "value": "24px",
+      "medium": {
+        "value": "26px",
         "type": "lineHeights"
       },
       "small": {
-        "value": "16px",
+        "value": "22px",
+        "type": "lineHeights"
+      },
+      "xsmall": {
+        "value": "18px",
         "type": "lineHeights"
       }
     },

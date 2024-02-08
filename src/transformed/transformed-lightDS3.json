@@ -895,7 +895,7 @@
           "fontFamily": "Mulish",
           "fontWeight": 700,
           "fontSize": "40px",
-          "lineHeight": "40px",
+          "lineHeight": "50px",
           "textDecoration": "none",
           "textCase": "none"
         },
@@ -906,7 +906,7 @@
           "fontFamily": "Mulish",
           "fontWeight": 700,
           "fontSize": "32px",
-          "lineHeight": "40px",
+          "lineHeight": "44px",
           "textDecoration": "none",
           "textCase": "none"
         },
@@ -917,7 +917,7 @@
           "fontFamily": "Mulish",
           "fontWeight": 700,
           "fontSize": "24px",
-          "lineHeight": "32px",
+          "lineHeight": "34px",
           "textDecoration": "none",
           "textCase": "none"
         },
@@ -928,7 +928,7 @@
           "fontFamily": "Mulish",
           "fontWeight": 600,
           "fontSize": "20px",
-          "lineHeight": "24px",
+          "lineHeight": "26px",
           "textDecoration": "none",
           "textCase": "none"
         },
@@ -939,7 +939,7 @@
           "fontFamily": "Mulish",
           "fontWeight": 700,
           "fontSize": "16px",
-          "lineHeight": "24px",
+          "lineHeight": "22px",
           "textDecoration": "none",
           "textCase": "none"
         },
@@ -950,7 +950,7 @@
           "fontFamily": "Mulish",
           "fontWeight": 400,
           "fontSize": "16px",
-          "lineHeight": "24px",
+          "lineHeight": "22px",
           "textDecoration": "none",
           "textCase": "none"
         },
@@ -961,7 +961,7 @@
           "fontFamily": "Mulish",
           "fontWeight": 500,
           "fontSize": "14px",
-          "lineHeight": "16px",
+          "lineHeight": "18px",
           "textDecoration": "none",
           "textCase": "none"
         },
@@ -972,7 +972,7 @@
           "fontFamily": "Mulish",
           "fontWeight": 500,
           "fontSize": "12px",
-          "lineHeight": "16px",
+          "lineHeight": "18px",
           "textDecoration": "none",
           "textCase": "none"
         },
@@ -983,7 +983,7 @@
           "fontFamily": "Mulish",
           "fontWeight": 500,
           "fontSize": "10px",
-          "lineHeight": "16px",
+          "lineHeight": "18px",
           "textDecoration": "none",
           "textCase": "none"
         },
@@ -996,7 +996,7 @@
           "fontFamily": "Mulish",
           "fontWeight": 700,
           "fontSize": "32px",
-          "lineHeight": "40px",
+          "lineHeight": "44px",
           "textDecoration": "none",
           "textCase": "none"
         },
@@ -1007,7 +1007,7 @@
           "fontFamily": "Mulish",
           "fontWeight": 500,
           "fontSize": "28px",
-          "lineHeight": "32px",
+          "lineHeight": "44px",
           "textDecoration": "none",
           "textCase": "none"
         },
@@ -1018,7 +1018,7 @@
           "fontFamily": "Mulish",
           "fontWeight": 500,
           "fontSize": "22px",
-          "lineHeight": "32px",
+          "lineHeight": "34px",
           "textDecoration": "none",
           "textCase": "none"
         },
@@ -1029,7 +1029,7 @@
           "fontFamily": "Mulish",
           "fontWeight": 600,
           "fontSize": "20px",
-          "lineHeight": "24px",
+          "lineHeight": "26px",
           "textDecoration": "none",
           "textCase": "none"
         },
@@ -1040,7 +1040,7 @@
           "fontFamily": "Mulish",
           "fontWeight": 700,
           "fontSize": "16px",
-          "lineHeight": "24px",
+          "lineHeight": "22px",
           "textDecoration": "none",
           "textCase": "none"
         },
@@ -1051,7 +1051,7 @@
           "fontFamily": "Mulish",
           "fontWeight": 400,
           "fontSize": "16px",
-          "lineHeight": "24px",
+          "lineHeight": "22px",
           "textDecoration": "none",
           "textCase": "none"
         },
@@ -1062,7 +1062,7 @@
           "fontFamily": "Mulish",
           "fontWeight": 500,
           "fontSize": "14px",
-          "lineHeight": "16px",
+          "lineHeight": "18px",
           "textDecoration": "none",
           "textCase": "none"
         },
@@ -1073,7 +1073,7 @@
           "fontFamily": "Mulish",
           "fontWeight": 500,
           "fontSize": "12px",
-          "lineHeight": "16px",
+          "lineHeight": "18px",
           "textDecoration": "none",
           "textCase": "none"
         },
@@ -1084,7 +1084,7 @@
           "fontFamily": "Mulish",
           "fontWeight": 500,
           "fontSize": "10px",
-          "lineHeight": "16px",
+          "lineHeight": "18px",
           "textDecoration": "none",
           "textCase": "none"
         },

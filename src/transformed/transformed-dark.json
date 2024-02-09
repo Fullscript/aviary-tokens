@@ -7,12 +7,12 @@
         "description": "Used for any text content and icons used with text that needs emphasizing"
       },
       "body": {
-        "value": "#BCBDBF",
+        "value": "#E8E9EA",
         "type": "color",
         "description": "Used for default text content and icons used with text"
       },
       "subdued": {
-        "value": "#98999B",
+        "value": "#BCBDBF",
         "type": "color",
         "description": "Used for any text content and icons used with text that requires less prominence"
       },

@@ -7,12 +7,12 @@
         "description": "Used for any text content and icons used with text that needs emphasizing"
       },
       "body": {
-        "value": "{colors.grey.700}",
+        "value": "{colors.grey.800}",
         "type": "color",
         "description": "Used for default text content and icons used with text"
       },
       "subdued": {
-        "value": "{colors.grey.600}",
+        "value": "{colors.grey.700}",
         "type": "color",
         "description": "Used for any text content and icons used with text that requires less prominence"
       },

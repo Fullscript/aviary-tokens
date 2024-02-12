@@ -135,9 +135,13 @@
           "description": "Used for elements that are absolutely positioned to overlay content on the page. Is always a dark background regardless of theme. Ex: Things like Toasts and Tooltips"
         },
         "theme": {
-          "value": "{colors.grey.200}",
+          "value": "{colors.grey.400}",
           "type": "color",
           "description": "Used for elements that are absolutely positioned to overlay content on the page. Matches the base color of the theme. Ex: Snackbar"
+        },
+        "modal": {
+          "value": "{colors.grey.200}",
+          "type": "color"
         },
         "backdrop": {
           "value": "{colors.shades.black}",
@@ -823,6 +827,32 @@
             "value": "{colors.brown.400}",
             "type": "color"
           }
+        }
+      }
+    },
+    "inverted": {
+      "background": {
+        "base": {
+          "value": "{colors.grey.800}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{colors.grey.700}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{colors.grey.600}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "emphasis": {
+          "value": "{colors.grey.100}",
+          "type": "color"
+        },
+        "body": {
+          "value": "{colors.grey.200}",
+          "type": "color"
         }
       }
     }

@@ -838,7 +838,7 @@
           "value": "{colors.grey.700}",
           "type": "color"
         },
-        "grey": {
+        "active": {
           "value": "{colors.grey.600}",
           "type": "color"
         }

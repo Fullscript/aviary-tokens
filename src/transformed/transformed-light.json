@@ -838,7 +838,7 @@
           "value": "#36485C",
           "type": "color"
         },
-        "grey": {
+        "active": {
           "value": "#475A70",
           "type": "color"
         }

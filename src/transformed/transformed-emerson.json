@@ -143,6 +143,10 @@
           "value": "#36485C",
           "type": "color",
           "description": "Used to overlay & de-emphasize the page to draw focus to certain areas. Ex: Used with Modals, Drawers"
+        },
+        "modal": {
+          "value": "#FFFFFF",
+          "type": "color"
         }
       }
     },
@@ -819,6 +823,32 @@
             "value": "#DACCAA",
             "type": "color"
           }
+        }
+      }
+    },
+    "inverted": {
+      "background": {
+        "base": {
+          "value": "#2E3A47",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#36485C",
+          "type": "color"
+        },
+        "active": {
+          "value": "#475A70",
+          "type": "color"
+        }
+      },
+      "text": {
+        "emphasis": {
+          "value": "#FFFFFF",
+          "type": "color"
+        },
+        "body": {
+          "value": "#F5F7FA",
+          "type": "color"
         }
       }
     }

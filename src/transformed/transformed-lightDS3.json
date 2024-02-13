@@ -956,7 +956,7 @@
       "h4": {
         "value": {
           "fontFamily": "Mulish",
-          "fontWeight": 600,
+          "fontWeight": 700,
           "fontSize": "20px",
           "lineHeight": "26px",
           "textDecoration": "none",
@@ -1057,7 +1057,7 @@
       "h4": {
         "value": {
           "fontFamily": "Mulish",
-          "fontWeight": 600,
+          "fontWeight": 700,
           "fontSize": "20px",
           "lineHeight": "26px",
           "textDecoration": "none",

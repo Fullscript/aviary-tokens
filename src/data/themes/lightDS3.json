@@ -926,7 +926,7 @@
       "h4": {
         "value": {
           "fontFamily": "{typography.fontFamily.sansSerif}",
-          "fontWeight": "{typography.weight.strong}",
+          "fontWeight": "{typography.weight.semiBold}",
           "fontSize": "{typography.size.desktop.large}",
           "lineHeight": "{typography.lineHeight.medium}",
           "textDecoration": "{typography.textDecoration.base}",

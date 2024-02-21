@@ -74,7 +74,7 @@
       },
       "border": {
         "base": {
-          "value": "#515357",
+          "value": "#686B70",
           "type": "color",
           "description": "Used for the border colour for system components"
         },
@@ -147,6 +147,20 @@
           "value": "#000000",
           "type": "color",
           "description": "Used to overlay & de-emphasize the page to draw focus to certain areas. Ex: Used with Modals, Drawers"
+        }
+      },
+      "border": {
+        "base": {
+          "value": "#515357",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#98999B",
+          "type": "color"
+        },
+        "active": {
+          "value": "#BCBDBF",
+          "type": "color"
         }
       }
     },

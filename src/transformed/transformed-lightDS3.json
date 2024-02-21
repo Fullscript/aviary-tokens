@@ -74,7 +74,7 @@
       },
       "border": {
         "base": {
-          "value": "#C8D3E0",
+          "value": "#B8C6D6",
           "type": "color",
           "description": "Used for the border colour for system components"
         },
@@ -146,6 +146,20 @@
         },
         "modal": {
           "value": "#FFFFFF",
+          "type": "color"
+        }
+      },
+      "border": {
+        "base": {
+          "value": "#C8D3E0",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#596D84",
+          "type": "color"
+        },
+        "active": {
+          "value": "#475A70",
           "type": "color"
         }
       }

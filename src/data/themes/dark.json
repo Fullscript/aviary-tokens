@@ -74,7 +74,7 @@
       },
       "border": {
         "base": {
-          "value": "{colors.grey.500}",
+          "value": "{colors.grey.510}",
           "type": "color",
           "description": "Used for the border colour for system components"
         },
@@ -147,6 +147,20 @@
           "value": "{colors.shades.black}",
           "type": "color",
           "description": "Used to overlay & de-emphasize the page to draw focus to certain areas. Ex: Used with Modals, Drawers"
+        }
+      },
+      "border": {
+        "base": {
+          "value": "{colors.grey.500}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{colors.grey.600}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{colors.grey.700}",
+          "type": "color"
         }
       }
     },

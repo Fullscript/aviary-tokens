@@ -74,7 +74,7 @@
       },
       "border": {
         "base": {
-          "value": "{colors.grey.400}",
+          "value": "{colors.grey.410}",
           "type": "color",
           "description": "Used for the border colour for system components"
         },
@@ -146,6 +146,20 @@
         },
         "modal": {
           "value": "{colors.shades.white}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "base": {
+          "value": "{colors.grey.400}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{colors.grey.500}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{colors.grey.600}",
           "type": "color"
         }
       }

@@ -145,15 +145,7 @@ const getStyleDictionaryConfig = (theme) => {
 
 // Add themes to the array to create theme-specific files under themes folder
 // "core" theme will build files outside of the themes folder
-const themes = [
-  "primitives",
-  "core-light",
-  "core-dark",
-  "light",
-  "lightDS3",
-  "dark",
-  "emerson",
-];
+const themes = ["core-light", "light"];
 
 themes.map((theme) => {
   StyleDictionary.extend(getStyleDictionaryConfig(theme)).buildAllPlatforms();

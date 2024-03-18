@@ -290,6 +290,8 @@ const customTypographyObjectFormatter = (dictionary, theme, isJS) => {
 StyleDictionary.registerFormat({
   name: "custom/format/typescript-color-declarations",
   formatter: ({ dictionary, file }) => {
+    console.log(dictionary.attributes);
+    console.log("AOOAOAOOA");
     return (
       fileHeader({ file }) +
       addThemePrefix(file, false) +

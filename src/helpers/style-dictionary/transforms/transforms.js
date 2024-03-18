@@ -62,8 +62,10 @@ StyleDictionary.registerTransform({
   transformer: function (token) {
     return {
       ...token.value,
+      fontFamily: `"${token.value.fontFamily}"`,
       fontWeight: `"${token.value.fontWeight}"`,
       fontSize: `${parseFloat(token.value.fontSize)}`,
+      lineHeight: `${parseFloat(token.value.lineHeight)}`,
     };
   },
 });

@@ -279,7 +279,12 @@ const customTypographyObjectFormatter = (dictionary, theme, isJS, isNative) => {
 
   const valueOrType = (token, isJS, propertyName) => {
     if (isNative) {
-      if (propertyName !== "fontSize" || propertyName !== "lineHeight") {
+      if (
+        propertyName === "fontWeight" ||
+        propertyName === "textCaseBase" ||
+        propertyName === "textDecorationBase" ||
+        propertyName === "fontFamily"
+      ) {
         return isJS ? `${token}` : `string`;
       }
       return isJS ? `${token}` : `number`;

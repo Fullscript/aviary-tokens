@@ -47,6 +47,18 @@ StyleDictionary.registerTransform({
   },
 });
 
+// Turns font weight numbers to string
+// Only used in fs-native
+StyleDictionary.registerTransform({
+  name: "custom/value/font-weight-to-string",
+  type: "value",
+  matcher: (token) =>
+    token.type === "fontWeights" || token.type === "fontWeight",
+  transformer: function (token) {
+    return token.value.toString();
+  },
+});
+
 /* Converts typography attributes to
  * proper types to be used in react native
  *

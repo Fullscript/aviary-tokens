@@ -285,7 +285,7 @@ const customTypographyObjectFormatter = (dictionary, theme, isJS, isNative) => {
         propertyName === "textDecoration" ||
         propertyName === "fontFamily"
       ) {
-        return isJS ? `${token}` : `string`;
+        return isJS ? `"${token}"` : `string`;
       }
       return isJS ? `${token}` : `number`;
     }

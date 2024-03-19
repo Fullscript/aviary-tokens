@@ -283,7 +283,12 @@ const customTypographyObjectFormatter = (dictionary, theme, isJS, isNative) => {
         propertyName === "fontWeight" ||
         propertyName === "textCase" ||
         propertyName === "textDecoration" ||
-        propertyName === "fontFamily"
+        propertyName === "fontFamily" ||
+        propertyName === "weightSemiBold" ||
+        propertyName === "weightBase" ||
+        propertyName === "weightLight" ||
+        propertyName === "weightStrong" ||
+        propertyName === "weightBold"
       ) {
         return isJS ? `"${token}"` : `string`;
       }

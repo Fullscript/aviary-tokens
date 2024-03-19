@@ -72,8 +72,8 @@ const renderOutput = (isJS, tokenFamily, tokensArray, customValueOrType) => {
 };
 
 const renderTypographyOutput = (isJS, tokensArray, customValueOrType) => {
-  const renderValueOrType = (token, isFontWeight) =>
-    customValueOrType(token, isJS, isFontWeight);
+  const renderValueOrType = (token, propertyName) =>
+    customValueOrType(token, isJS, propertyName);
 
   /* Output the typography sub values
    *
@@ -89,7 +89,7 @@ const renderTypographyOutput = (isJS, tokensArray, customValueOrType) => {
 
       return `${propertyName}: ${renderValueOrType(
         propertyValue,
-        propertyName === `fontWeight`
+        propertyName
       )} `;
     });
   };
@@ -277,11 +277,14 @@ const customTypographyObjectFormatter = (dictionary, theme, isJS, isNative) => {
     (token) => token.attributes.category === "typography"
   );
 
-  const valueOrType = (token, isJS, isFontWeight) => {
+  const valueOrType = (token, isJS, propertyName) => {
     if (isNative) {
+      if (propertyName !== "fontSize" || propertyName !== "lineHeight") {
+        return isJS ? `${token}` : `string`;
+      }
       return isJS ? `${token}` : `number`;
     }
-    if (isFontWeight) {
+    if (propertyName === "fontWeight") {
       return isJS ? `${token}` : `number`;
     }
     return isJS ? `"${token}"` : `string`;
@@ -293,8 +296,6 @@ const customTypographyObjectFormatter = (dictionary, theme, isJS, isNative) => {
 StyleDictionary.registerFormat({
   name: "custom/format/typescript-color-declarations",
   formatter: ({ dictionary, file, platform }) => {
-    console.log(platform);
-    console.log("AOOAOAOOA");
     const isNative = platform.transformGroup.includes("native");
     return (
       fileHeader({ file }) +

@@ -37,16 +37,6 @@ StyleDictionary.registerTransform({
   },
 });
 
-// removes "px" and turns string into number
-StyleDictionary.registerTransform({
-  name: "custom/value/rm-px",
-  type: "value",
-  matcher: isStringPxValue,
-  transformer: function (token) {
-    return parseFloat(token.value);
-  },
-});
-
 /* Converts typography attributes to
  * proper types to be used in react native
  *
@@ -54,7 +44,7 @@ StyleDictionary.registerTransform({
  * fontSize: string => number
  */
 StyleDictionary.registerTransform({
-  name: "custom/value/font-weight-to-string",
+  name: "custom/value/native-typography-transforms",
   type: "value",
   matcher: (token) => {
     return token.type === "typography";

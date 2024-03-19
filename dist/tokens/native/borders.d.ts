@@ -1,10 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Mon, 18 Mar 2024 18:39:38 GMT
+ * Generated on Tue, 19 Mar 2024 13:26:28 GMT
  */
 
-export const radiusBase : number;
+export const radiusBase : string;
 export const radiusCircle : string;
-export const radiusModal : number;
-export const radiusPill : number;
-export const widthBase : number;
+export const radiusModal : string;
+export const radiusPill : string;
+export const widthBase : string;

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 18 Mar 2024 18:39:38 GMT
+ * Generated on Tue, 19 Mar 2024 13:26:28 GMT
  */
 
 module.exports = {
@@ -8,23 +8,23 @@ module.exports = {
   "paragraphSpacingBase": 0,
   "textDecorationBase": "none",
   "textCaseBase": "none",
-  "size3xlarge": 40,
-  "size2xlarge": 32,
-  "sizeXlarge": 24,
-  "sizeLarge": 20,
-  "sizeNormal": 16,
-  "sizeSmall": 14,
-  "sizeXsmall": 12,
-  "sizeXxsmall": 10,
-  "sizeMobile3xlarge": 32,
-  "sizeMobile2xlarge": 28,
-  "sizeMobileXlarge": 22,
-  "lineHeightXxlarge": 50,
-  "lineHeightXlarge": 44,
-  "lineHeightLarge": 34,
-  "lineHeightMedium": 26,
-  "lineHeightSmall": 22,
-  "lineHeightXsmall": 18,
+  "size3xlarge": "40px",
+  "size2xlarge": "32px",
+  "sizeXlarge": "24px",
+  "sizeLarge": "20px",
+  "sizeNormal": "16px",
+  "sizeSmall": "14px",
+  "sizeXsmall": "12px",
+  "sizeXxsmall": "10px",
+  "sizeMobile3xlarge": "32px",
+  "sizeMobile2xlarge": "28px",
+  "sizeMobileXlarge": "22px",
+  "lineHeightXxlarge": "50px",
+  "lineHeightXlarge": "44px",
+  "lineHeightLarge": "34px",
+  "lineHeightMedium": "26px",
+  "lineHeightSmall": "22px",
+  "lineHeightXsmall": "18px",
   "fontFamilySansSerif": "Mulish",
   "fontFamilySerif": "Besley",
   "weightSemiBold": 700,

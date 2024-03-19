@@ -1,29 +1,29 @@
 /**
  * Do not edit directly
- * Generated on Mon, 18 Mar 2024 18:39:38 GMT
+ * Generated on Tue, 19 Mar 2024 13:26:28 GMT
  */
 
 export const letterSpacingBase : number;
 export const paragraphSpacingBase : number;
 export const textDecorationBase : string;
 export const textCaseBase : string;
-export const size3xlarge : number;
-export const size2xlarge : number;
-export const sizeXlarge : number;
-export const sizeLarge : number;
-export const sizeNormal : number;
-export const sizeSmall : number;
-export const sizeXsmall : number;
-export const sizeXxsmall : number;
-export const sizeMobile3xlarge : number;
-export const sizeMobile2xlarge : number;
-export const sizeMobileXlarge : number;
-export const lineHeightXxlarge : number;
-export const lineHeightXlarge : number;
-export const lineHeightLarge : number;
-export const lineHeightMedium : number;
-export const lineHeightSmall : number;
-export const lineHeightXsmall : number;
+export const size3xlarge : string;
+export const size2xlarge : string;
+export const sizeXlarge : string;
+export const sizeLarge : string;
+export const sizeNormal : string;
+export const sizeSmall : string;
+export const sizeXsmall : string;
+export const sizeXxsmall : string;
+export const sizeMobile3xlarge : string;
+export const sizeMobile2xlarge : string;
+export const sizeMobileXlarge : string;
+export const lineHeightXxlarge : string;
+export const lineHeightXlarge : string;
+export const lineHeightLarge : string;
+export const lineHeightMedium : string;
+export const lineHeightSmall : string;
+export const lineHeightXsmall : string;
 export const fontFamilySansSerif : string;
 export const fontFamilySerif : string;
 export const weightSemiBold : number;

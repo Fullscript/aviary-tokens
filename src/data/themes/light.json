@@ -1095,5 +1095,49 @@
         "type": "typography"
       }
     }
+  },
+  "secondary": {
+    "border": {
+      "base": {
+        "value": "{colors.grey.800}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{colors.grey.900}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{colors.grey.900}",
+        "type": "color"
+      }
+    },
+    "background": {
+      "base": {
+        "value": "{colors.shades.white}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{colors.grey.200}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{colors.grey.300}",
+        "type": "color"
+      }
+    },
+    "text": {
+      "base": {
+        "value": "{colors.grey.800}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{colors.grey.800}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{colors.grey.800}",
+        "type": "color"
+      }
+    }
   }
 }

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 19 Mar 2024 13:54:31 GMT
+ * Generated on Mon, 08 Jul 2024 12:56:30 GMT
  */
 
 export const text : {emphasis:{
@@ -639,6 +639,43 @@ export const inverted : {backgroundBase:{
             hex: string,
             
           },textBody:{
+            name: string,
+            hex: string,
+            
+          }};
+export const secondary : {textBase:{
+            name: string,
+            hex: string,
+            
+          },textHover:{
+            name: string,
+            hex: string,
+            
+          },textActive:{
+            name: string,
+            hex: string,
+            
+          },backgroundBase:{
+            name: string,
+            hex: string,
+            
+          },backgroundHover:{
+            name: string,
+            hex: string,
+            
+          },backgroundActive:{
+            name: string,
+            hex: string,
+            
+          },borderBase:{
+            name: string,
+            hex: string,
+            
+          },borderHover:{
+            name: string,
+            hex: string,
+            
+          },borderActive:{
             name: string,
             hex: string,
             

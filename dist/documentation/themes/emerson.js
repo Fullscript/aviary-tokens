@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 19 Mar 2024 13:54:31 GMT
+ * Generated on Mon, 08 Jul 2024 12:56:30 GMT
  */
 
 module.exports = {text : {emphasis:{
@@ -637,5 +637,42 @@ inverted : {backgroundBase:{
           },textBody:{
             name: "inverted.textBody",
             hex: "#F5F7FA",
+            
+          }},
+secondary : {textBase:{
+            name: "secondary.textBase",
+            hex: "#2E3A47",
+            
+          },textHover:{
+            name: "secondary.textHover",
+            hex: "#2E3A47",
+            
+          },textActive:{
+            name: "secondary.textActive",
+            hex: "#2E3A47",
+            
+          },backgroundBase:{
+            name: "secondary.backgroundBase",
+            hex: "#FFFFFF",
+            
+          },backgroundHover:{
+            name: "secondary.backgroundHover",
+            hex: "#F5F7FA",
+            
+          },backgroundActive:{
+            name: "secondary.backgroundActive",
+            hex: "#E6EDF5",
+            
+          },borderBase:{
+            name: "secondary.borderBase",
+            hex: "#2E3A47",
+            
+          },borderHover:{
+            name: "secondary.borderHover",
+            hex: "#212933",
+            
+          },borderActive:{
+            name: "secondary.borderActive",
+            hex: "#212933",
             
           }},};

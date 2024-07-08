@@ -869,6 +869,50 @@
           "type": "color"
         }
       }
+    },
+    "secondary": {
+      "text": {
+        "base": {
+          "value": "{colors.shades.white}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{colors.shades.white}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{colors.shades.white}",
+          "type": "color"
+        }
+      },
+      "background": {
+        "base": {
+          "value": "{colors.grey.100}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{colors.grey.300}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{colors.grey.400}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "base": {
+          "value": "{colors.shades.white}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{colors.grey.800}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{colors.grey.800}",
+          "type": "color"
+        }
+      }
     }
   },
   "boxShadows": {

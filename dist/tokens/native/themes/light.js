@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 19 Mar 2024 13:54:31 GMT
+ * Generated on Mon, 08 Jul 2024 12:56:30 GMT
  */
 
 module.exports = {theme: "light",
@@ -19,6 +19,7 @@ separator: {base : "#C8D3E0"},
 light: {backgroundBase : "#FFFFFF",backgroundContrast : "#475A70",backgroundHover : "#F5F7FA",backgroundActive : "#E6EDF5",textBase : "#2E3A47",linkMutedBase : "#F5F7FA",linkMutedHover : "#FFFFFF"},
 shadow: {base : "#36485C"},
 inverted: {backgroundBase : "#2E3A47",backgroundHover : "#36485C",backgroundActive : "#475A70",textEmphasis : "#FFFFFF",textBody : "#F5F7FA"},
+secondary: {borderBase : "#2E3A47",borderHover : "#212933",borderActive : "#212933",backgroundBase : "#FFFFFF",backgroundHover : "#F5F7FA",backgroundActive : "#E6EDF5",textBase : "#2E3A47",textHover : "#2E3A47",textActive : "#2E3A47"},
 
 accent: { forest: { textBody: "#275E43", textEmphasis: "#244C38", backgroundMuted0: "#EBF2EF", backgroundMuted1: "#D1E0D9", backgroundMuted2: "#B6CFC2" }, sand: { textBody: "#5E4D27", textEmphasis: "#3E3114", backgroundMuted0: "#F6F1E5", backgroundMuted1: "#E4D9C2", backgroundMuted2: "#DACCAA" } },
 boxShadows: {cardBase : "0px 1px 2px 0px #36485c29",cardHover : "0px 2px 8px 0px #36485c33",popoverBase : "0px 4px 16px 0px #36485c29",modalBase : "0px 8px 32px 0px #36485c3d"},

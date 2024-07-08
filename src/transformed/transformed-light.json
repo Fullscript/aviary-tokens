@@ -867,6 +867,50 @@
           "type": "color"
         }
       }
+    },
+    "secondary": {
+      "border": {
+        "base": {
+          "value": "#2E3A47",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#212933",
+          "type": "color"
+        },
+        "active": {
+          "value": "#212933",
+          "type": "color"
+        }
+      },
+      "background": {
+        "base": {
+          "value": "#FFFFFF",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#F5F7FA",
+          "type": "color"
+        },
+        "active": {
+          "value": "#E6EDF5",
+          "type": "color"
+        }
+      },
+      "text": {
+        "base": {
+          "value": "#2E3A47",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#2E3A47",
+          "type": "color"
+        },
+        "active": {
+          "value": "#2E3A47",
+          "type": "color"
+        }
+      }
     }
   },
   "boxShadows": {

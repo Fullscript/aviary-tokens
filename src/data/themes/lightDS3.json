@@ -869,7 +869,7 @@
     "secondary": {
       "border": {
         "base": {
-          "value": "{colors.grey.700}",
+          "value": "{colors.grey.800}",
           "type": "color"
         },
         "hover": {

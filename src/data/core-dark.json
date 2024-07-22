@@ -245,6 +245,24 @@
       }
     }
   },
+  "smart": {
+    "400": {
+      "value": "#8FA7C1",
+      "type": "color"
+    },
+    "500": {
+      "value": "#B0C1D4",
+      "type": "color"
+    },
+    "600": {
+      "value": "#C8D6E4",
+      "type": "color"
+    },
+    "700": {
+      "value": "#DDE5EE",
+      "type": "color"
+    }
+  },
   "opacity": {
     "subtle": {
       "value": "50%",

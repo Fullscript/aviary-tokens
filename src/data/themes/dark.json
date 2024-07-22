@@ -913,6 +913,22 @@
           "type": "color"
         }
       }
+    },
+    "smart": {
+      "background": {
+        "base": {
+          "value": "linear-gradient(65deg, {colors.smart.400} 10.68%, {colors.smart.500} 38.02%, {colors.smart.600} 79.03%)",
+          "type": "color"
+        },
+        "hover": {
+          "value": "linear-gradient(65deg, {colors.smart.400} 10.68%, {colors.smart.500} 20.59%, {colors.smart.600} 32.55%)",
+          "type": "color"
+        },
+        "active": {
+          "value": "linear-gradient(65deg, {colors.smart.500} 10.68%, {colors.smart.600} 20.59%, {colors.smart.700} 32.55%)",
+          "type": "color"
+        }
+      }
     }
   },
   "boxShadows": {

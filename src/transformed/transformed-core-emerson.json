@@ -234,6 +234,24 @@
         "type": "color"
       }
     },
+    "smart": {
+      "400": {
+        "value": "#7495B9",
+        "type": "color"
+      },
+      "500": {
+        "value": "#4D7199",
+        "type": "color"
+      },
+      "600": {
+        "value": "#2E5988",
+        "type": "color"
+      },
+      "700": {
+        "value": "#264A6E",
+        "type": "color"
+      }
+    },
     "shades": {
       "white": {
         "value": "#FFFFFF",

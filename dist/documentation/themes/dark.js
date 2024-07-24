@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 08 Jul 2024 12:56:30 GMT
+ * Generated on Tue, 23 Jul 2024 13:51:28 GMT
  */
 
 module.exports = {text : {emphasis:{
@@ -678,5 +678,18 @@ secondary : {textBase:{
           },borderActive:{
             name: "secondary.borderActive",
             hex: "#E8E9EA",
+            
+          }},
+smart : {backgroundBase:{
+            name: "smart.backgroundBase",
+            hex: "linear-gradient(65deg, #8FA7C1 10.68%, #B0C1D4 38.02%, #C8D6E4 79.03%)",
+            
+          },backgroundHover:{
+            name: "smart.backgroundHover",
+            hex: "linear-gradient(65deg, #8FA7C1 10.68%, #B0C1D4 20.59%, #C8D6E4 32.55%)",
+            
+          },backgroundActive:{
+            name: "smart.backgroundActive",
+            hex: "linear-gradient(65deg, #B0C1D4 10.68%, #C8D6E4 20.59%, #DDE5EE 32.55%)",
             
           }},};

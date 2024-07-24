@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 08 Jul 2024 12:56:30 GMT
+ * Generated on Tue, 23 Jul 2024 13:51:28 GMT
  */
 
 export const text : {emphasis:{
@@ -676,6 +676,19 @@ export const secondary : {textBase:{
             hex: string,
             
           },borderActive:{
+            name: string,
+            hex: string,
+            
+          }};
+export const smart : {backgroundBase:{
+            name: string,
+            hex: string,
+            
+          },backgroundHover:{
+            name: string,
+            hex: string,
+            
+          },backgroundActive:{
             name: string,
             hex: string,
             

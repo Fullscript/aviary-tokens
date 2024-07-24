@@ -911,6 +911,22 @@
           "type": "color"
         }
       }
+    },
+    "smart": {
+      "background": {
+        "base": {
+          "value": "linear-gradient(65deg, #7495B9 10.68%, #4D7199 38.02%, #2E5988 79.03%)",
+          "type": "color"
+        },
+        "hover": {
+          "value": "linear-gradient(65deg, #7495B9 10.68%, #4D7199 20.59%, #2E5988 32.55%)",
+          "type": "color"
+        },
+        "active": {
+          "value": "linear-gradient(65deg, #4D7199 10.68%, #2E5988 20.59%, #264A6E 32.55%)",
+          "type": "color"
+        }
+      }
     }
   },
   "boxShadows": {

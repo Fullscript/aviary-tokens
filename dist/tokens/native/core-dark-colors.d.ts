@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 08 Jul 2024 12:56:30 GMT
+ * Generated on Tue, 23 Jul 2024 13:51:28 GMT
  */
 
 export const green: {100 : string,200 : string,300 : string,400 : string,500 : string,600 : string,700 : string,800 : string};
@@ -11,3 +11,4 @@ export const orange: {100 : string,200 : string,300 : string,400 : string,500 : 
 export const grey: {100 : string,200 : string,300 : string,400 : string,500 : string,510 : string,600 : string,700 : string,800 : string};
 export const shades: {white : string,black : string,transparent : string};
 export const brown: {200 : string,300 : string,400 : string,700 : string,800 : string};
+export const smart: {400 : string,500 : string,600 : string,700 : string};

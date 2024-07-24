@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 08 Jul 2024 12:56:30 GMT
+ * Generated on Tue, 23 Jul 2024 13:51:28 GMT
  */
 
 export const green : {100:{
@@ -272,6 +272,23 @@ export const brown : {200:{
             hex: string,
             
           },800:{
+            name: string,
+            hex: string,
+            
+          }};
+export const smart : {400:{
+            name: string,
+            hex: string,
+            
+          },500:{
+            name: string,
+            hex: string,
+            
+          },600:{
+            name: string,
+            hex: string,
+            
+          },700:{
             name: string,
             hex: string,
             

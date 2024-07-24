@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 08 Jul 2024 12:56:30 GMT
+ * Generated on Tue, 23 Jul 2024 13:51:28 GMT
  */
 
 export const theme: string;
@@ -20,6 +20,7 @@ export const light: {backgroundBase : string,backgroundContrast : string,backgro
 export const shadow: {base : string};
 export const inverted: {backgroundBase : string,backgroundHover : string,backgroundActive : string,textEmphasis : string,textBody : string};
 export const secondary: {borderBase : string,borderHover : string,borderActive : string,backgroundBase : string,backgroundHover : string,backgroundActive : string,textBase : string,textHover : string,textActive : string};
+export const smart: {backgroundBase : string,backgroundHover : string,backgroundActive : string};
 
 export const accent: { forest: { textBody: string, textEmphasis: string, backgroundMuted0: string, backgroundMuted1: string, backgroundMuted2: string }, sand: { textBody: string, textEmphasis: string, backgroundMuted0: string, backgroundMuted1: string, backgroundMuted2: string } };
 export const boxShadows: {cardBase : string,cardHover : string,popoverBase : string,modalBase : string};

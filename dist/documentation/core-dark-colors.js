@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 08 Jul 2024 12:56:30 GMT
+ * Generated on Tue, 23 Jul 2024 13:51:28 GMT
  */
 
 module.exports = {green : {100:{
@@ -237,5 +237,22 @@ brown : {200:{
           },800:{
             name: "brown.800",
             hex: "#F6F1E5",
+            
+          }},
+smart : {400:{
+            name: "smart.400",
+            hex: "#8FA7C1",
+            
+          },500:{
+            name: "smart.500",
+            hex: "#B0C1D4",
+            
+          },600:{
+            name: "smart.600",
+            hex: "#C8D6E4",
+            
+          },700:{
+            name: "smart.700",
+            hex: "#DDE5EE",
             
           }},};

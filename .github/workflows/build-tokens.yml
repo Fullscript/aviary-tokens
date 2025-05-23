@@ -18,6 +18,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: "14"
+      - name: Enable Corepack
+        run: corepack enable
       - name: Install Node Dependencies
         run: yarn install
       - name: Pull any branch changes
@@ -41,6 +43,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: "14"
+      - name: Enable Corepack
+        run: corepack enable
       - name: Install Node Dependencies
         run: yarn install
       - name: Pull transformed tokens changes
@@ -62,6 +66,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: "14"
+      - name: Enable Corepack
+        run: corepack enable
       - name: Install Node Dependencies
         run: yarn install
       - name: Pull any branch changes
@@ -83,6 +89,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: "14"
+      - name: Enable Corepack
+        run: corepack enable
       - name: Install Node Dependencies
         run: yarn install
       - name: Pull transformed tokens changes

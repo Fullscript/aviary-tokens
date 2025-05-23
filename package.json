@@ -1,7 +1,7 @@
 {
   "name": "aviary-tokens",
   "license": "MIT",
-  "version": "1.1.2",
+  "version": "1.4.0",
   "description": "Design tokens for the Fullscript Aviary design system",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
@@ -23,14 +23,14 @@
     "clean": "rm -rf dist/"
   },
   "devDependencies": {
-    "@babel/cli": "^7.18.10",
-    "@babel/core": "^7.19.0",
-    "@babel/preset-env": "^7.19.0",
-    "@babel/preset-typescript": "^7.18.6",
-    "core-js": "^3.25.0",
-    "style-dictionary": "^3.7.0",
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-typescript": "^7.27.1",
+    "core-js": "^3.42.0",
+    "style-dictionary": "^3.9.2",
     "token-transformer": "0.0.23",
-    "typescript": "^4.8.2"
+    "typescript": "^4.9.5"
   },
-  "dependencies": {}
+  "packageManager": "yarn@4.9.1"
 }

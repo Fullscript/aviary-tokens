@@ -20,8 +20,7 @@
     "transform-dark": "yarn token-transformer src/data src/transformed/transformed-dark.json primitives,core-dark,themes/dark primitives,core-dark",
     "transform-emerson": "yarn token-transformer src/data src/transformed/transformed-emerson.json primitives,core-emerson,themes/emerson primitives,core-emerson",
     "transform-primitives": "yarn token-transformer src/data src/transformed/transformed-primitives.json primitives --expandTypography ",
-    "clean": "rm -rf dist/",
-    "prepack": "yarn build"
+    "clean": "rm -rf dist/"
   },
   "devDependencies": {
     "@babel/cli": "^7.27.2",

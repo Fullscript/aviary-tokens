@@ -1,17 +1,14 @@
 "use strict";
 
-require("core-js/modules/es.object.to-string.js");
-
-require("core-js/modules/web.dom-collections.for-each.js");
-
 require("core-js/modules/es.object.keys.js");
-
+require("core-js/modules/es.object.to-string.js");
+require("core-js/modules/esnext.iterator.constructor.js");
+require("core-js/modules/esnext.iterator.for-each.js");
+require("core-js/modules/web.dom-collections.for-each.js");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-
 var _accents = require("./accents");
-
 Object.keys(_accents).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _accents[key]) return;
@@ -22,9 +19,7 @@ Object.keys(_accents).forEach(function (key) {
     }
   });
 });
-
 var _interfaces = require("./interfaces");
-
 Object.keys(_interfaces).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _interfaces[key]) return;
@@ -35,9 +30,7 @@ Object.keys(_interfaces).forEach(function (key) {
     }
   });
 });
-
 var _profiles = require("./profiles");
-
 Object.keys(_profiles).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _profiles[key]) return;
@@ -48,9 +41,7 @@ Object.keys(_profiles).forEach(function (key) {
     }
   });
 });
-
 var _intentions = require("./intentions");
-
 Object.keys(_intentions).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _intentions[key]) return;

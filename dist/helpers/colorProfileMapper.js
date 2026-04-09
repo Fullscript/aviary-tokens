@@ -4,9 +4,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.colorProfileMapper = void 0;
-
 // Used for mapping over selected `isColor` properties
-var colorProfileMapper = function colorProfileMapper(currentTheme) {
+
+var colorProfileMapper = exports.colorProfileMapper = function colorProfileMapper(currentTheme) {
   return {
     primary: currentTheme.primary,
     info: currentTheme.info,
@@ -17,5 +17,3 @@ var colorProfileMapper = function colorProfileMapper(currentTheme) {
     success: currentTheme.success
   };
 };
-
-exports.colorProfileMapper = colorProfileMapper;

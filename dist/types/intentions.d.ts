@@ -10,7 +10,7 @@ declare const AVIARY_INTENTIONS: {
     lightOutlined: string;
     lightText: string;
 };
-declare type AviaryIntentions = keyof typeof AVIARY_INTENTIONS;
+type AviaryIntentions = keyof typeof AVIARY_INTENTIONS;
 export type { AviaryIntentions };
 export { AVIARY_INTENTIONS };
 //# sourceMappingURL=intentions.d.ts.map

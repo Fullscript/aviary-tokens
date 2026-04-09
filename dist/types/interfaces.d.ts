@@ -17,8 +17,8 @@ declare const EXTENDED_AVIARY_COLORS: {
     system: string;
     success: string;
 };
-declare type AviaryColors = keyof typeof AVIARY_COLORS;
-declare type ExtendedAviaryColors = keyof typeof EXTENDED_AVIARY_COLORS;
+type AviaryColors = keyof typeof AVIARY_COLORS;
+type ExtendedAviaryColors = keyof typeof EXTENDED_AVIARY_COLORS;
 interface AviaryColorProps {
     isColor?: AviaryColors;
 }

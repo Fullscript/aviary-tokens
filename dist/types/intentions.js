@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.AVIARY_INTENTIONS = void 0;
-var AVIARY_INTENTIONS = {
+var AVIARY_INTENTIONS = exports.AVIARY_INTENTIONS = {
   primary: "primary",
   system: "system",
   danger: "danger",
@@ -16,4 +16,3 @@ var AVIARY_INTENTIONS = {
   lightOutlined: "lightOutlined",
   lightText: "lightText"
 };
-exports.AVIARY_INTENTIONS = AVIARY_INTENTIONS;

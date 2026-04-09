@@ -1,7 +1,7 @@
 {
   "name": "aviary-tokens",
   "license": "MIT",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Design tokens for the Fullscript Aviary design system",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
@@ -20,8 +20,7 @@
     "transform-dark": "yarn token-transformer src/data src/transformed/transformed-dark.json primitives,core-dark,themes/dark primitives,core-dark",
     "transform-emerson": "yarn token-transformer src/data src/transformed/transformed-emerson.json primitives,core-emerson,themes/emerson primitives,core-emerson",
     "transform-primitives": "yarn token-transformer src/data src/transformed/transformed-primitives.json primitives --expandTypography ",
-    "clean": "rm -rf dist/",
-    "prepack": "yarn build"
+    "clean": "rm -rf dist/"
   },
   "devDependencies": {
     "@babel/cli": "^7.27.2",
